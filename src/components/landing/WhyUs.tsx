@@ -3,23 +3,23 @@ import { ShieldCheck, Clock, Award, Hammer } from "lucide-react";
 const features = [
   {
     icon: Clock,
-    title: "Same-Day Response",
-    description: "Mold infestations require immediate action. Our Eau Claire team provides rapid assessment and begins remediation fast, stopping the spread before it causes more damage."
+    title: "Immediate Mitigation",
+    description: "Toxic black mold spreads rapidly in Gulf Breeze's coastal climate. We respond immediately to stop spore distribution and begin safe containment."
   },
   {
     icon: Hammer,
-    title: "Wisconsin Mold Experts",
-    description: "We specialize in Wisconsin's unique humidity and freeze-thaw climate conditions that make Eau Claire homes particularly vulnerable to basement and crawl space mold growth."
+    title: "Advanced Technology",
+    description: "From negative air machines to commercial dehumidifiers, we use the industry's best equipment to safely eradicate toxic mold."
   },
   {
     icon: Award,
-    title: "Wisconsin Certified",
-    description: "Fully licensed and insured mold remediation contractors in Wisconsin. We follow strict IICRC S520 mold remediation standards for safe and effective treatments."
+    title: "Florida Certified",
+    description: "Fully licensed and insured specifically for toxic mold remediation in Florida. Your safety is our paramount concern."
   },
   {
     icon: ShieldCheck,
-    title: "Guaranteed Results",
-    description: "Our remediation process is proven to eliminate mold at the source, including spores and root systems, providing a long-lasting solution for your Eau Claire property."
+    title: "100% Clearance",
+    description: "We don't consider the job complete until post-remediation air quality testing proves the toxic black mold is entirely gone."
   }
 ];
 
@@ -29,11 +29,11 @@ const WhyUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-4xl mx-auto mb-16">
           <h2 className="text-3xl md:text-6xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Premium <span className="text-indigo-600 border-b-4 border-indigo-600/20">Mold Remediation</span> <br />
-            Experts in Eau Claire WI
+            Premium <span className="text-indigo-600 border-b-4 border-indigo-600/20">Black Mold Cleanup</span> <br />
+            Experts in Gulf Breeze
           </h2>
           <p className="text-lg text-slate-600 font-medium max-w-2xl mx-auto">
-            Providing Eau Claire and surrounding Chippewa Valley communities with specialized, professional mold removal and property protection services.
+            Providing Gulf Breeze and surrounding coastal communities with specialized, professional toxic black mold cleanup and property protection services.
           </p>
         </div>
 
@@ -42,28 +42,28 @@ const WhyUs = () => {
             <div className="absolute -top-12 -left-12 w-64 h-64 bg-indigo-600/10 rounded-full blur-3xl" />
             <img
               src="/2.jpeg"
-              alt="Professional Mold Remediation in Eau Claire WI"
+              alt="Professional Toxic Black Mold Cleanup in Gulf Breeze FL"
               className="rounded-[3rem] shadow-2xl relative z-10 border-8 border-white mx-auto"
             />
             <div className="absolute -bottom-8 -right-8 bg-indigo-600 text-white p-8 rounded-3xl shadow-xl z-20 border border-indigo-500 max-w-[240px]">
               <p className="text-4xl font-bold mb-1">100%</p>
-              <p className="text-xs font-bold uppercase tracking-widest leading-tight">Success Rate in Eau Claire WI</p>
+              <p className="text-xs font-bold uppercase tracking-widest leading-tight">Safe Clearance Rate in Gulf Breeze</p>
             </div>
           </div>
 
           <div className="space-y-8">
             {[
               {
-                title: "Mold-Free Property",
-                desc: "Our certified methods stop mold growth immediately, protecting your drywall, insulation, and structural timbers from costly mold-related destruction."
+                title: "Safe Living Environment",
+                desc: "Our containment and removal procedures guarantee that toxic spores, such as Stachybotrys, are physically eliminated rather than just bleached."
               },
               {
-                title: "Eau Claire Climate Expertise",
-                desc: "We understand how Wisconsin's cold winters and humid summers drive mold growth in Eau Claire homes — and we address root moisture causes, not just symptoms."
+                title: "Coastal Climate Knowledge",
+                desc: "We understand how Florida's high humidity and severe weather events create the perfect breeding ground for toxic black mold."
               },
               {
-                title: "Post-Remediation Testing",
-                desc: "After every job, we perform independent air quality testing to confirm your Eau Claire property meets safe mold spore count standards before we leave."
+                title: "Strict Safety Protocols",
+                desc: "Our technicians wear full PPE and use negative pressure zones to ensure the toxic spores don't migrate into the clean areas of your home."
               }
             ].map((item, i) => (
               <div key={i} className="flex gap-6 group">
@@ -80,8 +80,8 @@ const WhyUs = () => {
             <div className="pt-8 border-t border-slate-200">
               <div className="flex flex-col sm:flex-row items-center gap-6">
                 <div>
-                  <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1 text-center sm:text-left">Ready to restore your property?</p>
-                  <h4 className="text-2xl font-bold text-slate-900 uppercase tracking-tight leading-none text-center sm:text-left">Call Eau Claire's Best</h4>
+                  <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1 text-center sm:text-left">Ready to make your home safe?</p>
+                  <h4 className="text-2xl font-bold text-slate-900 uppercase tracking-tight leading-none text-center sm:text-left">Call Gulf Breeze's Best</h4>
                 </div>
                 <a
                   href="tel:3802660944"
@@ -98,8 +98,5 @@ const WhyUs = () => {
     </section>
   );
 };
-
-
-
 
 export default WhyUs;

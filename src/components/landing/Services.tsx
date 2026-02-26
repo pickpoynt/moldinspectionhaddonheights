@@ -3,33 +3,33 @@ import { ShieldCheck, Search, Activity, Sprout, Home, Zap } from "lucide-react";
 const servicesList = [
   {
     icon: Home,
-    title: "Residential Mold Removal",
-    description: "Our Eau Claire specialists provide thorough mold removal from basements, attics, bathrooms, and crawl spaces — protecting your family's health and your property's value."
+    title: "Toxic Mold Removal",
+    description: "Our Gulf Breeze specialists provide strict containment and thorough removal of toxic black mold (Stachybotrys) from your property."
   },
   {
     icon: Search,
-    title: "Mold Inspection & Testing",
-    description: "Comprehensive air quality testing and mold inspection services to accurately identify the type, extent, and source of mold growth in your Eau Claire property."
+    title: "Black Mold Inspections",
+    description: "Comprehensive air quality testing and inspections designed to identify the source and severity of toxic mold growth safely."
   },
   {
     icon: Activity,
-    title: "Black Mold Treatment",
-    description: "Safe and effective black mold (Stachybotrys) remediation using HEPA filtration and proven containment techniques to fully eliminate toxic mold colonies."
+    title: "HEPA Air Scrubbing",
+    description: "We deploy industrial-grade HEPA 13 air scrubbers to capture toxic spores and purify the air in your Gulf Breeze home."
   },
   {
     icon: Zap,
-    title: "Emergency Mold Response",
-    description: "24/7 emergency mold remediation services in Eau Claire — because mold spreads fast and waiting is not an option when your family's health is at risk."
+    title: "Emergency Cleanup",
+    description: "Toxic black mold requires immediate attention. We offer rapid response in Gulf Breeze to halt mold progression and begin safe removal."
   },
   {
     icon: Sprout,
-    title: "Crawl Space Remediation",
-    description: "Specialized crawl space mold removal and encapsulation services that eliminate moisture sources and prevent mold from returning to your Eau Claire home."
+    title: "Post-Removal Treatment",
+    description: "Anti-microbial treatments and surface encapsulants applied to prevent black mold from ever returning to your property."
   },
   {
     icon: ShieldCheck,
-    title: "Certified Mold Protection",
-    description: "Fully licensed and insured mold remediation professionals in Wisconsin providing guaranteed property protection and post-remediation air quality verification."
+    title: "Certified Safety Protocols",
+    description: "Our technicians wear hazmat protection and follow strict safety procedures to keep toxic spores from spreading to clean areas."
   }
 ];
 
@@ -39,10 +39,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Expert <span className="text-indigo-600">Mold Remediation Eau Claire WI</span>
+            Expert <span className="text-indigo-600">Toxic Black Mold Cleanup Gulf Breeze</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
-            Comprehensive mold removal and remediation solutions designed for Eau Claire's unique climate and homes. We restore your property's safety and air quality.
+            Specialized black mold removal and containment solutions designed strictly for toxic infestations. We restore Gulf Breeze properties back to safe living conditions.
           </p>
         </div>
 

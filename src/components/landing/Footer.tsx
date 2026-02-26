@@ -14,12 +14,12 @@ const Footer = () => {
                 <ShieldCheck className="w-7 h-7 text-white" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase text-[15px]">Eau Claire WI</span>
-                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Mold Remediation Pros</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase text-[15px]">Gulf Breeze FL</span>
+                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Toxic Black Mold Pros</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic text-sm text-nowrap">
-              Eau Claire's specialized team for professional <br /> mold remediation and property restoration. <br /> We provide elite-grade mold removal services.
+              Gulf Breeze's specialized team for professional <br /> toxic black mold cleanup and property decontamination. <br /> We provide industrial-grade mold removal services.
             </p>
             <div className="flex gap-4">
               {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
@@ -31,15 +31,15 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Mold Services</h4>
+            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Toxic Mold Services</h4>
             <ul className="space-y-4">
               {[
-                "Residential Mold Removal",
-                "Black Mold Treatment",
-                "Crawl Space Remediation",
-                "Commercial Mold Remediation",
-                "Mold Inspections & Testing",
-                "Emergency Mold Response"
+                "Toxic Black Mold Cleanup",
+                "Black Mold Inspection",
+                "HEPA Air Scrubbing",
+                "Strict Process Containment",
+                "Safe Spore Filtration",
+                "Emergency Mold Mitigation"
               ].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-white transition-colors flex items-center gap-2 group">
@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Eau Claire NAP</h4>
+            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Gulf Breeze NAP</h4>
             <ul className="space-y-6">
               <li className="flex gap-4">
                 <div className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center shrink-0">
@@ -60,8 +60,8 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">HQ</p>
-                  <p className="text-sm font-bold text-slate-300 uppercase tracking-tight leading-tight">2000 Eastridge Center</p>
-                  <p className="text-sm font-bold text-slate-300 uppercase tracking-tight">Eau Claire, WI 54701</p>
+                  <p className="text-sm font-bold text-slate-300 uppercase tracking-tight leading-tight">100 Gulf Breeze Pkwy</p>
+                  <p className="text-sm font-bold text-slate-300 uppercase tracking-tight">Gulf Breeze, FL 32561</p>
                 </div>
               </li>
               <li className="flex gap-4">
@@ -88,22 +88,22 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Standard Excellence</h4>
             <p className="text-slate-400 text-sm leading-relaxed mb-6 italic font-medium">
-              We specialize in the unique mold remediation requirements of Eau Claire WI homes, using precision HEPA filtration and professional-grade containment systems.
+              We specialize in the meticulous regulatory requirements of Gulf Breeze FL toxic black mold cleanup, utilizing strict HEPA 13 containment and hazmat-grade removal protocols.
             </p>
             <div className="p-6 bg-white/5 rounded-2xl border border-white/10">
               <p className="text-[10px] font-bold text-indigo-400 uppercase tracking-[0.2em] mb-2">Service Promise</p>
-              <p className="text-sm font-bold text-slate-300 uppercase leading-tight italic">Expert Mold Assessments Available Across Eau Claire & Chippewa Valley.</p>
+              <p className="text-sm font-bold text-slate-300 uppercase leading-tight italic">Expert Toxic Mold Mitigation Available Across Gulf Breeze.</p>
             </div>
           </div>
         </div>
 
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-6 uppercase tracking-widest text-[10px] font-bold">
           <p className="text-slate-500 text-center md:text-left">
-            © {new Date().getFullYear()} Eau Claire Mold Remediation Pros. All rights reserved. Professional Mold Removal &amp; Property Restoration.
+            © {new Date().getFullYear()} Gulf Breeze Toxic Black Mold Cleanup Pros. All rights reserved. Professional Black Mold Removal &amp; Safe Air Decontamination.
           </p>
 
           <div className="flex gap-8 items-center text-nowrap">
-            <a href="/lease" className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg transition-colors border border-indigo-400/30 text-nowrap">LEASE MY NUMBER</a>
+            <a href="/lease" className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg transition-colors border border-indigo-400/30 text-nowrap">LEASE MY NUMBER AND INK IT TO LEASE PAGE</a>
             <a href="#" className="text-slate-500 hover:text-indigo-400 transition-colors">Privacy Policy</a>
             <a href="#" className="text-slate-500 hover:text-indigo-400 transition-colors">Terms of Service</a>
           </div>

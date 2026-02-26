@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Phone, ArrowRight, ShieldCheck, Wind, Zap, FlaskConical, Search, Microscope, Hammer, Locate, Activity } from "lucide-react";
+import { Phone, ArrowRight, ShieldCheck, Zap, Microscope, Wind } from "lucide-react";
 
 interface HeroProps {
   title?: React.ReactNode;
@@ -12,16 +12,16 @@ interface HeroProps {
 }
 
 const Hero = ({
-  title = "Raccoon control Southwest Ranches",
-  subtitle = "Southwest Ranches' specialized experts in professional raccoon control and advanced exclusion techniques. Available 24/7.",
+  title = "Toxic Black Mold Cleanup Gulf Breeze",
+  subtitle = "Gulf Breeze's premier specialists in toxic black mold cleanup. We provide advanced mold removal techniques that restore air quality and protect your property from dangerous mold growth. Safe, certified, and fully guaranteed.",
   image = "/1.jpeg",
   overlayImage = "/2.jpeg",
   phone = "3802660944",
-  badge = "SOUTHWEST RANCHES RACCOON PROS",
+  badge = "GULF BREEZE BLACK MOLD PROS",
   features = [
-    { icon: Search, text: "Detection Experts" },
-    { icon: ShieldCheck, text: "Raccoon Exclusion" },
-    { icon: Hammer, text: "Structural Repair" }
+    { icon: Microscope, text: "Toxicity Testing" },
+    { icon: Wind, text: "HEPA Filtration" },
+    { icon: ShieldCheck, text: "Full Remediation" }
   ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
