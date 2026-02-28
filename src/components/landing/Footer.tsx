@@ -79,7 +79,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">Support</p>
-                  <a href="/lease-my-number" className="text-sm font-bold text-slate-300 hover:text-indigo-400 transition-colors uppercase tracking-tight text-nowrap">LEASE MY NUMBER AND INK IT TO LEASE PAGE</a>
+                  <a href="/lease-my-number" className="text-sm font-bold text-slate-300 hover:text-indigo-400 transition-colors uppercase tracking-tight text-nowrap">LEASE MY NUMBER</a>
                 </div>
               </li>
             </ul>
@@ -103,7 +103,7 @@ const Footer = () => {
           </p>
 
           <div className="flex gap-8 items-center text-nowrap">
-            <a href="/lease-my-number" className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg transition-colors border border-indigo-400/30 text-nowrap">LEASE MY NUMBER AND INK IT TO LEASE PAGE</a>
+            <a href="/lease-my-number" className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg transition-colors border border-indigo-400/30 text-nowrap">LEASE MY NUMBER</a>
             <a href="#" className="text-slate-500 hover:text-indigo-400 transition-colors">Privacy Policy</a>
             <a href="#" className="text-slate-500 hover:text-indigo-400 transition-colors">Terms of Service</a>
           </div>
