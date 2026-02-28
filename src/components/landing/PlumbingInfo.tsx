@@ -39,7 +39,5 @@ const PlumbingInfo = () => {
         </section>
     );
 };
-    );
-};
 
 export default PlumbingInfo;
