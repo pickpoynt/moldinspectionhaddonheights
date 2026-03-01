@@ -2,34 +2,34 @@ import { ShieldCheck, Bug, Search, Clock, Zap, Target, Waves, Activity, Radio, T
 
 const services = [
   {
-    icon: Search,
-    title: "Centipede Nest Location",
-    description: "Our Kapolei specialists are trained to identify Hawaii centipede nesting sites in damp areas, soil, and structural voids to ensure complete colony elimination."
+    icon: Bug,
+    title: "Centipede Extermination",
+    description: "Our Mililani exterminators use high-intensity, Hawaii-grade formulas to eliminate existing centipede populations inside your home on contact."
   },
   {
     icon: Target,
-    title: "Perimeter Defense Barrier",
-    description: "We create a high-potency chemical and physical barrier around your Kapolei home, preventing invasive centipedes from ever crossing your threshold."
-  },
-  {
-    icon: Bug,
-    title: "Interior Eradication",
-    description: "Advanced, low-toxicity treatments inside your Kapolei residence to eliminate existing pests while keeping your family and pets safe."
+    title: "Nest Eradication",
+    description: "We track centipede activity back to the source, identifying and destroying nesting sites in mulch, soil, and structural wall voids throughout Mililani."
   },
   {
     icon: Shield,
-    title: "Preventative Maintenance",
-    description: "Recurring service plans in Kapolei to maintain your home's defenses throughout Hawaii's high-moisture seasons when centipede activity peaks."
+    title: "Perimeter Barrier Defense",
+    description: "Creation of a massive chemical and physical barrier around your Mililani property that centipedes cannot cross, ensuring 24/7 exterior protection."
   },
   {
-    icon: Droplets,
-    title: "Moisture Control",
-    description: "Centipedes love Kapolei's humid climate. We provide drainage and moisture remediation advice to make your property less attractive to pests."
+    icon: Search,
+    title: "Property Risk Audits",
+    description: "Thorough inspection of your Mililani residence to identify moisture traps, entry points, and habitat attractants that bring centipedes to your doorstep."
+  },
+  {
+    icon: Zap,
+    title: "Rapid Flush Treatment",
+    description: "Specialized service to flush out and eliminate centipedes hiding in hard-to-reach areas of your Mililani house, providing immediate relief."
   },
   {
     icon: Activity,
-    title: "Rapid Response Service",
-    description: "Spotted a centipede in your Kapolei house? We offer priority scheduling to address immediate infestations and restore your peace of mind."
+    title: "Maintenance Programs",
+    description: "Ongoing preventative care for Mililani homes to maintain protection through Hawaii's wet seasons when centipede activity is at its highest."
   }
 ];
 
@@ -37,12 +37,12 @@ const Services = () => {
   return (
     <section id="services" className="py-24 bg-white relative overflow-hidden">
       <div className="container mx-auto px-4">
-        <div className="text-center max-w-3xl mx-auto mb-20 text-nowrap">
+        <div className="text-center max-w-3xl mx-auto mb-20 text-nowrap text-nowrap">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight leading-tight">
-            Expert <span className="text-indigo-600 border-b-4 border-indigo-600/20">Centipedes Treatment Kapolei</span>
+            Professional <span className="text-indigo-600 border-b-4 border-indigo-600/20">Centipedes Extermination Mililani</span>
           </h2>
           <p className="text-lg text-slate-600 font-medium italic">
-            Specialized Hawaii pest control targeting the islands' most resilient centipedes. We provide permanent solutions that protect Kapolei families from painful stings.
+            Hawaii's toughest centipedes require Mililani's most advanced extermination methods. We provide permanent solutions that safeguard your home and family.
           </p>
         </div>
 

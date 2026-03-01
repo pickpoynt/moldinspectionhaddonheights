@@ -18,7 +18,7 @@ const Header = () => {
       <div className="lg:hidden fixed top-0 left-0 right-0 z-[60] bg-indigo-600 text-white py-3 px-4 flex justify-between items-center shadow-md">
         <div className="flex items-center gap-2">
           <ShieldCheck className="w-5 h-5" />
-          <span className="font-bold text-xs uppercase tracking-tight text-nowrap">Kapolei Centipede Pros</span>
+          <span className="font-bold text-xs uppercase tracking-tight text-nowrap">Mililani Centipede Pros</span>
         </div>
         <a href="tel:3238801224" className="flex items-center gap-2 bg-white text-indigo-600 px-4 py-1.5 rounded-full font-bold text-xs animate-pulse">
           <Phone className="w-3.5 h-3.5" />
@@ -35,7 +35,7 @@ const Header = () => {
               </div>
               <div className="text-nowrap">
                 <span className={`font-heading font-bold text-xl md:text-2xl block leading-none tracking-tight ${isScrolled ? "text-indigo-950" : "text-white"}`}>
-                  Kapolei
+                  Mililani
                 </span>
                 <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-indigo-600" : "text-indigo-400"}`}>
                   Centipede <span className="text-[10px] opacity-70 px-1 text-nowrap">Pros</span>
@@ -56,10 +56,10 @@ const Header = () => {
 
             <div className="hidden lg:flex items-center gap-6">
               <div className={`flex flex-col items-end ${isScrolled ? "text-slate-900" : "text-white"}`}>
-                <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">EMERGENCY LINE</p>
+                <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold text-nowrap">EMERGENCY PEST LINE</p>
                 <a href="tel:3238801224" className="text-3xl font-bold text-indigo-400 block mb-6 text-nowrap">(323) 880-1224</a>
               </div>
-              <Button className={`${isScrolled ? "bg-indigo-600 hover:bg-indigo-700" : "bg-white text-slate-900 hover:bg-indigo-50"} h-12 px-8 rounded-xl font-bold shadow-xl transition-all hover:-translate-y-0.5`} asChild>
+              <Button className={`${isScrolled ? "bg-indigo-600 hover:bg-indigo-700" : "bg-white text-slate-900 hover:bg-indigo-50"} h-12 px-8 rounded-xl font-bold shadow-xl transition-all hover:-translate-y-0.5 text-nowrap`} asChild>
                 <a href="tel:3238801224">Book Now</a>
               </Button>
             </div>
@@ -77,7 +77,7 @@ const Header = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <ShieldCheck className="w-8 h-8 text-indigo-500" />
-              <span className="font-bold text-white text-sm uppercase">Kapolei Centipede Pros</span>
+              <span className="font-bold text-white text-sm uppercase text-nowrap">Mililani Centipede Pros</span>
             </div>
             <button className="p-2" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
               {isMobileMenuOpen ? <X className="w-8 h-8 text-white" /> : <Menu className="w-8 h-8 text-white" />}
@@ -94,7 +94,7 @@ const Header = () => {
               <a href="/lease-my-number" className="text-lg font-bold tracking-wide hover:text-indigo-400 transition-colors py-4 border-b border-slate-800 uppercase" onClick={() => setIsMobileMenuOpen(false)}>Lease Number</a>
               <div className="pt-8">
                 <p className="text-slate-400 text-xs mb-2 uppercase tracking-widest font-bold">EMERGENCY PEST HOTLINE</p>
-                <a href="tel:3238801224" className="text-4xl font-bold text-indigo-400 block mb-8 underline decoration-indigo-600/30 underline-offset-8">(323) 880-1224</a>
+                <a href="tel:3238801224" className="text-4xl font-bold text-indigo-400 block mb-8 underline decoration-indigo-600/30 underline-offset-8 text-nowrap">(323) 880-1224</a>
                 <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white h-16 text-xl font-bold rounded-2xl shadow-xl shadow-indigo-900/40" asChild>
                   <a href="tel:3238801224">CLICK TO CALL NOW</a>
                 </Button>

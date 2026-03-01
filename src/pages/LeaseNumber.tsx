@@ -7,14 +7,14 @@ const LeaseNumber = () => {
     return (
         <div className="min-h-screen bg-slate-50">
             <Helmet>
-                <title>Lease This Phone Number - Kapolei Centipede Treatment Professionals</title>
-                <meta name="description" content="Replace this centipede treatment phone number with your own business line in Kapolei, HI for only $19 a month. Contact leasemynumber@gmail.com to get started." />
+                <title>Lease This Phone Number - Mililani Centipede Extermination Professionals</title>
+                <meta name="description" content="Replace this centipede extermination phone number with your own business line in Mililani, HI for only $19 a month. Contact leasemynumber@gmail.com to get started." />
                 <meta name="robots" content="noindex, nofollow" />
             </Helmet>
 
             <Header />
 
-            <main className="pt-32 pb-24">
+            <main className="pt-32 pb-24 text-nowrap">
                 <div className="container mx-auto px-4 max-w-4xl">
 
                     {/* Hero Banner */}
@@ -29,13 +29,13 @@ const LeaseNumber = () => {
                                 Lease This <br /> Phone Number
                             </h1>
                             <p className="text-indigo-200 text-xl max-w-2xl mx-auto leading-relaxed font-bold italic">
-                                Are you a pest control specialist in Kapolei HI? Swap this number <br /> with your own for just <span className="font-black text-white">$19 a month</span> and capture all local centipede treatment leads.
+                                Are you a pest control specialist in Mililani HI? Swap this number <br /> with your own for just <span className="font-black text-white">$19 a month</span> and capture all local centipede extermination leads.
                             </p>
                         </div>
                     </div>
 
                     {/* Content Section */}
-                    <div className="grid md:grid-cols-2 gap-12 mb-16">
+                    <div className="grid md:grid-cols-2 gap-12 mb-16 text-nowrap">
 
                         {/* What You Get */}
                         <div className="bg-white rounded-[3rem] p-10 shadow-2xl border border-slate-100 flex flex-col justify-between">
@@ -47,15 +47,15 @@ const LeaseNumber = () => {
                                 <ul className="space-y-6">
                                     {[
                                         "Replace (323) 880-1224 with your direct line",
-                                        "All Kapolei pest inquiries route to you",
-                                        "Dominant SEO presence for Kapolei centipedes",
+                                        "All Mililani pest inquiries route to you",
+                                        "Dominant SEO presence for Mililani centipedes",
                                         "One specialist per territory — exclusive deal",
                                         "Simple month-to-month billing",
                                         "No setup fees or long-term contracts",
                                     ].map((item, i) => (
                                         <li key={i} className="flex items-start gap-4 group">
                                             <CheckCircle className="w-6 h-6 text-emerald-500 shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
-                                            <span className="text-slate-700 font-bold italic text-sm leading-relaxed">{item}</span>
+                                            <span className="text-slate-700 font-bold italic text-sm leading-relaxed text-nowrap">{item}</span>
                                         </li>
                                     ))}
                                 </ul>
@@ -70,34 +70,34 @@ const LeaseNumber = () => {
                                     <Phone className="w-8 h-8 text-white" />
                                     Simple Flat Rate
                                 </h2>
-                                <div className="bg-white/10 backdrop-blur-md rounded-3xl p-8 text-center border border-white/20 mb-10">
+                                <div className="bg-white/10 backdrop-blur-md rounded-3xl p-8 text-center border border-white/20 mb-10 text-nowrap">
                                     <p className="text-indigo-200 font-black uppercase tracking-[0.3em] text-[10px] mb-2">Monthly Subscription</p>
                                     <div className="flex items-center justify-center gap-1">
                                         <span className="text-3xl font-black mb-6">$</span>
-                                        <span className="text-7xl font-black tracking-tighter">19</span>
+                                        <span className="text-7xl font-black tracking-tighter text-nowrap">19</span>
                                         <span className="text-xl font-bold italic text-indigo-200">/mo</span>
                                     </div>
                                     <p className="text-indigo-100 text-xs font-bold uppercase tracking-widest mt-2">No Contracts • Cancel Anytime</p>
                                 </div>
                             </div>
 
-                            <div className="relative z-10 space-y-4 text-nowrap">
+                            <div className="relative z-10 space-y-4">
                                 <a
-                                    href="mailto:leasemynumber@gmail.com?subject=Kapolei Pest Control - Phone Lease Inquiry $19/mo"
-                                    className="w-full inline-flex items-center justify-center gap-3 bg-white text-indigo-700 hover:bg-slate-100 px-8 py-5 rounded-2xl font-black uppercase tracking-widest text-sm transition-all shadow-xl active:scale-95"
+                                    href="mailto:leasemynumber@gmail.com?subject=Mililani Pest Control - Phone Lease Inquiry $19/mo"
+                                    className="w-full inline-flex items-center justify-center gap-3 bg-white text-indigo-700 hover:bg-slate-100 px-8 py-5 rounded-2xl font-black uppercase tracking-widest text-sm transition-all shadow-xl active:scale-95 text-nowrap"
                                 >
                                     <Mail className="w-5 h-5" />
                                     leasemynumber@gmail.com
                                 </a>
                                 <p className="text-center text-indigo-200 text-[10px] font-black uppercase tracking-widest">
-                                    Immediate availability in Kapolei HI
+                                    Immediate availability in Mililani HI
                                 </p>
                             </div>
                         </div>
                     </div>
 
                     {/* Bottom CTA */}
-                    <div className="bg-slate-950 rounded-[2.5rem] p-12 text-center text-white border border-indigo-500/10 shadow-2xl relative group overflow-hidden">
+                    <div className="bg-slate-950 rounded-[2.5rem] p-12 text-center text-white border border-indigo-500/10 shadow-2xl relative group overflow-hidden text-nowrap">
                         <div className="absolute inset-0 bg-indigo-600/[0.03] translate-y-full group-hover:translate-y-0 transition-transform duration-700" />
                         <p className="text-indigo-500 text-[10px] font-black uppercase tracking-[0.4em] mb-4 relative z-10">Direct Specialist Access</p>
                         <a href="mailto:leasemynumber@gmail.com" className="text-2xl md:text-3xl font-black text-white hover:text-indigo-400 transition-colors uppercase tracking-tight relative z-10 underline decoration-indigo-900 underline-offset-8 text-nowrap">

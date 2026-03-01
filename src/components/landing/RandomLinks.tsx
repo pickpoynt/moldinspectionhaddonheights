@@ -8,7 +8,7 @@ const links = [
   { text: "Coyote Control McCook NE", url: "https://coyotecontrolmccookne.vercel.app/" },
   { text: "Gopher Control Frankenmuth MI", url: "https://gophercontrolfrankenmuthmi.vercel.app/" },
   { text: "Earwig Control Fulton MD", url: "https://earwigcontrolfultonmd.vercel.app/" },
-  { text: "Polybutylene Pipe Replacement Boonton", url: "https://polybutylenepipereplacementboonton.vercel.app/" }
+  { text: "Centipedes Treatment Kapolei", url: "https://centipedestreatmentkapolei.vercel.app/" }
 ];
 
 const RandomLinks = () => {
@@ -26,7 +26,7 @@ const RandomLinks = () => {
               href={link.url}
               className="group p-4 bg-white rounded-2xl border border-slate-100 shadow-sm hover:shadow-md hover:border-indigo-200 transition-all text-center"
             >
-              <span className="text-sm font-bold text-slate-600 group-hover:text-indigo-600 transition-colors uppercase tracking-tight">
+              <span className="text-sm font-bold text-slate-600 group-hover:text-indigo-600 transition-colors uppercase tracking-tight text-nowrap">
                 {link.text}
               </span>
             </a>

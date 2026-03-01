@@ -3,123 +3,93 @@ import { HelpCircle, Search, ShieldCheck, Zap, Droplets, Clock, Hammer, DollarSi
 const faqs = [
   {
     icon: Bug,
-    question: "How to get rid of centipedes in Hawaii?",
-    answer: "Eliminating Hawaii centipedes requires a multi-step approach: removing outdoor hideouts like leaf litter, sealing home entry points, and applying professional-grade residual barriers around your Kapolei property."
+    question: "Can an exterminator get rid of centipedes?",
+    answer: "Yes, professional exterminators use high-potency residual treatments specifically designed to penetrate the tough exoskeletons of Hawaii centipedes, ensuring long-term control and colony elimination in Mililani."
   },
   {
     icon: ShieldCheck,
-    question: "Do exterminators kill centipedes?",
-    answer: "Yes, professional exterminators use specialized formulas specifically designed to penetrate the tough exoskeletons of Hawaii centipedes, ensuring effective eradication and long-term control in Kapolei."
-  },
-  {
-    icon: Search,
-    question: "What attracts centipedes in Hawaii?",
-    answer: "Centipedes in Hawaii are attracted to moisture and food sources (other insects). Over-watered gardens, damp crawlspaces, and humid wall voids in Kapolei homes are primary attractants."
+    question: "How to get rid of centipedes in Hawaii?",
+    answer: "Getting rid of Hawaii centipedes requires a specialized approach: reducing foundation moisture, sealing structural entry points, and applying professional-grade chemical barriers around your Mililani property."
   },
   {
     icon: AlertCircle,
-    question: "Why should you never squish a centipede in your house?",
-    answer: "Beyond the mess, squishing a centipede can release pheromones that may attract other pests. In Kapolei, it's safer to capture or vacuum them, or call an expert for a full property barrier."
-  },
-  {
-    icon: DollarSign,
-    question: "How much does pest control cost for centipedes?",
-    answer: "Treatment costs in Kapolei vary based on property size and infestation level. Standard proactive barriers typically range from $150 to $300 per service, which is much cheaper than emergency removals."
-  },
-  {
-    icon: Smile,
-    question: "Should I worry if I see a house centipede?",
-    answer: "While 'house centipedes' are mostly harmless, the large Scolopendra centipedes found in Kapolei can deliver painful, venomous stings. Seeing any centipede indoors suggests a gap in your home's perimeter."
-  },
-  {
-    icon: Zap,
-    question: "Does Orkin get rid of centipedes?",
-    answer: "Major national brands offer general pest control, but local Kapolei specialists provide deeper expertise in the specific biology and nesting habits of Hawaii's invasive centipede species."
+    question: "Are centipedes a problem in Hawaii?",
+    answer: "Absolutely. Hawaii is home to large, aggressive centipedes (Scolopendra) whose stings are painful and venomous. For Mililani residents, they are a significant year-round safety concern."
   },
   {
     icon: Shield,
     question: "What deters Hawaii centipedes?",
-    answer: "Essential oils like peppermint can provide temporary deterrence, but the most effective Kapolei solution is an professional 'insecticide belt' around the foundation and moisture reduction."
+    answer: "The most effective deterrent is a professional chemical barrier. Naturally, centipedes in Mililani are deterred by dry soil, lack of debris (like leaf litter), and scents like peppermint or cedarwood oil."
+  },
+  {
+    icon: Frown,
+    question: "Why should you never squish a centipede in your house?",
+    answer: "Squishing a centipede can release pheromones that attract other pests and creates a mess. In Mililani homes, it is safer to capture them or call an expert for a complete perimeter barrier."
+  },
+  {
+    icon: Radio,
+    question: "What smell do centipedes hate the most?",
+    answer: "Centipedes have a highly developed sense of smell and strongly dislike the scent of peppermint, tea tree oil, and citronella. These can be used in Mililani to keep them away from specific rooms."
+  },
+  {
+    icon: Zap,
+    question: "What kills centipedes instantly in a house?",
+    answer: "While specialized pest sprays kill on contact, the only 'instant' way to stop an infestation in Mililani is a professional 'flush' treatment that targets their hiding spots in wall voids."
   },
   {
     icon: Search,
-    question: "How to find centipede nest?",
-    answer: "Centipede 'nests' are usually just favored damp spots. Our Kapolei technicians look under mulch, rocks, and paving stones near your Hawaii home's foundation to find core activity areas."
+    question: "What attracts centipedes in Hawaii?",
+    answer: "Mililani centipedes are primarily attracted to moisture and darkness. Damp mulch, leaking pipes, humid crawlspaces, and high insect populations (their food source) are the main attractants."
   },
   {
-    icon: Activity,
-    question: "What drives house centipedes away?",
-    answer: "Reducing indoor humidity with dehumidifiers and eliminating other prey insects (like roaches and silverfish) will naturally drive centipedes out of your Kapolei residence."
+    icon: AlertCircle,
+    question: "What happens if you get bit by a centipede in Hawaii?",
+    answer: "A Hawaii centipede sting causes immediate, intense pain, swelling, and redness. In Mililani, victims should clean the area, apply ice, and seek medical attention if allergic symptoms occur."
   },
   {
-    icon: Phone,
-    question: "Should I call an exterminator for centipedes?",
-    answer: "If you are seeing multiple centipedes or have found a large specimen in Kapolei, a professional audit is highly recommended to prevent a painful sting event."
+    icon: Moon,
+    question: "Is it safe to sleep in a room with centipedes?",
+    answer: "It is not recommended. Hawaii centipedes are nocturnal hunters and can crawl onto beds. For Mililani residents, ensuring a professional barrier is in place is key to a safe night's sleep."
   },
   {
-    icon: Target,
-    question: "What is the hardest pest to exterminate?",
-    answer: "Hawaii centipedes are among the most resilient due to their ability to hide in deep structural recesses and their resistance to over-the-counter sprays."
+    icon: Frown,
+    question: "What's the worst pest to have in your house?",
+    answer: "Many Hawaii residents consider centipedes the worst due to their aggressive nature, painful sting, and ability to grow to significant sizes in local Mililani environments."
   },
   {
-    icon: ShieldCheck,
-    question: "Which pest control is better, Terminix or Orkin?",
-    answer: "While both are reputable, Kapolei homeowners often prefer local Hawaii specialists who understand the specific seasonal patterns of centipede migration on Oahu."
+    icon: Info,
+    question: "Should I worry if I see a house centipede?",
+    answer: "Small 'house centipedes' are mostly harmless, but seeing any centipede in your Mililani home indicates a gap in your home's defenses where larger Hawaii specimens could also enter."
   },
   {
-    icon: Home,
-    question: "Can centipedes climb a bed?",
-    answer: "Yes, Hawaii centipedes are excellent climbers. Keeping beds away from walls and ensuring your Kapolei home has a professional barrier is critical for sleep security."
+    icon: Bug,
+    question: "How to get rid of Hawaii centipedes?",
+    answer: "The 'Hawaii method' involves clearing a 3-foot dry perimeter around your Mililani house foundation and using professional-grade residual pesticides that survive Hawaii's heat and humidity."
   },
   {
     icon: Sun,
-    question: "What time of the year do house centipedes come out?",
-    answer: "In Kapolei, centipede activity peaks during and after heavy rains when they are forced out of saturated ground and seek shelter in dry Hawaii homes."
+    question: "What time of year are centipedes most active?",
+    answer: "In Mililani, centipedes are most active during the rainy season. Heavy rains saturate their outdoor habitats, forcing them to seek dry shelter inside Hawaii homes."
   },
   {
     icon: Lightbulb,
     question: "Will keeping the light on keep centipedes away?",
-    answer: "No. Centipedes are nocturnal and prefer darkness, but keeping lights on will not stop them if they are hunting for food or moisture in your Kapolei residence."
-  },
-  {
-    icon: Moon,
-    question: "Why do I suddenly have centipedes in my house?",
-    answer: "A sudden influx in Kapolei usually indicates either an outdoor habitat disturbance (like construction) or a spike in moisture levels near your foundation."
-  },
-  {
-    icon: Radio,
-    question: "What smell do centipedes hate?",
-    answer: "Centipedes dislike strong scents like peppermint, tea tree oil, and cedar. These can be used as local repellents in Kapolei, though they won't stop a determined pest."
+    answer: "No. While they prefer darkness, lights attract the smaller insects that centipedes eat. In Mililani, keeping outdoor lights on may actually bring centipedes closer to your home."
   },
   {
     icon: TrendingUp,
     question: "How long do centipedes get in Hawaii?",
-    answer: "Hawaii's Scolopendra subspinipes can reach lengths of 7 to 9 inches. These large specimens in Kapolei require heavy-duty professional interventions."
+    answer: "In the Mililani area, invasive centipedes (Scolopendra subspinipes) can grow up to 9 inches long. These large specimens require heavy-duty professional interventions."
   },
   {
-    icon: Hammer,
-    question: "What is the natural enemy of centipedes?",
-    answer: "Large spiders, some birds, and even chickens are natural predators, but none are sufficient for controlling a centipede population around a Kapolei home."
+    icon: AlertCircle,
+    question: "What will happen if I get bitten by a centipede?",
+    answer: "Expect localized pain comparable to a severe bee sting. In Hawaii, this can last several hours. Mililani residents should monitor for fever or heart palpitations, which require urgent care."
   },
   {
-    icon: Info,
-    question: "What drives house centipedes away?",
-    answer: "Removing debris (like old wood or palm fronds) from the immediate perimeter of your Kapolei house is the most effective way to drive them to find habitat elsewhere."
-  },
-  {
-    icon: CheckCircle,
-    question: "How to find centipede nest?",
-    answer: "Centipedes don't build nests in the traditional sense, but they congregate in the dampest, darkest cracks. Kapolei technicians use specialized borescopes to inspect these areas."
-  },
-  {
-    icon: Waves,
-    question: "What deters Hawaii centipedes?",
-    answer: "Maintaining a 3-foot 'dry zone' around your Kapolei house foundation (using gravel or bare soil) is a highly effective natural deterrent."
-  },
-  {
-    icon: Wrench,
-    question: "Will keeping the light on keep centipedes away?",
-    answer: "Actually, lights attract other insects that centipedes eat. In Kapolei, bright outdoor lights may indirectly attract centipedes by bringing their prey to your doorstep."
+    icon: Target,
+    question: "What is the natural predator of centipedes?",
+    answer: "Birds, chickens, and larger spiders are natural predators. However, they are not effective for controlling an infestation in a modern Mililani residential setting."
   }
 ];
 
@@ -146,7 +116,7 @@ const FAQ = () => {
             Hawaii <span className="text-indigo-600 border-b-4 border-indigo-600/20">Centipede FAQ</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-bold italic">
-            Essential information for Kapolei residents about Hawaii centipedes, treatment options, and property protection.
+            Essential information for Mililani residents about Hawaii centipedes, extermination, and property protection.
           </p>
         </div>
 
@@ -156,9 +126,9 @@ const FAQ = () => {
           ))}
         </div>
 
-        <div className="mt-20 text-center">
+        <div className="mt-20 text-center text-nowrap">
           <p className="text-slate-400 font-bold uppercase tracking-widest text-[10px] mb-4">Still have centipede questions?</p>
-          <a href="tel:3238801224" className="inline-flex items-center gap-3 text-indigo-600 font-black text-2xl hover:text-slate-900 transition-colors uppercase tracking-tight text-nowrap">
+          <a href="tel:3238801224" className="inline-flex items-center gap-3 text-indigo-600 font-black text-2xl hover:text-slate-900 transition-colors uppercase tracking-tight">
             <Phone className="w-6 h-6" />
             (323) 880-1224
           </a>
