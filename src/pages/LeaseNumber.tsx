@@ -7,8 +7,8 @@ const LeaseNumber = () => {
     return (
         <div className="min-h-screen bg-slate-50">
             <Helmet>
-                <title>Lease This Phone Number - Mililani Centipede Extermination Professionals</title>
-                <meta name="description" content="Replace this centipede extermination phone number with your own business line in Mililani, HI for only $19 a month. Contact leasemynumber@gmail.com to get started." />
+                <title>Lease This Phone Number - Glencoe IL Tankless Water Heater Flush Professionals</title>
+                <meta name="description" content="Replace this tankless water heater flush phone number with your own business line in Glencoe, IL for only $19 a month. Contact leasemynumber@gmail.com to get started." />
                 <meta name="robots" content="noindex, nofollow" />
             </Helmet>
 
@@ -29,7 +29,7 @@ const LeaseNumber = () => {
                                 Lease This <br /> Phone Number
                             </h1>
                             <p className="text-indigo-200 text-xl max-w-2xl mx-auto leading-relaxed font-bold italic">
-                                Are you a pest control specialist in Mililani HI? Swap this number <br /> with your own for just <span className="font-black text-white">$19 a month</span> and capture all local centipede extermination leads.
+                                Are you a plumber in Glencoe IL? Swap this number <br /> with your own for just <span className="font-black text-white">$19 a month</span> and capture all local tankless water heater flush leads.
                             </p>
                         </div>
                     </div>
@@ -46,10 +46,10 @@ const LeaseNumber = () => {
                                 </h2>
                                 <ul className="space-y-6">
                                     {[
-                                        "Replace (323) 880-1224 with your direct line",
-                                        "All Mililani pest inquiries route to you",
-                                        "Dominant SEO presence for Mililani centipedes",
-                                        "One specialist per territory — exclusive deal",
+                                        "Replace (877) 792-1410 with your direct line",
+                                        "All Glencoe IL tankless heater inquiries route to you",
+                                        "Dominant SEO presence for Glencoe tankless heater flush",
+                                        "One plumber per territory — exclusive deal",
                                         "Simple month-to-month billing",
                                         "No setup fees or long-term contracts",
                                     ].map((item, i) => (
@@ -83,14 +83,14 @@ const LeaseNumber = () => {
 
                             <div className="relative z-10 space-y-4">
                                 <a
-                                    href="mailto:leasemynumber@gmail.com?subject=Mililani Pest Control - Phone Lease Inquiry $19/mo"
+                                    href="mailto:leasemynumber@gmail.com?subject=Glencoe IL Tankless Water Heater Flush - Phone Lease Inquiry $19/mo"
                                     className="w-full inline-flex items-center justify-center gap-3 bg-white text-indigo-700 hover:bg-slate-100 px-8 py-5 rounded-2xl font-black uppercase tracking-widest text-sm transition-all shadow-xl active:scale-95 text-nowrap"
                                 >
                                     <Mail className="w-5 h-5" />
                                     leasemynumber@gmail.com
                                 </a>
                                 <p className="text-center text-indigo-200 text-[10px] font-black uppercase tracking-widest">
-                                    Immediate availability in Mililani HI
+                                    Immediate availability in Glencoe IL
                                 </p>
                             </div>
                         </div>

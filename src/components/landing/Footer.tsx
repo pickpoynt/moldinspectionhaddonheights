@@ -1,4 +1,4 @@
-import { ShieldCheck, MapPin, Phone, Mail, Facebook, Twitter, Instagram, Linkedin, Bug } from "lucide-react";
+import { ShieldCheck, MapPin, Phone, Mail, Facebook, Twitter, Instagram, Linkedin, Droplets } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -11,15 +11,15 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-8">
               <div className="w-12 h-12 rounded-xl bg-indigo-600 flex items-center justify-center shadow-lg shadow-indigo-900/40">
-                <ShieldCheck className="w-7 h-7 text-white" />
+                <Droplets className="w-7 h-7 text-white" />
               </div>
               <div className="text-nowrap">
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase text-[15px]">Mililani</span>
-                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Centipede Exterminators</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase text-[15px]">Glencoe IL</span>
+                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Tankless Water Heater Pros</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-bold italic text-sm">
-              Mililani's certified team for <br /> Hawaii centipede extermination <br /> and nest removal. <br /> Hawaii-grade home defense.
+              Glencoe's certified team for <br /> tankless water heater flushing, <br /> descaling, and maintenance. <br /> Illinois-grade home plumbing.
             </p>
             <div className="flex gap-4">
               {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
@@ -31,15 +31,15 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-[11px] font-black mb-8 uppercase tracking-[0.3em] text-indigo-500">Mililani Services</h4>
+            <h4 className="text-[11px] font-black mb-8 uppercase tracking-[0.3em] text-indigo-500">Glencoe Services</h4>
             <ul className="space-y-4">
               {[
-                "Centipede Extermination",
-                "Hawaii Nest Removal",
-                "Foundation Sealing",
-                "Exterior Perimeter Barrier",
-                "Oahu Emergency Service",
-                "Moisture Mitigation"
+                "Tankless Water Heater Flush",
+                "Descaling & Mineral Removal",
+                "System Diagnostics",
+                "Efficiency Optimization",
+                "Emergency Heater Service",
+                "Preventative Maintenance"
               ].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-white transition-colors flex items-center gap-3 group">
@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-[11px] font-black mb-8 uppercase tracking-[0.3em] text-indigo-500 text-nowrap">Exterminator NAP</h4>
+            <h4 className="text-[11px] font-black mb-8 uppercase tracking-[0.3em] text-indigo-500 text-nowrap">Plumber NAP</h4>
             <ul className="space-y-6">
               <li className="flex gap-4">
                 <div className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center shrink-0">
@@ -60,7 +60,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-1">HQ LOCATION</p>
-                  <p className="text-sm font-bold text-slate-200 uppercase tracking-widest text-nowrap">Mililani, HI 96789</p>
+                  <p className="text-sm font-bold text-slate-200 uppercase tracking-widest text-nowrap">Glencoe, IL 60022</p>
                 </div>
               </li>
               <li className="flex gap-4">
@@ -69,7 +69,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-1">CLIENT ACCESS</p>
-                  <a href="tel:3238801224" className="text-sm font-bold text-slate-200 hover:text-indigo-500 transition-colors uppercase tracking-widest leading-none underline decoration-indigo-900 underline-offset-4 text-nowrap">(323) 880-1224</a>
+                  <a href="tel:8777921410" className="text-sm font-bold text-slate-200 hover:text-indigo-500 transition-colors uppercase tracking-widest leading-none underline decoration-indigo-900 underline-offset-4 text-nowrap">(877) 792-1410</a>
                 </div>
               </li>
               <li className="flex gap-4">
@@ -85,20 +85,20 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-[11px] font-black mb-8 uppercase tracking-[0.3em] text-indigo-500 text-nowrap">Hawaii Promise</h4>
+            <h4 className="text-[11px] font-black mb-8 uppercase tracking-[0.3em] text-indigo-500 text-nowrap">Illinois Promise</h4>
             <p className="text-slate-400 text-xs leading-relaxed mb-8 font-bold italic uppercase tracking-tighter">
-              Exclusively using Oahu-tested <br /> pest control barriers for <br /> long-term protection in <br /> all Mililani extermination projects.
+              Exclusively using Illinois-tested <br /> descaling solutions for <br /> long-term protection in <br /> all Glencoe flush projects.
             </p>
             <div className="p-6 bg-white/5 rounded-3xl border border-white/10 shadow-inner">
               <p className="text-[10px] font-black text-indigo-500 uppercase tracking-[0.2em] mb-2">Service Promise</p>
-              <p className="text-xs font-bold text-slate-400 uppercase leading-snug tracking-tighter italic">Sting-Free Home Guarantee Across Mililani.</p>
+              <p className="text-xs font-bold text-slate-400 uppercase leading-snug tracking-tighter italic">Efficiency Restore Guarantee Across Glencoe IL.</p>
             </div>
           </div>
         </div>
 
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-8 uppercase tracking-[0.2em] text-[10px] font-black">
           <p className="text-slate-600 text-center md:text-left">
-            © {new Date().getFullYear()} Mililani Centipede Exterminators. <br className="md:hidden" /> All rights reserved. Certified Hawaii Pest Solutions.
+            © {new Date().getFullYear()} Glencoe Tankless Water Heater Pros. <br className="md:hidden" /> All rights reserved. Certified Illinois Plumbing Solutions.
           </p>
 
           <div className="flex gap-8 items-center text-nowrap">

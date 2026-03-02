@@ -1,35 +1,35 @@
-import { ShieldCheck, Bug, Search, Clock, Zap, Target, Waves, Activity, Radio, Thermometer, Shield, Droplets } from "lucide-react";
+import { ShieldCheck, Droplets, Thermometer, Clock, Wrench, Zap, Activity, Search } from "lucide-react";
 
 const services = [
   {
-    icon: Bug,
-    title: "Centipede Extermination",
-    description: "Our Mililani exterminators use high-intensity, Hawaii-grade formulas to eliminate existing centipede populations inside your home on contact."
+    icon: Droplets,
+    title: "Annual Tankless Heater Flush",
+    description: "Our Glencoe technicians perform a thorough flush of your tankless water heater using food-grade white vinegar or professional descaling solution to dissolve and remove mineral deposits that reduce efficiency."
   },
   {
-    icon: Target,
-    title: "Nest Eradication",
-    description: "We track centipede activity back to the source, identifying and destroying nesting sites in mulch, soil, and structural wall voids throughout Mililani."
+    icon: Thermometer,
+    title: "Descaling & Mineral Removal",
+    description: "Hard water in Glencoe IL causes calcium and lime buildup inside your heat exchanger. We fully descale your system to restore optimal heat transfer and hot water output to your home."
   },
   {
-    icon: Shield,
-    title: "Perimeter Barrier Defense",
-    description: "Creation of a massive chemical and physical barrier around your Mililani property that centipedes cannot cross, ensuring 24/7 exterior protection."
-  },
-  {
-    icon: Search,
-    title: "Property Risk Audits",
-    description: "Thorough inspection of your Mililani residence to identify moisture traps, entry points, and habitat attractants that bring centipedes to your doorstep."
+    icon: Wrench,
+    title: "System Diagnostics",
+    description: "Beyond the flush, our Glencoe specialists inspect filters, valves, error codes, and venting to identify any hidden issues that could lead to costly breakdowns in your tankless water heater."
   },
   {
     icon: Zap,
-    title: "Rapid Flush Treatment",
-    description: "Specialized service to flush out and eliminate centipedes hiding in hard-to-reach areas of your Mililani house, providing immediate relief."
+    title: "Efficiency Optimization",
+    description: "After flushing, we verify your Glencoe tankless heater is operating at peak BTU efficiency, check temperature settings, and calibrate the unit for maximum energy savings and hot water delivery."
   },
   {
     icon: Activity,
-    title: "Maintenance Programs",
-    description: "Ongoing preventative care for Mililani homes to maintain protection through Hawaii's wet seasons when centipede activity is at its highest."
+    title: "Preventative Maintenance Programs",
+    description: "Ongoing seasonal care for Glencoe IL homeowners to keep your tankless system performing year-round. Scheduled maintenance prevents unexpected cold showers and extends heater lifespan significantly."
+  },
+  {
+    icon: Search,
+    title: "Emergency Tankless Service",
+    description: "Facing unexpected issues with your Glencoe tankless water heater? Our certified specialists are available 24/7 for diagnostics, repairs, and emergency flushing services across the Glencoe area."
   }
 ];
 
@@ -39,10 +39,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-20 text-nowrap text-nowrap">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight leading-tight">
-            Professional <span className="text-indigo-600 border-b-4 border-indigo-600/20">Centipedes Extermination Mililani</span>
+            Professional <span className="text-indigo-600 border-b-4 border-indigo-600/20">Tankless Water Heater Flush Glencoe IL</span>
           </h2>
           <p className="text-lg text-slate-600 font-medium italic">
-            Hawaii's toughest centipedes require Mililani's most advanced extermination methods. We provide permanent solutions that safeguard your home and family.
+            Glencoe's hard water demands expert maintenance. We provide complete tankless heater flushing services that protect your investment and keep your hot water running reliably.
           </p>
         </div>
 

@@ -1,4 +1,4 @@
-import { ShieldCheck, Phone, MapPin, Mail, Clock, Send, Radio, Search, Wrench, Bug } from "lucide-react";
+import { ShieldCheck, Phone, MapPin, Mail, Clock, Send, Droplets, Wrench } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -17,14 +17,14 @@ const Contact = () => {
               <div>
                 <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-600 text-white mb-6 uppercase tracking-widest text-[10px] font-bold text-nowrap">
                   <ShieldCheck className="w-4 h-4" />
-                  Mililani Pest Protection
+                  Glencoe Tankless Water Heater Service
                 </div>
                 <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight leading-tight text-nowrap">
-                  Eliminate Hawaii <br />
-                  <span className="text-indigo-600 border-b-4 border-indigo-600/20">Centipedes in Mililani</span>
+                  Schedule Your <br />
+                  <span className="text-indigo-600 border-b-4 border-indigo-600/20">Tankless Flush in Glencoe IL</span>
                 </h2>
                 <p className="text-slate-600 text-lg leading-relaxed italic font-medium">
-                  Mililani's leading specialists in Hawaii centipede extermination and territory exclusion. We protect your home with high-potency barriers that stop pests at the source. Call (323) 880-1224 for a Mililani audit today.
+                  Glencoe's leading specialists in tankless water heater flushing, descaling, and maintenance. We restore your system's efficiency and extend its lifespan. Call (877) 792-1410 for a Glencoe IL service estimate today.
                 </p>
               </div>
 
@@ -33,22 +33,22 @@ const Contact = () => {
                   <div className="w-12 h-12 rounded-2xl bg-indigo-600 flex items-center justify-center mb-4 mx-auto lg:mx-0">
                     <Phone className="w-6 h-6 text-white" />
                   </div>
-                  <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">EXTERMINATION LINE</p>
-                  <a href="tel:3238801224" className="text-xl font-bold text-indigo-600 underline decoration-indigo-200 decoration-4 underline-offset-4 text-nowrap">(323) 880-1224</a>
+                  <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">GLENCOE SERVICE LINE</p>
+                  <a href="tel:8777921410" className="text-xl font-bold text-indigo-600 underline decoration-indigo-200 decoration-4 underline-offset-4 text-nowrap">(877) 792-1410</a>
                 </div>
                 <div className="p-6 bg-white rounded-3xl border border-slate-100 shadow-xl shadow-slate-200/50 hover:-translate-y-1 transition-transform">
                   <div className="w-12 h-12 rounded-2xl bg-slate-900 flex items-center justify-center mb-4 mx-auto lg:mx-0">
                     <MapPin className="w-6 h-6 text-white" />
                   </div>
-                  <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1 text-nowrap">MILILANI SERVICE HUB</p>
-                  <p className="text-sm font-bold text-slate-900 uppercase">Mililani, HI 96789</p>
+                  <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1 text-nowrap">GLENCOE SERVICE AREA</p>
+                  <p className="text-sm font-bold text-slate-900 uppercase">Glencoe, IL 60022</p>
                 </div>
               </div>
 
               <div className="space-y-6 pt-4 text-nowrap">
                 <div className="flex items-center gap-4 text-slate-600 font-bold uppercase tracking-tighter text-xs justify-center lg:justify-start">
                   <Clock className="w-5 h-5 text-indigo-600" />
-                  <span>Oahu Hawaii Professionals • Local Mililani Service</span>
+                  <span>Illinois North Shore Professionals • Local Glencoe Service</span>
                 </div>
               </div>
 
@@ -57,11 +57,11 @@ const Contact = () => {
             {/* Contact Form */}
             <div className="bg-white rounded-[3rem] p-8 md:p-12 shadow-2xl border border-slate-100 relative group overflow-hidden text-nowrap">
               <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-600/5 rounded-full -translate-y-12 translate-x-12" />
-              <h3 className="text-2xl font-bold text-slate-900 mb-8 uppercase tracking-tighter relative z-10 italic">Request Mililani Audit</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-8 uppercase tracking-tighter relative z-10 italic">Request Glencoe Flush Service</h3>
               <form className="space-y-6 relative z-10" onSubmit={(e) => e.preventDefault()}>
                 <div className="grid md:grid-cols-2 gap-6 text-left">
                   <div className="space-y-2">
-                    <label className="text-[10px] font-black text-slate-900 uppercase tracking-widest ml-1 opacity-50">Resident Name</label>
+                    <label className="text-[10px] font-black text-slate-900 uppercase tracking-widest ml-1 opacity-50">Homeowner Name</label>
                     <Input placeholder="Full Name" className="h-14 rounded-2xl bg-slate-50 border-white px-6 font-bold focus:ring-indigo-500 shadow-inner" />
                   </div>
                   <div className="space-y-2">
@@ -70,25 +70,26 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="space-y-2 text-left">
-                  <label className="text-[10px] font-black text-slate-900 uppercase tracking-widest ml-1 opacity-50">Extermination Need</label>
+                  <label className="text-[10px] font-black text-slate-900 uppercase tracking-widest ml-1 opacity-50">Service Needed</label>
                   <select className="w-full h-14 rounded-2xl bg-slate-50 border-white px-6 font-bold text-slate-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 shadow-inner">
-                    <option>Sighted (Single Specimen)</option>
-                    <option>Infestation (Ongoing Activity)</option>
-                    <option>Heavy Breeding (Colony Sighted)</option>
-                    <option>Preventative (Mililani Wet Season Guard)</option>
+                    <option>Annual Tankless Flush (Recommended)</option>
+                    <option>Descaling — Heavy Mineral Buildup</option>
+                    <option>System Diagnostics + Flush</option>
+                    <option>Emergency Tankless Service</option>
+                    <option>Preventative Maintenance Program</option>
                   </select>
                 </div>
 
                 <div className="space-y-2 text-left">
                   <label className="text-[10px] font-black text-slate-900 uppercase tracking-widest ml-1 opacity-50">Message</label>
-                  <Textarea placeholder="Describe the centipede activity in your Mililani home..." className="min-h-[150px] rounded-3xl bg-slate-50 border-white p-6 font-bold focus:ring-indigo-500 shadow-inner" />
+                  <Textarea placeholder="Describe your tankless water heater issue or service request in Glencoe IL..." className="min-h-[150px] rounded-3xl bg-slate-50 border-white p-6 font-bold focus:ring-indigo-500 shadow-inner" />
                 </div>
                 <Button className="w-full bg-indigo-600 hover:bg-slate-900 text-white h-16 rounded-2xl font-bold uppercase tracking-widest text-sm shadow-xl shadow-indigo-900/20 transition-all hover:gap-4 active:scale-95">
-                  Send to Specialist <Send className="w-5 h-5" />
+                  Send to Glencoe Specialist <Send className="w-5 h-5" />
                 </Button>
                 <div className="flex items-center justify-center gap-2 pt-4 opacity-50 text-nowrap">
-                  <Bug className="w-4 h-4 text-indigo-600 animate-pulse" />
-                  <p className="text-[10px] font-bold uppercase tracking-[0.2em] italic">Hawaii Centipede Nest Removal Ready in Mililani</p>
+                  <Droplets className="w-4 h-4 text-indigo-600 animate-pulse" />
+                  <p className="text-[10px] font-bold uppercase tracking-[0.2em] italic">Glencoe IL Tankless Heater Flush — Same-Day Available</p>
                 </div>
               </form>
             </div>
