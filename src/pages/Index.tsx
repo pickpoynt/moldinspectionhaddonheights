@@ -15,32 +15,32 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>tankless water heater flush Glencoe IL (877) 792-1410 | Glencoe Tankless Water Heater Pros</title>
-        <meta name="description" content="Professional tankless water heater flush Glencoe IL. Call (877) 792-1410. Expert descaling, sediment removal & maintenance for Glencoe IL homes. Free estimates available." />
-        <meta name="keywords" content="tankless water heater flush Glencoe IL, tankless water heater descaling Glencoe, Glencoe IL water heater maintenance, flush tankless heater Glencoe, water heater service Glencoe Illinois" />
-        <link rel="canonical" href="https://tanklesswaterheaterflushglencoeil.vercel.app/" />
+        <title>plumber elkhorn ne (877) 792-1410 | Elkhorn Plumbing Services Pros</title>
+        <meta name="description" content="Professional plumber elkhorn ne. Call (877) 792-1410. Expert residential & commercial plumbing services in Elkhorn NE. Free estimates available." />
+        <meta name="keywords" content="plumber elkhorn ne, elkhorn plumbing services, local plumbers elkhorn ne, emergency plumber elkhorn, elkhorn plumbing repair" />
+        <link rel="canonical" href="https://plumberelkhornne.vercel.app/" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Glencoe Tankless Water Heater Pros",
+            "name": "Elkhorn Plumbing Services Pros",
             "image": "/2.jpeg",
-            "@id": "https://tanklesswaterheaterflushglencoeil.vercel.app/",
-            "url": "https://tanklesswaterheaterflushglencoeil.vercel.app/",
+            "@id": "https://plumberelkhornne.vercel.app/",
+            "url": "https://plumberelkhornne.vercel.app/",
             "telephone": "(877) 792-1410",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Glencoe, IL",
-              "addressLocality": "Glencoe",
-              "addressRegion": "IL",
-              "postalCode": "60022",
+              "streetAddress": "Elkhorn, NE",
+              "addressLocality": "Elkhorn",
+              "addressRegion": "NE",
+              "postalCode": "68022",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "42.1350",
-              "longitude": "-87.7578"
+              "latitude": "41.2828",
+              "longitude": "-96.2418"
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -55,32 +55,32 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Tankless Water Heater Flush and Maintenance",
+            "serviceType": "Professional Plumbing Services",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Glencoe Tankless Water Heater Pros"
+              "name": "Elkhorn Plumbing Services Pros"
             },
             "areaServed": {
               "@type": "City",
-              "name": "Glencoe, IL"
+              "name": "Elkhorn, NE"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Tankless Water Heater Services",
+              "name": "Plumbing Repair and Maintenance Services",
               "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Annual Tankless Water Heater Flush" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Descaling and Sediment Removal" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "System Diagnostics and Efficiency Optimization" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Emergency Tankless Heater Service" } }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Residential Plumbing Repair" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Plumbing Services" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Emergency Drain Cleaning" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Water Heater Installation & Repair" } }
               ]
             }
           })}
         </script>
 
-        <meta property="og:title" content="tankless water heater flush Glencoe IL (877) 792-1410 | Glencoe Tankless Water Heater Pros" />
-        <meta property="og:description" content="Expert tankless water heater flush in Glencoe, IL. Professional descaling & maintenance. Call (877) 792-1410!" />
+        <meta property="og:title" content="plumber elkhorn ne (877) 792-1410 | Elkhorn Plumbing Services Pros" />
+        <meta property="og:description" content="Expert plumber in Elkhorn, NE. Professional residential & commercial plumbing services. Call (877) 792-1410!" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://tanklesswaterheaterflushglencoeil.vercel.app/" />
+        <meta property="og:url" content="https://plumberelkhornne.vercel.app/" />
         <meta property="og:image" content="/2.jpeg" />
       </Helmet>
 
@@ -89,19 +89,19 @@ const Index = () => {
         <Hero
           title={
             <>
-              TANKLESS WATER HEATER <br />
-              <span className="text-white drop-shadow-sm uppercase text-nowrap">FLUSH IN GLENCOE IL</span>
+              PLUMBER <br />
+              <span className="text-white drop-shadow-sm uppercase text-nowrap">ELKHORN NE</span>
             </>
           }
-          subtitle="Glencoe's premier specialists in tankless water heater flushing, descaling, and maintenance. We use professional-grade equipment to remove mineral buildup and sediment from your Glencoe IL tankless system, restoring efficiency and extending the life of your investment. Same-day service available."
+          subtitle="Elkhorn's premier plumbing specialists providing expert residential and commercial services. From emergency repairs to routine maintenance, our local Elkhorn NE team ensures your home's plumbing systems run perfectly 24/7. Trusted by Nebraska families for quality and speed."
           image="/2.jpeg"
           overlayImage="/4.jpeg"
-          badge="GLENCOE IL TANKLESS HEATER PROS"
+          badge="ELKHORN NE PLUMBING PROS"
           phone="8777921410"
           features={[
-            { icon: Droplets, text: "Full Flush & Descale" },
-            { icon: Thermometer, text: "Efficiency Restore" },
-            { icon: ShieldCheck, text: "24/7 Glencoe Service" }
+            { icon: Droplets, text: "All Pipe Repairs" },
+            { icon: Thermometer, text: "Water Heater Experts" },
+            { icon: ShieldCheck, text: "24/7 Elkhorn Service" }
           ]}
         />
         <Services />
@@ -114,10 +114,10 @@ const Index = () => {
           <div className="container mx-auto px-4 text-nowrap">
             <h2 className="text-2xl font-bold mb-6 text-slate-800 uppercase tracking-tight">Our Professional Resource Network</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 pb-8">
-              <a href="https://leakingpiperepairinmodesto.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Leaking Pipe Repair Modesto</a>
-              <a href="https://plumbermontellowi.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Plumber Montello WI</a>
-              <a href="https://waterheaterrepairbeaverton.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Water Heater Repair Beaverton</a>
-              <a href="https://castironpipereplacementboonton.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Cast Iron Pipe Replacement Boonton</a>
+              <a href="https://pestcontrolsouthpointohio.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Pest Control South Point Ohio</a>
+              <a href="https://rodentcontrolcorvallisoregon.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Rodent Control Corvallis Oregon</a>
+              <a href="https://termiteinspectionburbank.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Termite Inspection Burbank</a>
+              <a href="https://coyotecontrolmccookne.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Coyote Control McCook NE</a>
             </div>
           </div>
         </section>

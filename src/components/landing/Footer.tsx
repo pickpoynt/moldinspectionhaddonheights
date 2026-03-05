@@ -14,12 +14,12 @@ const Footer = () => {
                 <Droplets className="w-7 h-7 text-white" />
               </div>
               <div className="text-nowrap">
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase text-[15px]">Glencoe IL</span>
-                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Tankless Water Heater Pros</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase text-[15px]">Elkhorn NE</span>
+                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Plumbing Services Pros</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-bold italic text-sm">
-              Glencoe's certified team for <br /> tankless water heater flushing, <br /> descaling, and maintenance. <br /> Illinois-grade home plumbing.
+              Elkhorn's certified team for <br /> professional residential and <br /> commercial plumbing. <br /> Nebraska-grade home reliability.
             </p>
             <div className="flex gap-4">
               {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
@@ -31,15 +31,15 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-[11px] font-black mb-8 uppercase tracking-[0.3em] text-indigo-500">Glencoe Services</h4>
+            <h4 className="text-[11px] font-black mb-8 uppercase tracking-[0.3em] text-indigo-500 text-nowrap">Elkhorn Services</h4>
             <ul className="space-y-4">
               {[
-                "Tankless Water Heater Flush",
-                "Descaling & Mineral Removal",
-                "System Diagnostics",
-                "Efficiency Optimization",
-                "Emergency Heater Service",
-                "Preventative Maintenance"
+                "Residential Plumbing",
+                "Commercial Plumbing",
+                "Emergency Repairs",
+                "Drain Cleaning",
+                "Water Heater Service",
+                "Pipe Maintenance"
               ].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-white transition-colors flex items-center gap-3 group">
@@ -60,7 +60,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-1">HQ LOCATION</p>
-                  <p className="text-sm font-bold text-slate-200 uppercase tracking-widest text-nowrap">Glencoe, IL 60022</p>
+                  <p className="text-sm font-bold text-slate-200 uppercase tracking-widest text-nowrap">Elkhorn, NE 68022</p>
                 </div>
               </li>
               <li className="flex gap-4">
@@ -77,7 +77,7 @@ const Footer = () => {
                   <Mail className="w-5 h-5 text-indigo-500" />
                 </div>
                 <div>
-                  <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-1">LICENSING</p>
+                  <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-1">SUPPORT</p>
                   <a href="/lease-my-number" className="text-sm font-bold text-slate-200 hover:text-indigo-500 transition-colors uppercase tracking-widest text-nowrap underline decoration-indigo-900 underline-offset-4">LEASE MY NUMBER</a>
                 </div>
               </li>
@@ -85,20 +85,20 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-[11px] font-black mb-8 uppercase tracking-[0.3em] text-indigo-500 text-nowrap">Illinois Promise</h4>
+            <h4 className="text-[11px] font-black mb-8 uppercase tracking-[0.3em] text-indigo-500 text-nowrap">Nebraska Promise</h4>
             <p className="text-slate-400 text-xs leading-relaxed mb-8 font-bold italic uppercase tracking-tighter">
-              Exclusively using Illinois-tested <br /> descaling solutions for <br /> long-term protection in <br /> all Glencoe flush projects.
+              Exclusively using industry-tested <br /> plumbing components for <br /> long-term protection in <br /> all Elkhorn projects.
             </p>
             <div className="p-6 bg-white/5 rounded-3xl border border-white/10 shadow-inner">
               <p className="text-[10px] font-black text-indigo-500 uppercase tracking-[0.2em] mb-2">Service Promise</p>
-              <p className="text-xs font-bold text-slate-400 uppercase leading-snug tracking-tighter italic">Efficiency Restore Guarantee Across Glencoe IL.</p>
+              <p className="text-xs font-bold text-slate-400 uppercase leading-snug tracking-tighter italic text-nowrap">Reliability Guarantee Across Elkhorn NE.</p>
             </div>
           </div>
         </div>
 
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-8 uppercase tracking-[0.2em] text-[10px] font-black">
           <p className="text-slate-600 text-center md:text-left">
-            © {new Date().getFullYear()} Glencoe Tankless Water Heater Pros. <br className="md:hidden" /> All rights reserved. Certified Illinois Plumbing Solutions.
+            © {new Date().getFullYear()} Elkhorn Plumbing Services Pros. <br className="md:hidden" /> All rights reserved. Certified Nebraska Plumbing Solutions.
           </p>
 
           <div className="flex gap-8 items-center text-nowrap">

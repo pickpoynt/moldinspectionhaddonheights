@@ -1,14 +1,14 @@
 const links = [
+  { text: "Pest Control South Point Ohio", url: "https://pestcontrolsouthpointohio.vercel.app/" },
+  { text: "Rodent Control Corvallis Oregon", url: "https://rodentcontrolcorvallisoregon.vercel.app/" },
+  { text: "Termite Inspection Burbank", url: "https://termiteinspectionburbank.vercel.app/" },
+  { text: "Coyote Control McCook NE", url: "https://coyotecontrolmccookne.vercel.app/" },
   { text: "Leaking Pipe Repair Modesto", url: "https://leakingpiperepairinmodesto.vercel.app/" },
-  { text: "Plumber Montello WI", url: "https://plumbermontellowi.vercel.app/" },
   { text: "Water Heater Repair Beaverton", url: "https://waterheaterrepairbeaverton.vercel.app/" },
   { text: "Cast Iron Pipe Replacement Boonton", url: "https://castironpipereplacementboonton.vercel.app/" },
   { text: "Slab Leak Detection Boonton", url: "https://slableakdetectionspecialistboonton.vercel.app/" },
   { text: "Polybutylene Pipe Replacement Boonton", url: "https://polybutylenepipereplacementboonton.vercel.app/" },
-  { text: "Trenchless Sewer Repair Scottsdale AZ", url: "https://trenchlesssewerrepairscottsdaleaz.vercel.app/" },
-  { text: "Earwig Exterminator Denver", url: "https://earwigexterminatordenver.vercel.app/" },
-  { text: "Pest Control Baton Rouge", url: "https://pestcontrolbatonrouge.vercel.app/" },
-  { text: "Mold Remediation Eau Claire WI", url: "https://moldremediationeauclairewi.vercel.app/" }
+  { text: "Trenchless Sewer Repair Scottsdale AZ", url: "https://trenchlesssewerrepairscottsdaleaz.vercel.app/" }
 ];
 
 const RandomLinks = () => {

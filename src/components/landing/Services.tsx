@@ -3,33 +3,33 @@ import { ShieldCheck, Droplets, Thermometer, Clock, Wrench, Zap, Activity, Searc
 const services = [
   {
     icon: Droplets,
-    title: "Annual Tankless Heater Flush",
-    description: "Our Glencoe technicians perform a thorough flush of your tankless water heater using food-grade white vinegar or professional descaling solution to dissolve and remove mineral deposits that reduce efficiency."
+    title: "Residential Plumbing Repair",
+    description: "Our Elkhorn technicians perform a thorough inspection and repair of your home's plumbing systems. From leaky faucets to complex pipe re-routing, we handle it all for Elkhorn NE families."
   },
   {
     icon: Thermometer,
-    title: "Descaling & Mineral Removal",
-    description: "Hard water in Glencoe IL causes calcium and lime buildup inside your heat exchanger. We fully descale your system to restore optimal heat transfer and hot water output to your home."
+    title: "Water Heater Installation & Repair",
+    description: "Hard water in Elkhorn NE can damage your water heater. We specialize in both traditional and tankless systems, ensuring your home always has hot water available when you need it most."
   },
   {
     icon: Wrench,
-    title: "System Diagnostics",
-    description: "Beyond the flush, our Glencoe specialists inspect filters, valves, error codes, and venting to identify any hidden issues that could lead to costly breakdowns in your tankless water heater."
+    title: "Drain Cleaning & Clog Removal",
+    description: "Using professional-grade tools, our Elkhorn specialists clear blockages in your sinks, showers, and main sewer lines. We restoration full flow to your Elkhorn NE home's drainage system."
   },
   {
     icon: Zap,
-    title: "Efficiency Optimization",
-    description: "After flushing, we verify your Glencoe tankless heater is operating at peak BTU efficiency, check temperature settings, and calibrate the unit for maximum energy savings and hot water delivery."
+    title: "Commercial Plumbing Services",
+    description: "We provide high-capacity plumbing solutions for Elkhorn businesses. From restaurants to office buildings, our Elkhorn NE team delivers reliable, code-compliant service every time."
   },
   {
     icon: Activity,
-    title: "Preventative Maintenance Programs",
-    description: "Ongoing seasonal care for Glencoe IL homeowners to keep your tankless system performing year-round. Scheduled maintenance prevents unexpected cold showers and extends heater lifespan significantly."
+    title: "Preventative Maintenance",
+    description: "Ongoing seasonal care for Elkhorn NE homeowners to keep your plumbing systems performing year-round. Scheduled maintenance prevents unexpected leaks and extends component lifespan significantly."
   },
   {
     icon: Search,
-    title: "Emergency Tankless Service",
-    description: "Facing unexpected issues with your Glencoe tankless water heater? Our certified specialists are available 24/7 for diagnostics, repairs, and emergency flushing services across the Glencoe area."
+    title: "Emergency 24/7 Service",
+    description: "Facing a plumbing crisis in Elkhorn? Our certified specialists are available 24/7 for diagnostics, repairs, and emergency fixes across the entire Elkhorn NE area."
   }
 ];
 
@@ -37,12 +37,12 @@ const Services = () => {
   return (
     <section id="services" className="py-24 bg-white relative overflow-hidden">
       <div className="container mx-auto px-4">
-        <div className="text-center max-w-3xl mx-auto mb-20 text-nowrap text-nowrap">
+        <div className="text-center max-w-3xl mx-auto mb-20 text-nowrap">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight leading-tight">
-            Professional <span className="text-indigo-600 border-b-4 border-indigo-600/20">Tankless Water Heater Flush Glencoe IL</span>
+            Professional <span className="text-indigo-600 border-b-4 border-indigo-600/20">Plumber Elkhorn NE</span>
           </h2>
           <p className="text-lg text-slate-600 font-medium italic">
-            Glencoe's hard water demands expert maintenance. We provide complete tankless heater flushing services that protect your investment and keep your hot water running reliably.
+            Elkhorn's local plumbing landscape demands expert skill. We provide complete repair and maintenance services that protect your home and keep your water running reliably.
           </p>
         </div>
 

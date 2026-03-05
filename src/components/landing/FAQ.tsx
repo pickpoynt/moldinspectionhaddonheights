@@ -3,123 +3,68 @@ import { HelpCircle, Search, ShieldCheck, Zap, Droplets, Clock, DollarSign, Targ
 const faqs = [
   {
     icon: DollarSign,
-    question: "How much should it cost to flush a tankless hot water heater?",
-    answer: "In Glencoe IL, a professional tankless water heater flush typically costs between $100 and $200 depending on the unit size, level of mineral buildup, and service provider. Our Glencoe team offers competitive flat-rate pricing with no hidden fees."
+    question: "What do local plumbers charge per hour?",
+    answer: "In Elkhorn NE, local plumbers typically charge between $75 and $150 per hour. Master plumbers at the top of their field may charge more, while apprentices or smaller outfits might be on the lower end. Our Elkhorn team provides transparent, competitive rates for all plumbing services."
   },
   {
     icon: Clock,
-    question: "How often should a tankless water heater be flushed?",
-    answer: "Most manufacturers and plumbers recommend flushing your tankless water heater annually. In Glencoe IL where water hardness is significant, twice-yearly flushing may be advisable to prevent accelerated scale buildup."
-  },
-  {
-    icon: Wrench,
-    question: "Can I flush my tankless water heater myself?",
-    answer: "Technically yes, but it requires a submersible pump, hoses, valves, and food-grade white vinegar or descaling solution. Many Glencoe homeowners prefer a certified plumber to ensure safety and complete mineral removal without voiding the warranty."
+    question: "How much would a plumber charge for 3 hours?",
+    answer: "For a 3-hour job in Elkhorn, you can expect to pay anywhere from $225 to $450 in labor alone, plus any materials or call-out fees. For more complex repairs in Elkhorn NE, we often provide a flat rate to ensure there are no surprises on your final bill."
   },
   {
     icon: AlertCircle,
-    question: "What happens if you don't flush your tankless hot water heater?",
-    answer: "Neglecting to flush your Glencoe tankless heater allows scale to accumulate in the heat exchanger, drastically reducing efficiency, increasing energy bills, triggering error codes, and ultimately causing premature system failure."
-  },
-  {
-    icon: FileText,
-    question: "Is there an IRS tax credit for a tankless water heater?",
-    answer: "Yes. Under the Inflation Reduction Act, homeowners in Glencoe IL may qualify for a federal tax credit of up to 30% (capped at $600) for installing a qualifying energy-efficient tankless water heater. Consult a tax professional for specifics."
-  },
-  {
-    icon: TrendingUp,
-    question: "What is the typical life expectancy of a tankless water heater?",
-    answer: "A properly maintained tankless water heater can last 20+ years — roughly twice the lifespan of a traditional tank heater. For Glencoe IL homeowners, regular annual flushing is the single most important maintenance task to achieve this."
-  },
-  {
-    icon: Frown,
-    question: "Why do plumbers not recommend tankless water heaters?",
-    answer: "Some plumbers note higher upfront costs and installation complexity. However, most Glencoe plumbing experts agree that for homes with high hot water demand, the long-term energy savings and lifespan of tankless units make them the superior choice."
+    question: "What are common signs of a plumbing problem?",
+    answer: "Elkhorn homeowners should look out for slow drains, low water pressure, gurgling noises in pipes, damp spots on walls or ceilings, and unexplained spikes in water bills. Identifying these issues early in your Elkhorn NE home can prevent costly emergency repairs."
   },
   {
     icon: Info,
-    question: "Is flushing the same as draining?",
-    answer: "No. Draining simply removes water from the tank. Flushing involves circulating a descaling or vinegar solution through the heat exchanger to dissolve and remove mineral deposits — a much more thorough process for Glencoe IL tankless systems."
+    question: "Are you supposed to tip a plumber?",
+    answer: "Tipping isn't required or even expected in the plumbing industry in Elkhorn NE. However, if a plumber goes above and beyond — like responding to a 2 AM emergency in Elkhorn — a small tip or even a positive online review is always greatly appreciated."
   },
   {
     icon: Search,
-    question: "How do I know if my tankless water heater needs to be flushed?",
-    answer: "Common signs in Glencoe homes include reduced hot water flow, longer wait times for hot water, unusual noises (popping or rumbling), error codes on the display, or noticeably higher gas or electric bills."
+    question: "What are the signs of a good plumber?",
+    answer: "A good Elkhorn plumber should be licensed, insured, and highly rated by fellow residents. Look for clear communication, a professional appearance, and a willingness to explain the problem and the proposed solution for your Elkhorn NE plumbing system."
   },
   {
-    icon: AlertCircle,
-    question: "What is the most common issue with tankless water heaters?",
-    answer: "Scale and mineral buildup from hard water is the most common issue for Glencoe IL tankless heater owners. This is entirely preventable with annual professional flushing from a certified Glencoe plumber."
-  },
-  {
-    icon: Wrench,
-    question: "Can you descale your own tankless water heater?",
-    answer: "Yes, with the right equipment. You'll need a descaling pump kit, hoses, and descaling solution. However, improper technique can damage internal components. In Glencoe, it's strongly recommended to use a licensed professional."
-  },
-  {
-    icon: Zap,
-    question: "How much will my electric bill go up with a tankless water heater?",
-    answer: "A well-maintained tankless electric water heater is typically 24–34% more energy efficient than traditional units for average Glencoe IL households. Without regular flushing, scale reduces this advantage significantly."
-  },
-  {
-    icon: Droplets,
-    question: "What's the difference between flushing and descaling?",
-    answer: "Flushing is the broader process of circulating liquid through the system. Descaling specifically refers to using an acid-based or vinegar solution to dissolve calcium and mineral deposits. In Glencoe, a proper flush always includes descaling."
-  },
-  {
-    icon: Shield,
-    question: "What are the signs of a clogged tankless heater?",
-    answer: "Glencoe IL residents should watch for error codes (typically 'scale' or 'maintenance' alerts), reduced hot water pressure, lukewarm water, the heater cycling on and off, or the unit shutting down completely during use."
-  },
-  {
-    icon: CheckCircle,
-    question: "Is vinegar safe for flushing a tankless heater?",
-    answer: "Food-grade white vinegar (5% acidity) is safe and commonly used for flushing tankless heaters. For heavy mineral buildup common in Glencoe IL hard water areas, our technicians use stronger professional-grade citric acid descalers for more effective results."
-  },
-  {
-    icon: DollarSign,
-    question: "How much do plumbers charge to flush a water heater?",
-    answer: "In the Glencoe IL area, expect to pay $100–$200 for a standard tankless water heater flush. The price may be higher if significant scale buildup requires extended circulation time or additional system maintenance."
-  },
-  {
-    icon: HelpCircle,
-    question: "Can I flush a tankless heater myself?",
-    answer: "DIY flushing is possible with a descaling pump kit. However, Glencoe homeowners risk error if they don't properly isolate cold and hot service ports, use the correct solution dilution, or flush for the adequate duration. Professional service ensures thoroughness."
-  },
-  {
-    icon: Sun,
-    question: "How do I know it needs flushing?",
-    answer: "Your Glencoe tankless unit will often display an error code for scale. Other signs include reduced water temperature, lower flow rates, unusual sounds, or if it's been over a year since the last professional maintenance visit."
-  },
-  {
-    icon: Activity,
-    question: "What are signs my tankless heater needs maintenance?",
-    answer: "Beyond flushing signs, look for dripping from the unit, inconsistent hot water temperatures, error codes you haven't seen before, or the unit taking longer to ignite. In Glencoe, call our specialists for a full diagnostic."
-  },
-  {
-    icon: Target,
-    question: "Do I need to descale my tankless water heater if I have a water softener?",
-    answer: "A water softener significantly reduces scale buildup, but doesn't eliminate it entirely. Glencoe IL homeowners with softeners may be able to extend their flush schedule to every 2–3 years rather than annually."
+    icon: FileText,
+    question: "How do I negotiate plumber rates?",
+    answer: "While many Elkhorn plumbers have set rates, you can negotiate by getting multiple quotes, bundling multiple small repairs into one visit, or asking about seasonal discounts for Elkhorn NE residents. Always focus on value and quality over just the lowest price."
   },
   {
     icon: Waves,
-    question: "Does sediment build up in a tankless water heater?",
-    answer: "Yes. While tankless heaters don't have a storage tank to accumulate sediment like traditional heaters, mineral deposits (scale) do accumulate on the internal heat exchanger surfaces in Glencoe's hard water conditions."
+    question: "What is the average cost to unclog a drain?",
+    answer: "In Elkhorn NE, the average cost to unclog a standard drain ranges from $150 to $250. More severe clogs requiring hydro-jetting or main line access in Elkhorn properties may cost more. We offer efficient drain cleaning to get your system flowing again quickly."
   },
   {
-    icon: Lightbulb,
-    question: "Can I maintain my tankless water heater myself?",
-    answer: "You can clean the inlet filter screen and check the air filter periodically. However, the internal descaling flush for Glencoe IL's hard water should be done by a certified plumber to protect your warranty and ensure complete scale removal."
+    icon: Wrench,
+    question: "Is it cheaper to DIY or hire a plumber?",
+    answer: "For simple tasks like replacing a faucet washer, DIY is cheaper. However, for major repairs in Elkhorn, hiring a pro saves money long-term by ensuring the job is done right the first time, preventing secondary water damage that many Elkhorn NE homeowners face after failed DIY attempts."
+  },
+  {
+    icon: DollarSign,
+    question: "Is it normal for a plumber to charge for a quote?",
+    answer: "Some Elkhorn plumbers charge a service or diagnostic fee to cover their time and travel to your home. In most cases, if you choose to proceed with the repair, this fee is applied toward the total cost of the job for our Elkhorn NE clients."
   },
   {
     icon: TrendingUp,
-    question: "Does flushing improve tankless heater efficiency?",
-    answer: "Absolutely. Studies show that scale buildup as thin as 1/16 inch can reduce a tankless heater's efficiency by up to 10-20%. A professional flush in Glencoe restores full heat transfer efficiency, reducing your energy costs immediately."
+    question: "What is flat rate pricing for plumbing?",
+    answer: "Flat rate pricing means you pay a set amount for a specific job, regardless of how long it takes the plumber. Many Elkhorn NE homeowners prefer this method because it provides price certainty and eliminates the anxiety of 'watching the clock' while work is performed."
   },
   {
-    icon: Droplets,
-    question: "Does flushing improve water quality?",
-    answer: "Yes. Flushing removes mineral scale and any biofilm that can affect taste and odor. Glencoe IL homeowners often notice cleaner-tasting hot water and reduced sediment in the flow after a professional tankless water heater flush."
+    icon: Activity,
+    question: "What are common hidden plumbing costs?",
+    answer: "Hidden costs in Elkhorn often include permit fees, emergency after-hours surcharges, and the cost of repairing walls or floors opened to access pipes. Our Elkhorn NE team strives for full transparency, outlining all potential costs before work begins."
+  },
+  {
+    icon: Wrench,
+    question: "How much should a plumber charge an hour?",
+    answer: "An industry standard in the Elkhorn NE area is $85 to $125 per hour for a qualified journeyman plumber. This rate covers the plumber's expertise, specialized tools, insurance, and the vehicle used to reach your Elkhorn location."
+  },
+  {
+    icon: DollarSign,
+    question: "How do plumbers price their work?",
+    answer: "Most plumbers in Elkhorn NE use either hourly rates or flat-rate 'by the book' pricing. Factors include the complexity of the repair, the materials required, and whether specialized equipment like sewer cameras or leak detection tools are needed for your Elkhorn home."
   }
 ];
 
@@ -140,13 +85,13 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-20 text-nowrap">
           <div className="inline-flex items-center gap-2 px-6 py-2 rounded-full bg-indigo-100 text-indigo-600 text-[10px] font-black uppercase tracking-[0.2em] mb-4">
-            Expert Knowledge Base — Glencoe IL
+            Expert Knowledge Base — Elkhorn NE
           </div>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight leading-tight">
-            Tankless Heater <span className="text-indigo-600 border-b-4 border-indigo-600/20">Expert FAQ</span>
+            Plumbing <span className="text-indigo-600 border-b-4 border-indigo-600/20">Expert FAQ</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-bold italic">
-            Essential answers for Glencoe IL homeowners about tankless water heater flushing, descaling, maintenance costs, and efficiency.
+            Essential answers for Elkhorn NE homeowners about plumbing costs, maintenance, and hiring the right professionals.
           </p>
         </div>
 
