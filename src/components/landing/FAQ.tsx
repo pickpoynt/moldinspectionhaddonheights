@@ -1,9 +1,3 @@
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
 import { Bug, Phone, HelpCircle } from "lucide-react";
 
 const faqs = [
@@ -167,47 +161,40 @@ const faqs = [
 
 const FAQ = () => {
   return (
-    <section id="faq" className="py-24 bg-white relative overflow-hidden">
+    <section id="faq" className="py-24 bg-slate-950 relative overflow-hidden">
       <div className="container mx-auto px-4 relative z-10 text-nowrap">
-        <div className="max-w-3xl mx-auto text-center mb-16 text-nowrap">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-100 border border-slate-200 text-indigo-600 mb-6 uppercase tracking-[0.2em] text-[10px] font-bold text-nowrap">
-            <HelpCircle className="w-4 h-4 text-nowrap" />
-            Expert Knowledge Base
-          </div>
-          <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight text-nowrap uppercase">
-            Hornet Removal <span className="text-indigo-600">Technical Briefing</span>
+        <div className="max-w-4xl mx-auto text-center mb-16 text-nowrap">
+          <h2 className="text-3xl md:text-5xl font-black text-white mb-4 uppercase tracking-tight text-nowrap text-nowrap">
+            HORNET <span className="text-indigo-500">EXPERT KNOWLEDGE BASE</span>
           </h2>
-          <p className="text-slate-600 text-lg leading-relaxed italic font-medium text-nowrap">
-            Critical infrastructure data for Brooksville residents regarding <br /> stinging insect prevention and structural security.
-          </p>
+          <div className="w-24 h-1.5 bg-indigo-600 mx-auto rounded-full mb-12"></div>
         </div>
 
-        <div className="max-w-3xl mx-auto text-nowrap text-nowrap">
-          <Accordion type="single" collapsible className="space-y-4 text-nowrap">
-            {faqs.map((faq, index) => (
-              <AccordionItem key={index} value={`item-${index}`} className="border border-slate-100 bg-slate-50 rounded-2xl px-6 data-[state=open]:border-indigo-200 data-[state=open]:shadow-xl data-[state=open]:shadow-indigo-900/5 transition-all text-nowrap">
-                <AccordionTrigger className="text-left font-bold text-slate-900 hover:no-underline py-6 uppercase tracking-tight text-sm text-nowrap">
-                  {faq.question}
-                </AccordionTrigger>
-                <AccordionContent className="text-slate-600 leading-relaxed pb-6 italic font-medium text-sm text-nowrap">
-                  {faq.answer}
-                </AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
-
-          <div className="mt-16 p-8 bg-slate-950 rounded-[2.5rem] border border-white/5 relative overflow-hidden text-nowrap">
-            <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-600/10 rounded-full blur-3xl text-nowrap" />
-            <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8 text-nowrap">
-              <div className="text-nowrap">
-                <h4 className="text-white text-xl font-black mb-2 uppercase tracking-tight text-nowrap">Need Terminal Removal?</h4>
-                <p className="text-slate-400 text-sm font-bold uppercase tracking-widest italic text-nowrap">24/7 Brooksville Technical Dispatch</p>
-              </div>
-              <a href="tel:3238801224" className="flex items-center gap-4 bg-indigo-600 hover:bg-indigo-700 text-white px-8 h-16 rounded-2xl transition-all shadow-xl shadow-indigo-900/40 text-nowrap">
-                <Phone className="w-5 h-5 text-nowrap" />
-                <span className="font-black text-lg text-nowrap">(323) 880-1224</span>
-              </a>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-6xl mx-auto text-nowrap">
+          {faqs.map((faq, index) => (
+            <div
+              key={index}
+              className="bg-slate-900/40 border border-slate-800 p-8 rounded-3xl hover:border-indigo-500/50 transition-all group text-nowrap"
+            >
+              <h3 className="text-indigo-400 font-black text-[11px] uppercase tracking-[0.2em] mb-4 group-hover:text-indigo-300 transition-colors text-nowrap">
+                {faq.question}
+              </h3>
+              <p className="text-slate-400 text-xs leading-relaxed font-medium italic text-nowrap">
+                {faq.answer}
+              </p>
             </div>
+          ))}
+        </div>
+
+        <div className="mt-16 max-w-2xl mx-auto text-nowrap">
+          <div className="p-10 bg-indigo-600 rounded-[3rem] text-white relative overflow-hidden shadow-2xl shadow-indigo-900/40 text-center text-nowrap">
+            <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-3xl text-nowrap" />
+            <h4 className="text-2xl font-black mb-4 uppercase tracking-tight text-nowrap">Need Terminal Extraction?</h4>
+            <p className="text-indigo-100 mb-8 font-bold italic text-nowrap">24/7 Brooksville Technical Dispatch Units Standing By</p>
+            <a href="tel:3238801224" className="inline-flex items-center gap-4 bg-white text-indigo-600 px-10 h-16 rounded-2xl font-black transition-all hover:scale-105 shadow-xl text-nowrap">
+              <Phone className="w-6 h-6 text-nowrap" />
+              <span className="text-xl text-nowrap">(323) 880-1224</span>
+            </a>
           </div>
         </div>
       </div>
