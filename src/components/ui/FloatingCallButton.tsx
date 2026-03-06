@@ -6,7 +6,7 @@ const FloatingCallButton = () => {
             <a
                 href="tel:3238801224"
                 className="group relative flex items-center justify-center w-16 h-16 bg-indigo-600 text-white rounded-2xl shadow-2xl hover:bg-indigo-700 transition-all duration-300 hover:scale-110 active:scale-95"
-                aria-label="Call Brooksville Wasp Specialist"
+                aria-label="Call Brooksville Tick Specialist"
             >
                 <div className="absolute inset-0 bg-indigo-600 rounded-2xl animate-ping opacity-20 group-hover:hidden text-nowrap" />
                 <Phone className="w-8 h-8 relative z-10 group-hover:rotate-12 transition-transform text-nowrap" />

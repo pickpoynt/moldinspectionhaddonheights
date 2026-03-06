@@ -32,7 +32,7 @@ const Header = () => {
       <div className="md:hidden fixed top-0 left-0 right-0 bg-indigo-600 text-white py-2 px-4 z-[110] flex items-center justify-between border-b border-indigo-400/30 text-nowrap">
         <div className="flex items-center gap-2 text-nowrap">
           <Bug className="w-4 h-4 animate-pulse text-nowrap" />
-          <span className="text-[10px] font-black uppercase tracking-[0.1em] text-nowrap">Emergency Unit Active</span>
+          <span className="text-[10px] font-black uppercase tracking-[0.1em] text-nowrap">Tick Protection Active</span>
         </div>
         <a href="tel:3238801224" className="flex items-center gap-2 text-[12px] font-black underline decoration-2 underline-offset-4 text-nowrap">
           <Phone className="w-3.5 h-3.5 text-nowrap" />
@@ -40,18 +40,18 @@ const Header = () => {
         </a>
       </div>
 
-      <div className="container mx-auto px-4">
-        <nav className="flex items-center justify-between">
+      <div className="container mx-auto px-4 text-nowrap">
+        <nav className="flex items-center justify-between text-nowrap">
           <div className="flex items-center gap-4 group cursor-pointer text-nowrap" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
             <div className="w-12 h-12 rounded-2xl bg-indigo-600 flex items-center justify-center shadow-lg shadow-indigo-900/20 group-hover:rotate-[360deg] transition-transform duration-700 text-nowrap">
               <Bug className="w-6 h-6 text-white text-nowrap" />
             </div>
             <div className="flex flex-col text-nowrap">
               <span className={`text-xl font-black uppercase tracking-tighter leading-none transition-colors text-nowrap ${isScrolled ? 'text-slate-900' : 'text-slate-900'}`}>
-                Brooksville Wasp
+                Brooksville Tick
               </span>
               <span className="text-[10px] font-bold text-indigo-500 uppercase tracking-[0.3em] mt-1 text-nowrap">
-                Emergency Removal Pros
+                Control Service Pros
               </span>
             </div>
           </div>
@@ -65,26 +65,26 @@ const Header = () => {
                   className={`text-[11px] font-black uppercase tracking-[0.2em] transition-all hover:text-indigo-600 relative group text-nowrap ${isScrolled ? 'text-slate-600' : 'text-slate-600'}`}
                 >
                   {link.name}
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-indigo-600 transition-all group-hover:w-full" />
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-indigo-600 transition-all group-hover:w-full text-nowrap" />
                 </a>
               ))}
             </div>
 
             <div className="flex items-center gap-6 border-l border-slate-200 pl-8 text-nowrap">
               <div className="flex flex-col items-end text-nowrap">
-                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1 text-nowrap">Emergency Service</span>
+                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1 text-nowrap uppercase">Service Protocol</span>
                 <a href="tel:3238801224" className="text-xl font-black text-indigo-600 hover:scale-105 transition-transform text-nowrap">
                   (323) 880-1224
                 </a>
               </div>
               <Button className="bg-slate-900 text-white hover:bg-indigo-600 h-14 px-8 rounded-xl font-bold uppercase tracking-widest text-xs shadow-xl active:scale-95 transition-all text-nowrap" asChild>
-                <a href="tel:3238801224">Schedule Removal</a>
+                <a href="tel:3238801224">Schedule Service</a>
               </Button>
             </div>
           </div>
 
           <button
-            className="lg:hidden p-2 rounded-xl bg-slate-100 text-slate-900"
+            className="lg:hidden p-2 rounded-xl bg-slate-100 text-slate-900 text-nowrap"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? <X /> : <Menu />}
@@ -93,7 +93,7 @@ const Header = () => {
       </div>
 
       {isMobileMenuOpen && (
-        <div className="lg:hidden absolute top-full left-0 right-0 bg-white border-t border-slate-100 shadow-2xl animate-in slide-in-from-top py-8 px-4">
+        <div className="lg:hidden absolute top-full left-0 right-0 bg-white border-t border-slate-100 shadow-2xl animate-in slide-in-from-top py-8 px-4 text-nowrap">
           <div className="flex flex-col gap-6 mb-8 text-nowrap">
             {navLinks.map((link) => (
               <a

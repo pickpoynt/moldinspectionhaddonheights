@@ -1,4 +1,4 @@
-import { Bug, Phone, MapPin, Mail, Instagram, Facebook, Twitter, Youtube, ShieldCheck, Linkedin, Trees } from "lucide-react";
+import { Bug, Phone, MapPin, Mail, Instagram, Facebook, Twitter, Youtube, ShieldCheck, Linkedin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -13,10 +13,10 @@ const Footer = () => {
               <div className="w-10 h-10 rounded-xl bg-indigo-600 flex items-center justify-center">
                 <Bug className="w-6 h-6 text-white" />
               </div>
-              <span className="text-xl font-black uppercase tracking-tighter">Brooksville Wasp</span>
+              <span className="text-xl font-black uppercase tracking-tighter">Brooksville Tick</span>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed mb-8 font-bold italic uppercase tracking-tighter">
-              Brooksville's elite wasp <br /> removal network. Protecting <br /> Florida homes with technical <br /> precision and 24/7 reliability.
+              Brooksville's premier tick <br /> control network. Protecting <br /> Florida estates with technical <br /> precision and 24/7 reliability.
             </p>
             <div className="flex gap-4">
               {[Instagram, Facebook, Twitter, Youtube].map((Icon, i) => (
@@ -31,11 +31,11 @@ const Footer = () => {
             <h4 className="text-[11px] font-black mb-8 uppercase tracking-[0.3em] text-indigo-500">Elite Services</h4>
             <ul className="space-y-4 text-nowrap">
               {[
-                "Wasp Nest Removal",
-                "Hornet Elimination",
-                "Yellow Jacket Control",
-                "Bee Relocation",
-                "Barrier Protection"
+                "Yard Tick Treatment",
+                "Flea Elimination",
+                "Barrier Protection",
+                "Seasonal Suppression",
+                "Property Perimeter Sealing"
               ].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-white transition-colors flex items-center gap-3 group">
@@ -48,33 +48,33 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-[11px] font-black mb-8 uppercase tracking-[0.3em] text-indigo-500">Wasp Dispatch NAP</h4>
+            <h4 className="text-[11px] font-black mb-8 uppercase tracking-[0.3em] text-indigo-500">Service Dispatch NAP</h4>
             <ul className="space-y-6 text-nowrap">
               <li className="flex gap-4">
                 <div className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center shrink-0">
                   <MapPin className="w-5 h-5 text-indigo-500" />
                 </div>
                 <div>
-                  <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-1">HEADQUARTERS</p>
-                  <p className="text-sm font-bold text-slate-200 uppercase tracking-tight">Brooksville, FL 34601</p>
+                  <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-1 text-nowrap">HEADQUARTERS</p>
+                  <p className="text-sm font-bold text-slate-200 uppercase tracking-tight text-nowrap">Brooksville, FL 34601</p>
                 </div>
               </li>
               <li className="flex gap-4">
-                <div className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center shrink-0">
-                  <Phone className="w-5 h-5 text-indigo-500" />
+                <div className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center shrink-0 text-nowrap">
+                  <Phone className="w-5 h-5 text-indigo-500 text-nowrap" />
                 </div>
                 <div>
-                  <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-1">24/7 HOTLINE</p>
-                  <a href="tel:3238801224" className="text-sm font-bold text-slate-200 hover:text-indigo-500 transition-colors uppercase tracking-widest">(323) 880-1224</a>
+                  <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-1 text-nowrap">24/7 HOTLINE</p>
+                  <a href="tel:3238801224" className="text-sm font-bold text-slate-200 hover:text-indigo-500 transition-colors uppercase tracking-widest text-nowrap">(323) 880-1224</a>
                 </div>
               </li>
               <li className="flex gap-4">
-                <div className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center shrink-0">
-                  <Mail className="w-5 h-5 text-indigo-500" />
+                <div className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center shrink-0 text-nowrap">
+                  <Mail className="w-5 h-5 text-indigo-500 text-nowrap" />
                 </div>
                 <div>
                   <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-1 text-nowrap">SUPPORT</p>
-                  <a href="/lease-my-number" className="text-sm font-bold text-slate-200 hover:text-indigo-500 transition-colors uppercase tracking-widest underline decoration-indigo-900 underline-offset-4 font-black">LEASE MY NUMBER</a>
+                  <a href="/lease-my-number" className="text-sm font-bold text-slate-200 hover:text-indigo-500 transition-colors uppercase tracking-widest underline decoration-indigo-900 underline-offset-4 font-black text-nowrap uppercase">LEASE MY NUMBER</a>
                 </div>
               </li>
             </ul>
@@ -83,18 +83,18 @@ const Footer = () => {
           <div>
             <h4 className="text-[11px] font-black mb-8 uppercase tracking-[0.3em] text-indigo-500">Brooksville Promise</h4>
             <p className="text-slate-400 text-xs leading-relaxed mb-8 font-bold italic uppercase tracking-tighter">
-              Exclusively using protective <br /> removal components for <br /> long-term safety in <br /> all Brooksville projects.
+              Exclusively using protective <br /> barrier components for <br /> long-term safety in <br /> all Brooksville projects.
             </p>
             <div className="p-6 bg-white/5 rounded-3xl border border-white/10 shadow-inner">
               <p className="text-[10px] font-black text-indigo-500 uppercase tracking-[0.2em] mb-2">Service Promise</p>
-              <p className="text-xs font-bold text-slate-400 uppercase leading-snug tracking-tighter italic">Reliability Guarantee Across Hernando County.</p>
+              <p className="text-xs font-bold text-slate-400 uppercase leading-snug tracking-tighter italic">Tick-Free Guarantee Across Hernando County.</p>
             </div>
           </div>
         </div>
 
         <div className="pt-12 border-t border-white/5 flex flex-col items-center gap-8 uppercase tracking-[0.2em] text-[10px] font-black">
           <p className="text-slate-600 text-center">
-            © {new Date().getFullYear()} Brooksville Emergency Wasp Removal Pros. All technical rights reserved.
+            © {new Date().getFullYear()} Brooksville Tick Control Service Pros. All technical rights reserved.
           </p>
           <div className="max-w-4xl mx-auto">
             <p className="text-slate-700 text-[9px] leading-relaxed text-center normal-case font-medium">
