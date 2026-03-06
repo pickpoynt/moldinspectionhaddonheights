@@ -24,8 +24,8 @@ const Header = () => {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-500 ${isScrolled
-          ? "bg-white/95 backdrop-blur-md shadow-xl py-4"
-          : "bg-transparent py-8"
+        ? "bg-white/95 backdrop-blur-md shadow-xl py-4"
+        : "bg-transparent py-8"
         }`}
     >
       {/* Mobile Sticky Call Header - Priority Protocol */}
@@ -47,7 +47,7 @@ const Header = () => {
               <Bug className="w-6 h-6 text-white text-nowrap" />
             </div>
             <div className="flex flex-col text-nowrap">
-              <span className={`text-xl font-black uppercase tracking-tighter leading-none transition-colors text-nowrap ${isScrolled ? 'text-slate-900' : 'text-slate-900'}`}>
+              <span className={`text-xl font-black uppercase tracking-tighter leading-none transition-colors text-nowrap ${isScrolled ? 'text-slate-900' : 'text-white'}`}>
                 Brooksville Hornet
               </span>
               <span className="text-[10px] font-bold text-indigo-500 uppercase tracking-[0.3em] mt-1 text-nowrap">
@@ -62,7 +62,7 @@ const Header = () => {
                 <a
                   key={link.name}
                   href={link.href}
-                  className={`text-[11px] font-black uppercase tracking-[0.2em] transition-all hover:text-indigo-600 relative group text-nowrap ${isScrolled ? 'text-slate-600' : 'text-slate-600'}`}
+                  className={`text-[11px] font-black uppercase tracking-[0.2em] transition-all hover:text-indigo-600 relative group text-nowrap ${isScrolled ? 'text-slate-600' : 'text-white'}`}
                 >
                   {link.name}
                   <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-indigo-600 transition-all group-hover:w-full text-nowrap" />
@@ -72,8 +72,8 @@ const Header = () => {
 
             <div className="flex items-center gap-6 border-l border-slate-200 pl-8 text-nowrap">
               <div className="flex flex-col items-end text-nowrap">
-                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1 text-nowrap">Brooksville Dispatch</span>
-                <a href="tel:3238801224" className="text-xl font-black text-indigo-600 hover:scale-105 transition-transform text-nowrap">
+                <span className={`text-[10px] font-bold uppercase tracking-widest mb-1 text-nowrap ${isScrolled ? 'text-slate-400' : 'text-slate-200'}`}>Brooksville Dispatch</span>
+                <a href="tel:3238801224" className={`text-xl font-black hover:scale-105 transition-transform text-nowrap ${isScrolled ? 'text-indigo-600' : 'text-white'}`}>
                   (323) 880-1224
                 </a>
               </div>
