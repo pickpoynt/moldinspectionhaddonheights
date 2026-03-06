@@ -12,8 +12,8 @@ import { Zap, ShieldCheck, Bug, Home } from "lucide-react";
 import FloatingCallButton from "@/components/ui/FloatingCallButton";
 
 const Index = () => {
-  const primaryKeyword = "Tick Control Service Brooksville FL";
-  const firmName = "Brooksville Tick Control Pros";
+  const primaryKeyword = "Hornet Nest Removal Brooksville FL";
+  const firmName = "Brooksville Hornet Removal Pros";
   const phoneNumber = "(323) 880-1224";
   const businessCords = { lat: 28.5553, lng: -82.3879 };
 
@@ -21,14 +21,14 @@ const Index = () => {
     <div className="min-h-screen bg-slate-50">
       <Helmet>
         <title>{primaryKeyword} {phoneNumber} | {firmName}</title>
-        <meta name="description" content={`Professional ${primaryKeyword}. Call ${phoneNumber}. Expert yard treatment and tick elimination in Brooksville, FL. Protect your family and pets from tick-borne diseases.`} />
-        <meta name="keywords" content="tick control service brooksville fl, yard tick treatment, tick exterminator brooksville, flea and tick control hernando county" />
-        <link rel="canonical" href="https://tickcontrolservicebrooksvillefl.vercel.app/" />
+        <meta name="description" content={`Expert ${primaryKeyword}. Call ${phoneNumber} for immediate professional removal. Specialized hornet nest extraction and territory protection in Brooksville, FL.`} />
+        <meta name="keywords" content="hornet nest removal brooksville fl, hornet exterminator brooksville, bald-faced hornet removal, stinging insect control" />
+        <link rel="canonical" href="https://hornetnestremovalbrooksvillefl.vercel.app/" />
 
         {/* Open Graph */}
         <meta property="og:title" content={`${primaryKeyword} | ${firmName}`} />
-        <meta property="og:description" content="Brooksville's leading tick control specialists. Advanced yard treatments and barrier protection for your home and family." />
-        <meta property="og:url" content="https://tickcontrolservicebrooksvillefl.vercel.app/" />
+        <meta property="og:description" content="Brooksville's leading hornet removal specialists. Rapid response and terminal nest extraction for your safety." />
+        <meta property="og:url" content="https://hornetnestremovalbrooksvillefl.vercel.app/" />
         <meta property="og:image" content="/2.jpeg" />
 
         {/* LocalBusiness Schema */}
@@ -37,9 +37,9 @@ const Index = () => {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": firmName,
-            "image": "https://tickcontrolservicebrooksvillefl.vercel.app/2.jpeg",
-            "@id": "https://tickcontrolservicebrooksvillefl.vercel.app/",
-            "url": "https://tickcontrolservicebrooksvillefl.vercel.app/",
+            "image": "https://hornetnestremovalbrooksvillefl.vercel.app/2.jpeg",
+            "@id": "https://hornetnestremovalbrooksvillefl.vercel.app/",
+            "url": "https://hornetnestremovalbrooksvillefl.vercel.app/",
             "telephone": phoneNumber,
             "address": {
               "@type": "PostalAddress",
@@ -77,7 +77,7 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Tick Control Service",
+            "serviceType": "Hornet Nest Removal",
             "provider": {
               "@type": "LocalBusiness",
               "name": firmName
@@ -88,20 +88,20 @@ const Index = () => {
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Yard Treatment Services",
+              "name": "Hornet Removal Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Tick Barrier Protection"
+                    "name": "Aerial Nest Removal"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Flea and Tick Yard Spray"
+                    "name": "Structural Nest Extraction"
                   }
                 }
               ]
@@ -114,15 +114,15 @@ const Index = () => {
       <main>
         <Hero
           title={<><span className="text-indigo-600">{primaryKeyword}</span></>}
-          subtitle="Brooksville's premier tick control specialists. We provide eco-friendly yard treatments and advanced barrier protection to keep your property safe. Available 24/7 for immediate technical dispatch."
-          badge="BROOKSVILLE TICK PROS"
+          subtitle="Brooksville's leading hornet extraction units. We provide terminal nest removal and high-pressure neutralization for your domestic or commercial property. Available 24/7."
+          badge="BROOKSVILLE HORNET PROS"
           phone="3238801224"
           image="/2.jpeg"
           overlayImage="/4.jpeg"
           features={[
-            { icon: ShieldCheck, text: "Tick-Free Guarantee" },
-            { icon: Bug, text: "Advanced Yard Barricade" },
-            { icon: Home, text: "Family & Pet Safe" }
+            { icon: ShieldCheck, text: "Terminal Removal Guarantee" },
+            { icon: Bug, text: "Aerial Nest Specialists" },
+            { icon: Home, text: "Full Perimeter Defense" }
           ]}
         />
         <Services />
@@ -134,11 +134,11 @@ const Index = () => {
         <section className="bg-white py-12 border-t text-center">
           <div className="container mx-auto px-4 text-nowrap">
             <h2 className="text-2xl font-bold mb-6 text-slate-800 uppercase tracking-tight">Our Professional Resource Network</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 pb-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 pb-8 text-nowrap">
+              <a href="https://tickcontrolservicebrooksvillefl.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline uppercase tracking-tighter">Tick Control Service Brooksville</a>
               <a href="https://emergencywaspremovalbrooksvillefl.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline uppercase tracking-tighter">Emergency Wasp Removal Brooksville</a>
               <a href="https://notenttermitetreatmentbrooksvillefl.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline uppercase tracking-tighter">No Tent Termite Treatment Brooksville</a>
               <a href="https://plumberstoneoak.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline uppercase tracking-tighter">Plumber Stone Oak</a>
-              <a href="https://polybutylenepipereplacementboonton.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline uppercase tracking-tighter">Polybutylene Pipe Replacement Boonton</a>
             </div>
           </div>
         </section>

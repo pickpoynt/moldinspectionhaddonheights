@@ -5,14 +5,14 @@ import { Bug, Mail, Phone, ShieldCheck, Zap, Globe, BarChart3, Clock } from "luc
 import { Button } from "@/components/ui/button";
 
 const LeaseNumber = () => {
-    const primaryKeyword = "Tick Control Service Brooksville FL";
+    const primaryKeyword = "Hornet Nest Removal Brooksville FL";
     const phoneNumber = "(323) 880-1224";
 
     return (
         <div className="min-h-screen bg-slate-50">
             <Helmet>
                 <title>Lease this Number: {phoneNumber} | {primaryKeyword}</title>
-                <meta name="description" content={`Exclusive opportunity to lease the premium phone number ${phoneNumber} for your Brooksville tick control business. Maximize your local SEO and lead generation.`} />
+                <meta name="description" content={`Exclusive opportunity to lease the premium phone number ${phoneNumber} for your Brooksville hornet removal business. Maximize your local SEO and lead generation.`} />
             </Helmet>
 
             <Header />
@@ -26,7 +26,7 @@ const LeaseNumber = () => {
                         </div>
 
                         <h1 className="text-4xl md:text-6xl font-black text-slate-900 mb-8 uppercase tracking-tighter leading-none text-nowrap uppercase">
-                            Dominate the <span className="text-indigo-600 text-nowrap uppercase">Tick Control</span> <br /> Market in Brooksville
+                            Dominate the <span className="text-indigo-600 text-nowrap uppercase">Hornet Removal</span> <br /> Market in Brooksville
                         </h1>
 
                         <p className="text-slate-600 text-xl leading-relaxed mb-12 italic font-medium text-nowrap">
@@ -38,9 +38,9 @@ const LeaseNumber = () => {
                                 <div className="w-14 h-14 rounded-2xl bg-indigo-600 flex items-center justify-center mb-6 shadow-lg shadow-indigo-900/20 text-nowrap">
                                     <Bug className="w-8 h-8 text-white text-nowrap" />
                                 </div>
-                                <h3 className="text-xl font-bold text-slate-900 mb-4 uppercase tracking-tight text-nowrap uppercase">Infrastructure Assets</h3>
+                                <h3 className="text-xl font-bold text-slate-900 mb-4 uppercase tracking-tight text-nowrap uppercase">Service Infrastructure</h3>
                                 <p className="text-slate-600 text-sm leading-relaxed font-medium italic text-nowrap">
-                                    Immediately capture all inbound yard requests for "Tick Control Service Brooksville FL". This number is primed for local lead generation.
+                                    Immediately capture all inbound technical requests for "Hornet Nest Removal Brooksville FL". This number is primed for local lead generation.
                                 </p>
                             </div>
 
@@ -64,13 +64,13 @@ const LeaseNumber = () => {
 
                         <div className="bg-indigo-600 rounded-[3rem] p-12 text-white relative overflow-hidden shadow-2xl shadow-indigo-900/40 text-nowrap">
                             <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl -translate-y-32 translate-x-32 text-nowrap" />
-                            <div className="relative z-10 text-center max-w-2xl mx-auto text-nowrap text-nowrap">
+                            <div className="relative z-10 text-center max-w-2xl mx-auto text-nowrap">
                                 <h2 className="text-3xl font-black mb-6 uppercase tracking-tight text-nowrap uppercase">Secure This Technical Asset</h2>
                                 <p className="text-indigo-100 mb-10 font-bold italic text-nowrap">
                                     Send an inquiry to our administrative dispatch to initialize the lease protocol. Limited to one provider per Brooksville sector.
                                 </p>
                                 <Button className="bg-white text-indigo-600 hover:bg-slate-100 h-20 px-12 rounded-2xl font-black uppercase tracking-[0.2em] text-sm shadow-2xl transition-all active:scale-95 text-nowrap" asChild>
-                                    <a href={`mailto:leasemynumber@gmail.com?subject=LEASE INQUIRY: ${phoneNumber} - BROOKSVILLE TICK CONTROL SERVICE PROS`} className="text-nowrap">
+                                    <a href={`mailto:leasemynumber@gmail.com?subject=LEASE INQUIRY: ${phoneNumber} - BROOKSVILLE HORNET NEST REMOVAL PROS`} className="text-nowrap">
                                         <Mail className="w-6 h-6 mr-4 text-nowrap" />
                                         Initialize Lease Inquiry
                                     </a>

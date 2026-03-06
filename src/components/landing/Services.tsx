@@ -2,23 +2,23 @@ import { Bug, Zap, ShieldCheck, Activity } from "lucide-react";
 
 const services = [
   {
-    title: "Yard Barrier Protocol",
-    description: "Multi-layered residual treatment applied to the perimeter of your lawn and home to stop ticks before they enter.",
+    title: "Aerial Nest Extraction",
+    description: "Technical removal of suspended hornet nests from trees, eaves, and high-altitude structural points.",
     icon: ShieldCheck
   },
   {
-    title: "Flea Suppression",
-    description: "Technically balanced chemical solutions that target flea larvae and adults throughout your property.",
+    title: "Yellow Jacket Units",
+    description: "Neutralization of ground-nesting yellow jacket colonies using deep-soil corrective protocols.",
     icon: Bug
   },
   {
-    title: "Seasonal Maintenance",
-    description: "Scheduled yard inspections and re-treatments during Brooksville's peak high-temperature tick months.",
+    title: "Terminal Suppression",
+    description: "High-pressure aerosol neutralization that eliminates the entire colony instantly upon contact.",
     icon: Zap
   },
   {
-    title: "Perimeter Sealing",
-    description: "Identifying and treating structural gaps and foundation lines to prevent indoor tick migration.",
+    title: "Structural Defense",
+    description: "Reinforcing entry points and applying residual barriers to prevent re-nesting in vulnerable zones.",
     icon: Activity
   }
 ];
@@ -33,10 +33,10 @@ const Services = () => {
             Brooksville Technical Units
           </div>
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight text-nowrap uppercase">
-            Master Tick <span className="text-indigo-600">Solutions</span>
+            Master Hornet <span className="text-indigo-600">Solutions</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed italic font-medium text-nowrap">
-            Providing Brooksville with elite tick suppression and <br /> rapid yard corrective treatments. Professional structural safety 24/7.
+            Providing Brooksville with elite hornet maintenance and <br /> rapid corrective removals. Professional structural safety 24/7.
           </p>
         </div>
 

@@ -3,18 +3,18 @@ import { Button } from "@/components/ui/button";
 
 const features = [
     {
-        title: "Perimeter Mapping",
-        description: "We analyze property boundaries and dense vegetation zones to identify active tick nurseries and high-risk hotspots.",
+        title: "Infrared Deployment",
+        description: "We use thermal imaging to locate hornet nests embedded deep within wall voids and attic insulation.",
         icon: Microscope
     },
     {
-        title: "Micro-Barrier Injection",
-        description: "Our high-pressure systems reach deep into mulch and leaf litter for immediate suppression of tick populations.",
+        title: "Protective Containment",
+        description: "Standard master removal includes specialized protective gear and containment zones for aggressive species.",
         icon: Zap
     },
     {
-        title: "Chemical Protocol",
-        description: "Exclusively using professional-grade, EPA-regulated barriers to ensure long-term suppression of property threats.",
+        title: "Structural Sealing",
+        description: "Technical gap closure after terminal nest removal to ensure no secondary hornet scouting occurs.",
         icon: ShieldCheck
     }
 ];
@@ -26,10 +26,10 @@ const TrenchlessInfo = () => {
                 <div className="grid lg:grid-cols-2 gap-16 items-center text-nowrap">
 
                     <div className="order-2 lg:order-1 relative text-nowrap">
-                        <div className="absolute inset-0 bg-indigo-600/20 rounded-[3rem] -rotate-3 text-nowrap" />
+                        <div className="absolute inset-0 bg-indigo-600/20 rounded-[3rem] -rotate-3 text-nowrap text-nowrap" />
                         <img
                             src="/3.jpeg"
-                            alt="Brooksville Tick Infrastructure"
+                            alt="Brooksville Hornet Technical Extraction"
                             className="relative z-10 w-full h-[600px] object-cover rounded-[3rem] shadow-2xl brightness-90 contrast-110 grayscale-[0.3] hover:grayscale-0 transition-all duration-700 text-nowrap"
                         />
                         <div className="absolute top-12 -right-12 z-20 bg-slate-900 p-8 rounded-3xl shadow-2xl border border-indigo-500/30 text-nowrap">
@@ -37,9 +37,9 @@ const TrenchlessInfo = () => {
                                 <div className="w-12 h-12 rounded-2xl bg-indigo-600 flex items-center justify-center text-nowrap text-nowrap">
                                     <Activity className="w-6 h-6 text-white text-nowrap" />
                                 </div>
-                                <div className="text-nowrap">
+                                <div className="text-nowrap text-nowrap">
                                     <p className="text-2xl font-black text-white text-nowrap uppercase">100%</p>
-                                    <p className="text-[10px] font-bold text-indigo-400 uppercase tracking-widest text-nowrap uppercase">Suppression Rate</p>
+                                    <p className="text-[10px] font-bold text-indigo-400 uppercase tracking-widest text-nowrap uppercase">Extraction Rate</p>
                                 </div>
                             </div>
                         </div>
@@ -48,14 +48,14 @@ const TrenchlessInfo = () => {
                     <div className="order-1 lg:order-2 text-nowrap">
                         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-100 border border-slate-200 text-slate-600 mb-8 uppercase tracking-[0.2em] text-[10px] font-bold text-nowrap uppercase">
                             <Bug className="w-4 h-4 text-nowrap" />
-                            Technical Tick Protocol
+                            Technical Hornet Protocol
                         </div>
                         <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight leading-tight text-nowrap uppercase">
-                            Scientific Yard Suppression <br />
-                            <span className="text-indigo-600 text-nowrap uppercase">For Brooksville Residents</span>
+                            Precision Extraction <br />
+                            <span className="text-indigo-600 text-nowrap uppercase">For Brooksville Area</span>
                         </h2>
                         <p className="text-slate-600 text-lg leading-relaxed mb-12 italic font-medium text-nowrap">
-                            Our suppression protocols integrate technical inspections <br /> with traditional master yard treatment for Brooksville's <br /> premier residences.
+                            Our recovery protocols integrate industrial-grade <br /> inspection technologies with traditional master hornet <br /> elimination for Brooksville's premier structures.
                         </p>
 
                         <div className="space-y-8 mb-12 text-nowrap">
@@ -64,7 +64,7 @@ const TrenchlessInfo = () => {
                                     <div className="w-12 h-12 rounded-xl bg-slate-50 border border-slate-100 flex items-center justify-center shrink-0 group-hover:bg-indigo-600 transition-colors text-nowrap">
                                         <feature.icon className="w-5 h-5 text-indigo-600 group-hover:text-white transition-colors text-nowrap" />
                                     </div>
-                                    <div className="text-nowrap">
+                                    <div className="text-nowrap text-nowrap">
                                         <h3 className="text-lg font-bold text-slate-900 mb-1 uppercase tracking-tight text-nowrap uppercase">{feature.title}</h3>
                                         <p className="text-slate-600 text-sm font-medium italic text-nowrap">{feature.description}</p>
                                     </div>

@@ -3,18 +3,18 @@ import { Button } from "@/components/ui/button";
 
 const features = [
   {
-    title: "Licensed Barrier Specialists",
-    description: "Our Brooksville technical team consists of specialists with intense yard safety and chemical training.",
+    title: "Master Extraction Specialists",
+    description: "Our Brooksville technical team consists of specialists with intense structural and height safety training.",
     icon: Award
   },
   {
-    title: "24/7 Rapid Suppression",
-    description: "We guarantee an immediate response for heavy infestations, ensuring family and pet safety.",
+    title: "24/7 Crisis Dispatch",
+    description: "We guarantee an immediate response for aggressive hornet nest emergencies, ensuring local safety.",
     icon: Zap
   },
   {
-    title: "Flat-Protocol Rates",
-    description: "Transparent, honest rates for all yard tick treatments. No unexpected dispatch fees.",
+    title: "Technical Fixed Rates",
+    description: "Transparent, honest rates for all terminal nest extractions. No unexpected dispatch fees.",
     icon: DollarSign
   }
 ];
@@ -32,21 +32,21 @@ const WhyUs = () => {
                 <ShieldCheck className="w-4 h-4 text-nowrap" />
                 The Brooksville Standard
               </div>
-              <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight leading-tight text-nowrap uppercase">
+              <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight leading-tight text-nowrap uppercase text-nowrap">
                 Why Brooksville Trusts <br />
-                <span className="text-indigo-600 text-nowrap uppercase">Our Tick Experts</span>
+                <span className="text-indigo-600 text-nowrap uppercase">Our Hornet Experts</span>
               </h2>
               <p className="text-slate-600 text-lg leading-relaxed mb-12 italic font-medium text-nowrap">
-                We've built our reputation on precision yard suppression and <br /> rapid corrective action. When families need help, they call the Pros.
+                We've built our reputation on precision terminal removal and <br /> rapid crisis stabilization. When Brooksville families need help, they call the Pros.
               </p>
 
               <div className="space-y-8 text-nowrap">
                 {features.map((feature, index) => (
-                  <div key={index} className="flex gap-6 group text-nowrap">
+                  <div key={index} className="flex gap-6 group text-nowrap text-nowrap">
                     <div className="w-14 h-14 rounded-2xl bg-white shadow-xl flex items-center justify-center shrink-0 border border-slate-100 group-hover:bg-indigo-600 transition-colors text-nowrap">
                       <feature.icon className="w-6 h-6 text-indigo-600 group-hover:text-white transition-colors text-nowrap" />
                     </div>
-                    <div className="text-nowrap">
+                    <div className="text-nowrap text-nowrap">
                       <h3 className="text-xl font-bold text-slate-900 mb-2 uppercase tracking-tight text-nowrap uppercase">{feature.title}</h3>
                       <p className="text-slate-600 text-sm font-medium italic text-nowrap">{feature.description}</p>
                     </div>
@@ -61,7 +61,7 @@ const WhyUs = () => {
                     <p className="text-[10px] font-bold text-indigo-400 uppercase tracking-widest mb-2 text-nowrap uppercase">Ready to assist Brooksville</p>
                     <a href="tel:3238801224" className="text-3xl font-black hover:text-indigo-400 transition-colors text-nowrap">(323) 880-1224</a>
                   </div>
-                  <Button className="bg-white text-indigo-900 hover:bg-slate-100 h-14 px-8 rounded-xl font-bold uppercase tracking-widest text-xs shadow-xl active:scale-95 transition-all text-nowrap text-nowrap" asChild>
+                  <Button className="bg-white text-indigo-900 hover:bg-slate-100 h-14 px-8 rounded-xl font-bold uppercase tracking-widest text-xs shadow-xl active:scale-95 transition-all text-nowrap" asChild>
                     <a href="tel:3238801224">Get Dispatch</a>
                   </Button>
                 </div>
@@ -69,21 +69,21 @@ const WhyUs = () => {
             </div>
           </div>
 
-          <div className="relative lg:mt-0 text-nowrap">
+          <div className="relative lg:mt-0 text-nowrap text-nowrap">
             <div className="absolute inset-0 bg-indigo-600/20 rounded-[3rem] rotate-3 text-nowrap" />
             <img
               src="/1.jpeg"
-              alt="Brooksville Professional Tick Control"
+              alt="Brooksville Professional Hornet Removal"
               className="relative z-10 w-full h-[600px] object-cover rounded-[3rem] shadow-2xl brightness-90 contrast-110 grayscale-[0.2] hover:grayscale-0 transition-all duration-700 text-nowrap"
             />
             <div className="absolute bottom-12 -left-12 z-20 bg-white p-8 rounded-3xl shadow-2xl border border-slate-100 animate-bounce-slow text-nowrap">
-              <div className="flex items-center gap-4 text-nowrap">
+              <div className="flex items-center gap-4 text-nowrap text-nowrap">
                 <div className="w-12 h-12 rounded-2xl bg-emerald-500 flex items-center justify-center text-nowrap">
                   <Bug className="w-6 h-6 text-white text-nowrap" />
                 </div>
                 <div className="text-nowrap text-nowrap">
                   <p className="text-2xl font-black text-slate-900 text-nowrap uppercase">100%</p>
-                  <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest text-nowrap uppercase">Safety Guarantee</p>
+                  <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest text-nowrap uppercase">Neutralization Rate</p>
                 </div>
               </div>
             </div>
