@@ -5,14 +5,14 @@ import { Bug, Mail, Phone, ShieldCheck, Zap, Globe, BarChart3, Clock } from "luc
 import { Button } from "@/components/ui/button";
 
 const LeaseNumber = () => {
-    const primaryKeyword = "Wasp nest removal Kaysville";
+    const primaryKeyword = "Ant Exterminator Fairview";
     const phoneNumber = "(323) 880-1224";
 
     return (
         <div className="min-h-screen bg-slate-50">
             <Helmet>
                 <title>Lease this Number: {phoneNumber} | {primaryKeyword}</title>
-                <meta name="description" content={`Exclusive opportunity to lease the premium phone number ${phoneNumber} for your Kaysville wasp nest removal business. Maximize your local SEO and lead generation.`} />
+                <meta name="description" content={`Exclusive opportunity to lease the premium phone number ${phoneNumber} for your Fairview ant extermination business. Maximize your local SEO and lead generation.`} />
             </Helmet>
 
             <Header />
@@ -26,7 +26,7 @@ const LeaseNumber = () => {
                         </div>
 
                         <h1 className="text-4xl md:text-6xl font-black text-slate-900 mb-8 uppercase tracking-tighter leading-none">
-                            Dominate the <span className="text-indigo-600">Wasp removal</span> <br /> Market in Kaysville
+                            Dominate the <span className="text-indigo-600">Ant Extermination</span> <br /> Market in Fairview
                         </h1>
 
                         <p className="text-slate-600 text-xl leading-relaxed mb-12 italic font-medium">
@@ -40,7 +40,7 @@ const LeaseNumber = () => {
                                 </div>
                                 <h3 className="text-xl font-bold text-slate-900 mb-4 uppercase tracking-tight">Service Infrastructure</h3>
                                 <p className="text-slate-600 text-sm leading-relaxed font-medium italic">
-                                    Immediately capture all inbound technical requests for "Wasp nest removal Kaysville". This number is primed for local lead generation.
+                                    Immediately capture all inbound requests for ant extermination services in Fairview. This number is optimized for local lead generation and SEO dominance.
                                 </p>
                             </div>
 
@@ -67,10 +67,10 @@ const LeaseNumber = () => {
                             <div className="relative z-10 text-center max-w-2xl mx-auto">
                                 <h2 className="text-3xl font-black mb-6 uppercase tracking-tight">Secure This Technical Asset</h2>
                                 <p className="text-indigo-100 mb-10 font-bold italic">
-                                    Send an inquiry to our administrative dispatch to initialize the lease protocol. Limited to one provider per Kaysville sector.
+                                    Send an inquiry to our administrative dispatch to initialize the lease protocol. Limited to one provider per Fairview sector.
                                 </p>
                                 <Button className="bg-white text-indigo-600 hover:bg-slate-100 h-20 px-12 rounded-2xl font-black uppercase tracking-[0.2em] text-sm shadow-2xl transition-all active:scale-95" asChild>
-                                    <a href={`mailto:leasemynumber@gmail.com?subject=LEASE INQUIRY: ${phoneNumber} - KAYSVILLE WASP REMOVAL PROS`}>
+                                    <a href={`mailto:leasemynumber@gmail.com?subject=LEASE INQUIRY: ${phoneNumber} - FAIRVIEW ANT EXTERMINATOR`}>
                                         <Mail className="w-6 h-6 mr-4" />
                                         Initialize Lease Inquiry
                                     </a>

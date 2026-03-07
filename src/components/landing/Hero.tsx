@@ -12,16 +12,16 @@ interface HeroProps {
 }
 
 const Hero = ({
-  title = "Wasp Nest Removal Kaysville",
-  subtitle = "Kaysville's premier specialists in professional wasp and hornet extraction. We provide advanced neutralisation techniques that protect your property and restore your peace of mind in 84037, 84041, 84015, and 84025.",
+  title = "Ant Exterminator Fairview",
+  subtitle = "Professional ant extermination services for homes and businesses in Fairview. Expert technicians specializing in carpenter ants, pavement ants, and all ant species.",
   image = "/2.jpeg",
   overlayImage = "/4.jpeg",
   phone = "3238801224",
-  badge = "KAYSVILLE WASP REMOVAL PROS",
+  badge = "FAIRVIEW ANT EXTERMINATOR PROS",
   features = [
-    { icon: ShieldCheck, text: "Terminal Extraction" },
-    { icon: Bug, text: "Stinging Insect Control" },
-    { icon: Zap, text: "Rapid Dispatch" }
+    { icon: ShieldCheck, text: "Colony Elimination" },
+    { icon: Bug, text: "Species ID" },
+    { icon: Zap, text: "Fast Response" }
   ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");

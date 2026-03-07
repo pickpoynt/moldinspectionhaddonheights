@@ -2,23 +2,23 @@ import { Bug, Zap, ShieldCheck, Activity } from "lucide-react";
 
 const services = [
   {
-    title: "Hornet Extraction",
-    description: "Technical removal of complex hornet nests using industrial knockdown agents and physical extraction protocols.",
+    title: "Ant Colony Elimination",
+    description: "Complete destruction of ant colonies using advanced baiting systems that target the queen and entire colony structure.",
     icon: ShieldCheck
   },
   {
-    title: "Yellow Jacket Control",
-    description: "Neutralization of subterranean and structural yellow jacket colonies with total perimeter protection.",
+    title: "Carpenter Ant Control",
+    description: "Specialized treatment for wood-damaging carpenter ants with nest location and structural protection protocols.",
     icon: Bug
   },
   {
-    title: "Terminal Nest Service",
-    description: "High-pressure neutralization and decontamination of sites occupied by stinging insect colonies.",
+    title: "Perimeter Defense",
+    description: "Long-lasting barrier treatments around your property to prevent ants from entering your home or business.",
     icon: Zap
   },
   {
-    title: "Structural Defense",
-    description: "Specialized exclusion and deterrent application to prevent secondary scouting in your Kaysville home.",
+    title: "Preventive Inspections",
+    description: "Regular monitoring and exclusion services to keep your Fairview property ant-free year-round.",
     icon: Activity
   }
 ];
@@ -26,26 +26,22 @@ const services = [
 const Services = () => {
   return (
     <section id="services" className="py-24 bg-white relative">
-      <div className="container mx-auto px-4">
-        <div className="grid lg:grid-cols-2 gap-16 items-center mb-20">
-          <div>
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-600 text-white mb-6 uppercase tracking-[0.2em] text-[10px] font-bold">
-              <Bug className="w-4 h-4" />
-              Kaysville Technical Units
-            </div>
-            <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-              Master Rodent <span className="text-indigo-600">Solutions</span>
+      <div className="container mx-auto px-4 relative z-10">
+        <div className="flex flex-col lg:flex-row gap-16 items-center mb-20">
+          <div className="lg:w-1/2">
+            <h2 className="text-4xl md:text-6xl font-black text-slate-900 mb-8 uppercase tracking-tighter leading-none italic">
+              Professional <br /><span className="text-indigo-600">Ant Services</span>
             </h2>
-            <p className="text-slate-600 text-lg leading-relaxed italic font-medium">
-              Providing Kaysville with elite rodent maintenance and rapid corrective removals. Professional structural safety 24/7.
+            <p className="text-slate-600 text-lg leading-relaxed mb-10 italic font-medium border-l-4 border-indigo-600 pl-6">
+              Our Fairview ant extermination specialists use proven methods to eliminate all types of ants, from pavement ants to destructive carpenter ants. We locate nests, eliminate colonies, and provide lasting protection for your property.
             </p>
           </div>
-          <div className="relative">
-            <div className="absolute inset-0 bg-indigo-600/10 rounded-[2.5rem] rotate-3" />
+          <div className="lg:w-1/2 relative group">
+            <div className="absolute -inset-4 bg-indigo-600/10 rounded-[3rem] blur-2xl group-hover:bg-indigo-600/20 transition-all" />
             <img
               src="/1.jpeg"
-              alt="Kaysville Wasp Inspection"
-              className="relative z-10 w-full h-64 object-cover rounded-[2.5rem] shadow-xl"
+              alt="Fairview Ant Extermination Service"
+              className="relative rounded-[2.5rem] shadow-2xl transition-transform group-hover:scale-[1.02] duration-700"
             />
           </div>
         </div>

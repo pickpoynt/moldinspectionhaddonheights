@@ -15,10 +15,10 @@ const Header = () => {
   }, []);
 
   const navLinks = [
-    { name: "Wasp Extraction", href: "#services" },
-    { name: "Technical Advantage", href: "#why-us" },
-    { name: "Perimeter Protocol", href: "#info" },
-    { name: "Wasp FAQ", href: "#faq" },
+    { name: "Services", href: "#services" },
+    { name: "Why Choose Us", href: "#why-us" },
+    { name: "Ant Info", href: "#info" },
+    { name: "FAQ", href: "#faq" },
     { name: "LEASE MY NUMBER", href: "/lease-my-number" }
   ];
 
@@ -33,7 +33,7 @@ const Header = () => {
       <div className="md:hidden fixed top-0 left-0 right-0 bg-indigo-600 text-white py-2 px-4 z-[110] flex items-center justify-between border-b border-indigo-400/30">
         <div className="flex items-center gap-2">
           <Bug className="w-4 h-4 animate-pulse" />
-          <span className="text-[10px] font-black uppercase tracking-[0.1em]">Wasp Unit Active</span>
+          <span className="text-[10px] font-black uppercase tracking-[0.1em]">Ant Control Active</span>
         </div>
         <a href="tel:3238801224" className="flex items-center gap-2 text-[12px] font-black underline decoration-2 underline-offset-4">
           <Phone className="w-3.5 h-3.5" />
@@ -49,10 +49,10 @@ const Header = () => {
             </div>
             <div className="flex flex-col">
               <span className={`text-xl font-black uppercase tracking-tighter leading-none transition-colors ${isScrolled ? 'text-slate-900' : 'text-white'}`}>
-                Kaysville Wasp
+                Fairview Ant
               </span>
               <span className="text-[10px] font-bold text-indigo-500 uppercase tracking-[0.3em] mt-1">
-                Removal Service Pros
+                Exterminator Pros
               </span>
             </div>
           </div>
@@ -73,13 +73,13 @@ const Header = () => {
 
             <div className="flex items-center gap-6 border-l border-slate-200 pl-8">
               <div className="flex flex-col items-end">
-                <span className={`text-[10px] font-bold uppercase tracking-widest mb-1 ${isScrolled ? 'text-slate-400' : 'text-slate-200'}`}>Kaysville Dispatch</span>
+                <span className={`text-[10px] font-bold uppercase tracking-widest mb-1 ${isScrolled ? 'text-slate-400' : 'text-slate-200'}`}>Fairview Dispatch</span>
                 <a href="tel:3238801224" className={`text-xl font-black hover:scale-105 transition-transform ${isScrolled ? 'text-indigo-600' : 'text-white'}`}>
                   (323) 880-1224
                 </a>
               </div>
               <Button className="bg-slate-900 text-white hover:bg-indigo-600 h-14 px-8 rounded-xl font-bold uppercase tracking-widest text-xs shadow-xl active:scale-95 transition-all" asChild>
-                <a href="tel:3238801224">Service Protocol</a>
+                <a href="tel:3238801224">Call Now</a>
               </Button>
             </div>
           </div>
@@ -108,10 +108,10 @@ const Header = () => {
             ))}
           </div>
           <div className="p-8 bg-indigo-600 rounded-[2rem] text-white">
-            <p className="text-[10px] font-black uppercase tracking-[0.3em] mb-4 opacity-70">Kaysville Hotline</p>
+            <p className="text-[10px] font-black uppercase tracking-[0.3em] mb-4 opacity-70">Fairview Hotline</p>
             <a href="tel:3238801224" className="text-3xl font-black block mb-6">(323) 880-1224</a>
             <Button className="w-full bg-white text-indigo-600 h-14 rounded-2xl font-black uppercase tracking-widest shadow-xl" asChild>
-              <a href="tel:3238801224">Extreme Dispatch</a>
+              <a href="tel:3238801224">CALL NOW</a>
             </Button>
           </div>
         </div>
