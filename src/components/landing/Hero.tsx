@@ -12,16 +12,16 @@ interface HeroProps {
 }
 
 const Hero = ({
-  title = "Spider Pest Control Fairview",
-  subtitle = "Professional spider extermination services for homes and businesses in Fairview. Expert technicians specializing in brown recluse spiders, black widows, and all spider species.",
+  title = "Emergency Dead Rat Removal Ojai",
+  subtitle = "Professional dead rodent removal services for homes and businesses in Ojai. Expert technicians specializing in locating and removing deceased rats, mice, and other rodents.",
   image = "/2.jpeg",
   overlayImage = "/4.jpeg",
   phone = "3238801224",
-  badge = "FAIRVIEW SPIDER PEST CONTROL PROS",
+  badge = "OJAI EMERGENCY DEAD RAT REMOVAL PROS",
   features = [
-    { icon: ShieldCheck, text: "Spider Elimination" },
-    { icon: Bug, text: "Species ID" },
-    { icon: Zap, text: "Fast Response" }
+    { icon: ShieldCheck, text: "Rapid Response" },
+    { icon: Bug, text: "Safe Removal" },
+    { icon: Zap, text: "24/7 Service" }
   ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");

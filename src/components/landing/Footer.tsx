@@ -11,19 +11,19 @@ const Footer = () => {
                 <Bug className="w-7 h-7 text-white" />
               </div>
               <div className="flex flex-col">
-                <span className="text-xl font-black uppercase tracking-tighter leading-none uppercase">Fairview Spider</span>
-                <span className="text-[10px] font-bold text-indigo-500 uppercase tracking-[0.3em] uppercase">Pest Control Pros</span>
+                <span className="text-xl font-black uppercase tracking-tighter leading-none uppercase">Ojai Dead Rat</span>
+                <span className="text-[10px] font-bold text-indigo-500 uppercase tracking-[0.3em] uppercase">Removal Pros</span>
               </div>
             </a>
             <p className="text-slate-400 text-sm leading-relaxed mb-8 italic font-medium uppercase">
-              Fairview's trusted spider pest control specialists providing comprehensive elimination and property protection services.
+              Ojai's trusted emergency dead rodent removal specialists providing comprehensive sanitization and deodorization services.
             </p>
           </div>
 
           <div>
             <h4 className="text-[11px] font-black mb-8 uppercase tracking-[0.3em] text-indigo-500">Related Resources</h4>
             <ul className="space-y-4">
-              {["Earwig Exterminator Denver", "Centipede Repellent Hawaii", "Pest Control South Point Ohio", "Rodent Control Corvallis Oregon"].map((link) => (
+              {["Ant Exterminator Fairview", "Spiders Pest Control Fairview", "Pest Control South Point Ohio", "Rodent Control Corvallis Oregon"].map((link) => (
                 <li key={link}>
                   <a href={`https://${link.toLowerCase().replace(/\s+/g, '')}.vercel.app/`} className="text-slate-400 hover:text-white transition-colors flex items-center gap-3 group">
                     <div className="w-1.5 h-1.5 rounded-full bg-indigo-600 group-hover:w-4 transition-all" />
@@ -80,7 +80,7 @@ const Footer = () => {
         <div className="pt-12 border-t border-white/5">
           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
             <p className="text-[10px] font-bold text-slate-500 uppercase tracking-[0.2em] uppercase">
-              © {new Date().getFullYear()} Fairview Spider Pest Control Pros. All rights reserved.
+              © {new Date().getFullYear()} Ojai Emergency Dead Rat Removal Pros. All rights reserved.
             </p>
             <div className="flex gap-8">
               <a href="#" className="text-[10px] font-bold text-slate-500 hover:text-white transition-colors uppercase tracking-widest uppercase">Privacy Protocol</a>

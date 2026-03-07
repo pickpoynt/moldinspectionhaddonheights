@@ -17,7 +17,7 @@ const Header = () => {
   const navLinks = [
     { name: "Services", href: "#services" },
     { name: "Why Choose Us", href: "#why-us" },
-    { name: "Spider Info", href: "#info" },
+    { name: "Removal Info", href: "#info" },
     { name: "FAQ", href: "#faq" },
     { name: "LEASE MY NUMBER", href: "/lease-my-number" }
   ];
@@ -33,7 +33,7 @@ const Header = () => {
       <div className="md:hidden fixed top-0 left-0 right-0 bg-indigo-600 text-white py-2 px-4 z-[110] flex items-center justify-between border-b border-indigo-400/30">
         <div className="flex items-center gap-2">
           <Bug className="w-4 h-4 animate-pulse" />
-          <span className="text-[10px] font-black uppercase tracking-[0.1em]">Spider Control Active</span>
+          <span className="text-[10px] font-black uppercase tracking-[0.1em]">Emergency Response Active</span>
         </div>
         <a href="tel:3238801224" className="flex items-center gap-2 text-[12px] font-black underline decoration-2 underline-offset-4">
           <Phone className="w-3.5 h-3.5" />
@@ -49,10 +49,10 @@ const Header = () => {
             </div>
             <div className="flex flex-col">
               <span className={`text-xl font-black uppercase tracking-tighter leading-none transition-colors ${isScrolled ? 'text-slate-900' : 'text-white'}`}>
-                Fairview Spider
+                Ojai Dead Rat
               </span>
               <span className="text-[10px] font-bold text-indigo-500 uppercase tracking-[0.3em] mt-1">
-                Pest Control Pros
+                Removal Pros
               </span>
             </div>
           </div>
