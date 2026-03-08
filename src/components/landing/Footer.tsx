@@ -11,12 +11,12 @@ const Footer = () => {
                 <Bug className="w-7 h-7 text-white" />
               </div>
               <div className="flex flex-col">
-                <span className="text-xl font-black uppercase tracking-tighter leading-none uppercase">Swarthmore Slab Leak Repair</span>
+                <span className="text-xl font-black uppercase tracking-tighter leading-none uppercase">Swarthmore Burst Pipe Repair</span>
                 <span className="text-[10px] font-bold text-indigo-500 uppercase tracking-[0.3em] uppercase">Pros</span>
               </div>
             </a>
             <p className="text-slate-400 text-sm leading-relaxed mb-8 italic font-medium uppercase">
-              Swarthmore's trusted slab leak detection and repair specialists providing comprehensive foundation leak services.
+              Swarthmore's trusted burst pipe detection and repair specialists providing comprehensive water leak services.
             </p>
           </div>
 
@@ -24,18 +24,18 @@ const Footer = () => {
             <h4 className="text-[11px] font-black mb-8 uppercase tracking-[0.3em] text-indigo-500">Related Resources</h4>
             <ul className="space-y-4">
               {[
+                "Slab Leak Repair Swarthmore",
                 "Leaking Pipe Repair Modesto",
                 "Cast Iron Pipe Replacement Boonton",
-                "Slab Leak Detection Boonton",
-                "Polybutylene Pipe Replacement Boonton"
+                "Trenchless Sewer Repair Scottsdale"
               ].map((link) => (
                 <li key={link}>
                   <a
                     href={
+                      link.includes("Slab Leak") ? "https://slableakrepairswarthmore.vercel.app/" :
                       link.includes("Leaking Pipe") ? "https://leakingpiperepairinmodesto.vercel.app/" :
                       link.includes("Cast Iron") ? "https://castironpipereplacementboonton.vercel.app/" :
-                      link.includes("Slab Leak") ? "https://slableakdetectionspecialistboonton.vercel.app/" :
-                      "https://polybutylenepipereplacementboonton.vercel.app/"
+                      "https://trenchlesssewerrepairscottsdaleaz.vercel.app/"
                     }
                     className="text-slate-400 hover:text-white transition-colors flex items-center gap-3 group"
                   >
@@ -93,7 +93,7 @@ const Footer = () => {
         <div className="pt-12 border-t border-white/5">
           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
             <p className="text-[10px] font-bold text-slate-500 uppercase tracking-[0.2em] uppercase">
-              © {new Date().getFullYear()} Swarthmore Slab Leak Repair Pros. All rights reserved.
+              © {new Date().getFullYear()} Swarthmore Burst Pipe Repair Pros. All rights reserved.
             </p>
             <div className="flex gap-8">
               <a href="#" className="text-[10px] font-bold text-slate-500 hover:text-white transition-colors uppercase tracking-widest uppercase">Privacy Protocol</a>

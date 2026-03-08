@@ -17,7 +17,7 @@ const Header = () => {
   const navLinks = [
     { name: "Services", href: "#services" },
     { name: "Why Choose Us", href: "#why-us" },
-    { name: "Slab Leak Info", href: "#info" },
+    { name: "Burst Pipe Info", href: "#info" },
     { name: "FAQ", href: "#faq" },
     { name: "LEASE MY NUMBER", href: "/lease-my-number" }
   ];
@@ -49,7 +49,7 @@ const Header = () => {
             </div>
             <div className="flex flex-col">
               <span className={`text-xl font-black uppercase tracking-tighter leading-none transition-colors ${isScrolled ? 'text-slate-900' : 'text-white'}`}>
-                Swarthmore Slab Leak Repair
+                Swarthmore Burst Pipe Repair
               </span>
               <span className="text-[10px] font-bold text-indigo-500 uppercase tracking-[0.3em] mt-1">
                 Pros

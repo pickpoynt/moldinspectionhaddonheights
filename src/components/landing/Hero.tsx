@@ -12,12 +12,12 @@ interface HeroProps {
 }
 
 const Hero = ({
-  title = "Slab Leak Repair Swarthmore PA",
-  subtitle = "Professional slab leak detection and repair services for homes and businesses in Swarthmore. Expert technicians specializing in foundation leak repair, copper pipe replacement under concrete slabs, and complete water damage restoration.",
+  title = "Burst Pipe Repair Swarthmore PA",
+  subtitle = "Professional emergency burst pipe repair and water leak detection services for homes and businesses in Swarthmore. Expert plumbers specializing in burst pipe replacement, repiping, and complete water damage restoration.",
   image = "/2.jpeg",
   overlayImage = "/1.jpeg",
   phone = "8777921410",
-  badge = "SWARTHMORE SLAB LEAK REPAIR PROS",
+  badge = "SWARTHMORE BURST PIPE REPAIR PROS",
   features = [
     { icon: ShieldCheck, text: "Rapid Response" },
     { icon: Bug, text: "Safe Detection" },
