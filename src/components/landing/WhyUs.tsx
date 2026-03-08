@@ -26,10 +26,10 @@ const WhyUs = () => {
         <div className="flex flex-col lg:flex-row-reverse gap-16 items-center">
           <div className="lg:w-1/2">
             <h2 className="text-4xl md:text-6xl font-black text-slate-900 mb-8 uppercase tracking-tighter leading-none italic">
-              Why Swarthmore Trusts <br /><span className="text-indigo-600">Our Slab Leak Experts</span>
+              Why Eden Prairie Trusts <br /><span className="text-indigo-600">Our Slab Leak Experts</span>
             </h2>
             <p className="text-slate-600 text-lg leading-relaxed mb-12 italic font-medium border-l-4 border-indigo-600 pl-6">
-              When water leaks appear under your concrete foundation, you need experienced professionals who understand electronic detection and permanent repair methods. Our Swarthmore specialists provide comprehensive slab leak services.
+              When water leaks appear under your concrete foundation, you need experienced professionals who understand electronic detection and permanent repair methods. Our Eden Prairie specialists provide comprehensive slab leak services tailored to local homes.
             </p>
 
             <div className="grid gap-6">
@@ -59,7 +59,7 @@ const WhyUs = () => {
             <div className="absolute inset-0 bg-indigo-600/10 rounded-[3rem] -rotate-3 blur-2xl group-hover:rotate-0 transition-transform duration-700" />
             <img
               src="/3.jpeg"
-              alt="Swarthmore Professional Slab Leak Repair Service"
+              alt="Eden Prairie professional slab leak repair service"
               className="relative rounded-[3.5rem] shadow-2xl transition-transform group-hover:scale-[1.02] duration-700"
             />
           </div>

@@ -10,7 +10,7 @@ const Contact = () => {
       <div className="absolute inset-0 z-0">
         <img
           src="/3.jpeg"
-          alt="Swarthmore Emergency Service Area"
+          alt="Eden Prairie slab leak emergency service area"
           className="w-full h-full object-cover opacity-30 brightness-[0.5] grayscale-[0.5]"
         />
         <div className="absolute inset-0 bg-gradient-to-br from-slate-900/95 via-slate-900/80 to-indigo-900/20" />
@@ -29,7 +29,7 @@ const Contact = () => {
                 Emergency <br /><span className="text-indigo-400">Response</span>
               </h2>
               <p className="text-slate-400 text-xl leading-relaxed mb-12 italic font-medium border-l-4 border-indigo-600 pl-6 uppercase">
-                Professional slab leak detection and repair services for homes and businesses in Swarthmore and surrounding areas. Expert technicians ready to handle foundation leaks immediately. Serving all 19081, 19018, 19064, 19078, 19023, 19050 and Delaware County areas.
+                Professional slab leak detection and repair services for homes and businesses in Eden Prairie and surrounding west metro areas. Expert technicians ready to handle foundation leaks quickly and protect your concrete slab and flooring.
               </p>
 
               <div className="grid gap-10">
@@ -48,7 +48,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-[10px] font-black text-slate-500 uppercase tracking-widest mb-2 text-nowrap uppercase">Service Area</p>
-                    <p className="text-2xl font-black text-white text-nowrap uppercase uppercase">Swarthmore, PA 19081</p>
+                    <p className="text-2xl font-black text-white text-nowrap uppercase uppercase">Eden Prairie, MN 55344</p>
                   </div>
                 </div>
               </div>
@@ -70,7 +70,7 @@ const Contact = () => {
                     />
                   </div>
                   <Input
-                    placeholder="SERVICE ADDRESS (SWARTHMORE AREA)"
+                    placeholder="SERVICE ADDRESS (EDEN PRAIRIE AREA)"
                     className="h-16 px-6 rounded-2xl bg-slate-50 border-slate-100 text-[11px] font-bold uppercase tracking-widest focus:ring-2 focus:ring-indigo-600 transition-all text-nowrap"
                   />
                   <Textarea

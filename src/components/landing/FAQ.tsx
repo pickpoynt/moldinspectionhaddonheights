@@ -106,7 +106,7 @@ const FAQ = () => {
               Slab Leak Repair <span className="text-indigo-400">FAQ</span>
             </h2>
             <p className="text-slate-400 text-lg leading-relaxed italic font-medium max-w-2xl mx-auto">
-              Get expert answers to your most important questions about slab leak detection, repair methods, costs, and foundation protection for Swarthmore homes.
+              Get expert answers to your most important questions about slab leak detection, repair methods, costs, and foundation protection for Eden Prairie homes.
             </p>
           </div>
 

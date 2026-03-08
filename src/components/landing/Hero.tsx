@@ -12,10 +12,10 @@ interface HeroProps {
 }
 
 const Hero = ({
-  title = "Burst Pipe Repair Swarthmore PA",
-  subtitle = "Professional emergency burst pipe repair and water leak detection services for homes and businesses in Swarthmore. Expert plumbers specializing in burst pipe replacement, repiping, and complete water damage restoration.",
+  title = "Slab Leak Detection Eden Prairie MN",
+  subtitle = "Specialized slab leak detection and water leak location for homes and businesses in Eden Prairie. We use advanced electronic equipment to pinpoint hidden leaks under concrete slabs and foundations with minimal disruption.",
   image = "/2.jpeg",
-  overlayImage = "/1.jpeg",
+  overlayImage = "/4.jpeg",
   phone = "8777921410",
   badge = "SWARTHMORE BURST PIPE REPAIR PROS",
   features = [

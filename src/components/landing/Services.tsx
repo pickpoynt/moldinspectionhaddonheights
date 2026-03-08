@@ -2,23 +2,23 @@ import { Bug, Zap, ShieldCheck, Activity } from "lucide-react";
 
 const services = [
   {
-    title: "Emergency Burst Pipe Repair",
-    description: "24/7 rapid response for burst pipe emergencies. Professional water extraction and damage mitigation services.",
+    title: "Slab Leak Detection",
+    description: "Electronic slab leak detection under concrete slabs and foundations using advanced acoustic and thermal equipment.",
     icon: ShieldCheck
   },
   {
     title: "Water Leak Detection",
-    description: "Advanced electronic detection technology to locate hidden water leaks quickly and accurately.",
+    description: "Comprehensive whole-home leak detection to find hidden water line leaks behind walls, ceilings, and in underground lines.",
     icon: Zap
   },
   {
-    title: "Pipe Replacement & Repiping",
-    description: "Complete pipe replacement services using modern materials like PEX, copper, or CPVC for long-lasting results.",
+    title: "Pipe Rerouting & Repiping",
+    description: "Permanent solutions for failing slab lines, including pipe reroutes and repiping with modern, durable materials.",
     icon: Bug
   },
   {
     title: "Water Damage Restoration",
-    description: "Comprehensive water damage cleanup, drying, and mold prevention to restore your home safely.",
+    description: "Coordinated water damage cleanup, structural drying, and moisture control to help protect finishes and foundations.",
     icon: Activity
   }
 ];
@@ -30,17 +30,17 @@ const Services = () => {
         <div className="flex flex-col lg:flex-row gap-16 items-center mb-20">
           <div className="lg:w-1/2">
             <h2 className="text-4xl md:text-6xl font-black text-slate-900 mb-8 uppercase tracking-tighter leading-none italic">
-              Professional <br /><span className="text-indigo-600">Burst Pipe Services</span>
+              Professional <br /><span className="text-indigo-600">Slab Leak Services</span>
             </h2>
             <p className="text-slate-600 text-lg leading-relaxed mb-10 italic font-medium border-l-4 border-indigo-600 pl-6">
-              Our Swarthmore burst pipe detection specialists use proven methods to locate and repair water leaks quickly. We provide complete pipe replacement and water damage restoration services for your home.
+              Our Eden Prairie slab leak specialists use proven, minimally invasive methods to locate leaks accurately and recommend the right repair—whether that is a precise spot repair, pipe rerouting, or full repiping.
             </p>
           </div>
           <div className="lg:w-1/2 relative group">
             <div className="absolute -inset-4 bg-indigo-600/10 rounded-[3rem] blur-2xl group-hover:bg-indigo-600/20 transition-all" />
             <img
               src="/3.jpeg"
-              alt="Swarthmore Burst Pipe Repair Service"
+              alt="Eden Prairie slab leak detection and repair service"
               className="relative rounded-[2.5rem] shadow-2xl transition-transform group-hover:scale-[1.02] duration-700"
             />
           </div>
