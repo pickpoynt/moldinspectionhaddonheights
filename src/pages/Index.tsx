@@ -121,7 +121,7 @@ const Index = () => {
       <Header />
       <Hero
         title={<span>Sewage Backup Cleanup <br /><span className="text-amber-400">Fairview</span></span>}
-        subtitle={`Professional sewage backup cleanup services for homes and businesses in Fairview. Expert technicians specializing in emergency water extraction, complete sanitization, and permanent odor elimination from basements, crawl spaces, and entire properties. Serving 15116, 15201, 15202, 15203, 15204, 15205, 15206, 15207, 15208, 15209, 15210, 15211, 15212, 15213, 15214, 15215, 15216, 15217, 15218, 15219, 15220, 15221, 15222, 15223, 15224, 15225, 15226, 15227, 15228, 15229, 15232, 15233, 15234, 15235, 15236, 15237, 15238, 15239, 15241, 15243, 15260 and all Allegheny County areas. Call ${phoneNumber} for immediate emergency sewage backup cleanup.`}
+        subtitle={`Professional sewage backup cleanup services for homes and businesses in Fairview. Expert technicians specializing in emergency water extraction, complete sanitization, and permanent odor elimination from basements, crawl spaces, and entire properties. Serving all Allegheny County areas. Call ${phoneNumber} for immediate emergency sewage backup cleanup.`}
         badge="FAIRVIEW SEWAGE BACKUP CLEANUP PROS"
         phone={rawPhone}
       />
