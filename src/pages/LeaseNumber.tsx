@@ -5,7 +5,7 @@ import { Bug, Mail, Phone, ShieldCheck, Zap, Globe, BarChart3, Clock } from "luc
 import { Button } from "@/components/ui/button";
 
 const LeaseNumber = () => {
-    const primaryKeyword = "Drain Cleaning Evansville Indiana";
+    const primaryKeyword = "Slab Leak Repair Swarthmore";
     const phoneNumber = "(877) 792-1410";
 
     return (
@@ -26,7 +26,7 @@ const LeaseNumber = () => {
                         </div>
 
                         <h1 className="text-4xl md:text-6xl font-black text-slate-900 mb-8 uppercase tracking-tighter leading-none">
-                            Dominate the <span className="text-indigo-600">Drain Cleaning</span> <br /> Market in Evansville
+                            Dominate the <span className="text-indigo-600">Slab Leak Repair</span> <br /> Market in Swarthmore
                         </h1>
 
                         <p className="text-slate-600 text-xl leading-relaxed mb-12 italic font-medium">
@@ -40,7 +40,7 @@ const LeaseNumber = () => {
                                 </div>
                                 <h3 className="text-xl font-bold text-slate-900 mb-4 uppercase tracking-tight">Service Infrastructure</h3>
                                 <p className="text-slate-600 text-sm leading-relaxed font-medium italic">
-                                    Immediately capture all inbound requests for drain cleaning services in Evansville. This number is optimized for local lead generation and SEO dominance.
+                                    Immediately capture all inbound requests for slab leak repair services in Swarthmore. This number is optimized for local lead generation and SEO dominance.
                                 </p>
                             </div>
 
@@ -70,7 +70,7 @@ const LeaseNumber = () => {
                                     Send an inquiry to our administrative dispatch to initialize the lease protocol. Limited to one provider per Evansville sector.
                                 </p>
                                 <Button className="bg-white text-indigo-600 hover:bg-slate-100 h-20 px-12 rounded-2xl font-black uppercase tracking-[0.2em] text-sm shadow-2xl transition-all active:scale-95" asChild>
-                                    <a href={`mailto:leasemynumber@gmail.com?subject=LEASE INQUIRY: ${phoneNumber} - EVANSVILLE DRAIN CLEANING`}>
+                                    <a href={`mailto:leasemynumber@gmail.com?subject=LEASE INQUIRY: ${phoneNumber} - SWARTHMORE SLAB LEAK REPAIR`}>
                                         <Mail className="w-6 h-6 mr-4" />
                                         Initialize Lease Inquiry
                                     </a>

@@ -9,84 +9,84 @@ import { Button } from "@/components/ui/button";
 
 const faqData = [
   {
-    question: "How much does sewage backup cleanup cost?",
-    answer: "Professional sewage backup cleanup typically costs between $500-$5,000 depending on severity, affected area size, and extent of contamination. Minor backups may cost less, while extensive damage requiring structural repairs can exceed $10,000."
+    question: "How much does slab leak detection cost?",
+    answer: "Professional slab leak detection typically costs between $300-$800 depending on home size, number of slabs, and leak complexity. Many companies apply this fee toward repair costs."
   },
   {
-    question: "Is it safe to live in a house after sewage backup?",
-    answer: "No, it's not safe until professional cleanup is complete. Sewage contains harmful bacteria, viruses, and parasites that pose serious health risks. Evacuate affected areas immediately and call professionals."
+    question: "Is it safe to live in a house with a slab leak?",
+    answer: "While generally safe short-term, prolonged exposure can lead to mold growth and foundation damage. It's best to address slab leaks promptly to prevent health hazards and structural issues."
   },
   {
-    question: "What to do when your sewage backs up?",
-    answer: "1) Stop using all plumbing immediately, 2) Call emergency plumber or sewage cleanup professionals, 3) Avoid contact with contaminated water, 4) Turn off electricity if safe to do so, 5) Evacuate affected areas."
+    question: "What to do when you suspect a slab leak?",
+    answer: "1) Check your water meter for unusual usage, 2) Look for warm spots or wet areas on floors, 3) Listen for running water sounds, 4) Call a professional leak detection specialist immediately."
   },
   {
-    question: "Does homeowners insurance cover sewage cleanup?",
-    answer: "Many policies cover sudden and accidental backups but exclude preventable ones or those from lack of maintenance. Check if you have sewer backup endorsement coverage. Review your policy details carefully."
+    question: "Does homeowners insurance cover slab leak repair?",
+    answer: "Many policies cover sudden accidental leaks but exclude gradual damage from corrosion or wear. Check if you have plumbing coverage endorsement. Review your policy details carefully."
   },
   {
-    question: "Can you clear a main sewer line clog yourself?",
-    answer: "Minor clogs may respond to plunging or drain snakes, but severe blockages require professional hydro jetting equipment. Tree roots and major obstructions typically need professional intervention."
+    question: "Can slab leaks be repaired without breaking concrete?",
+    answer: "Yes—options include pipe rerouting through walls/attic, epoxy pipe lining, or spot repairs using minimal access points. The best method depends on leak location and severity."
   },
   {
-    question: "How long does sewage cleanup take?",
-    answer: "Basic cleanup takes 1-3 days, but extensive damage with structural repairs can take 1-2 weeks or longer. Factors include severity, affected materials, and drying time requirements."
+    question: "How long does slab leak repair take?",
+    answer: "Most repairs take 1-3 days from detection through completion. Complex cases requiring extensive flooring restoration or multiple leaks may take longer to complete properly."
   },
   {
-    question: "Is sewage backup a health hazard?",
-    answer: "Yes—sewage contains E. coli, hepatitis A, norovirus, and other dangerous pathogens. It can cause serious illnesses including gastroenteritis, skin infections, and respiratory problems."
+    question: "Is slab leak repair worth it?",
+    answer: "Absolutely—ignoring slab leaks leads to exponentially higher costs from foundation damage, mold remediation, and increased water bills. Early repair protects your home's value."
   },
   {
-    question: "Can carpet be cleaned after a sewer backup?",
-    answer: "Carpet should typically be discarded after sewage exposure as it cannot be adequately sanitized. Porous materials absorb contaminants and pose ongoing health risks even after cleaning."
+    question: "What causes copper pipes to leak under slabs?",
+    answer: "Soil chemicals, high water pressure, poor installation, and natural corrosion over time can all cause pinhole leaks in copper pipes beneath concrete foundations."
   },
   {
-    question: "How much does Roto Rooter charge to clean a main sewer line?",
-    answer: "Roto Rooter typically charges $250-$800 for main sewer line cleaning depending on location, severity of blockage, and method used. Hydro jetting costs more than basic snaking."
+    question: "How accurate is electronic leak detection?",
+    answer: "Professional electronic detection is highly accurate, typically locating leaks within inches. Advanced equipment includes acoustic amplifiers and thermal imaging cameras."
   },
   {
-    question: "Is sewer jetting worth it?",
-    answer: "Yes—hydro jetting thoroughly cleans pipe walls and removes roots, grease, and debris more effectively than snaking. It provides longer-lasting results and can prevent future blockages."
+    question: "Will slab leak affect my home's value?",
+    answer: "Documented repairs with warranties help maintain property values. However, untreated slab leaks significantly reduce home value due to foundation damage concerns."
   },
   {
-    question: "What is the best disinfectant for sewer backup?",
-    answer: "EPA-registered disinfectants like bleach solutions (1 cup bleach per gallon of water) or specialized enzymatic cleaners designed for biohazard cleanup are most effective against sewage pathogens."
+    question: "What is the best method to fix a slab leak?",
+    answer: "The best method depends on your situation: pipe rerouting avoids floor removal, epoxy lining seals from inside, while traditional spot repair provides permanent fixes."
   },
   {
-    question: "Will homeowners insurance cover sewage backup?",
-    answer: "Coverage varies by policy. Many require separate sewer backup endorsement. Standard policies often exclude backups from external sources or those caused by neglect or lack of maintenance."
+    question: "How often do slab leaks occur?",
+    answer: "Slab leaks affect thousands of homes annually, particularly those built on concrete foundations with copper piping over 20 years old in regions with expansive soils."
   },
   {
-    question: "Is it safe to stay in a house with sewage backup in basement?",
-    answer: "No—evacuate affected areas immediately. Airborne pathogens, toxic gases like methane, and direct contact with contaminated water pose serious health risks to occupants."
+    question: "Can I detect a slab leak myself?",
+    answer: "You can monitor water bills for increases, check for warm/wet floor spots, and listen for running water. However, professional detection equipment is needed for precise location."
   },
   {
-    question: "What is the average cost to unclog a sewer line?",
-    answer: "Average costs range from $200-$800 for basic clearing, or $1,000-$4,000+ for extensive repairs or pipe replacement. Costs vary based on blockage type, location, and repair method needed."
+    question: "What are signs of foundation damage from slab leaks?",
+    answer: "Cracks in walls/floors, doors that won't close properly, uneven floors, and visible foundation cracks indicate potential structural damage from water erosion."
   },
   {
-    question: "Is sewage backup a biohazard?",
-    answer: "Yes—it's classified as Category 3 water damage (black water), meaning it contains harmful pathogens requiring professional biohazard cleanup following EPA and OSHA safety protocols."
+    question: "Does a slab leak require immediate repair?",
+    answer: "Yes—immediate action prevents escalating foundation damage, mold growth, and exponentially higher repair costs. Contact a specialist as soon as you suspect a leak."
   },
   {
-    question: "What's the best way to completely clean out a sewer line?",
-    answer: "Professional hydro jetting uses high-pressure water (3,000-8,000 PSI) to thoroughly scour pipe interiors, removing all buildup, roots, and debris for comprehensive cleaning."
+    question: "How long do slab leak repairs last?",
+    answer: "Properly executed repairs can last 20-50 years. Copper repiping typically lasts longer than epoxy lining, though both provide decades of reliable service when installed correctly."
   },
   {
-    question: "How often should sewer drains be cleaned?",
-    answer: "Professional cleaning every 18-22 months prevents buildup and identifies potential issues early. Homes with large trees nearby may need more frequent maintenance."
+    question: "Can slab leaks cause mold growth?",
+    answer: "Yes—moisture from slab leaks creates ideal conditions for mold growth beneath flooring and in wall cavities, potentially causing health issues and requiring remediation."
   },
   {
-    question: "How much does Servpro biohazard cleanup cost per hour?",
-    answer: "Servpro biohazard cleanup averages $75-$150 per hour, with total projects ranging $500-$5,000+ depending on contamination extent and affected area size."
+    question: "What questions should I ask a slab leak repair contractor?",
+    answer: "Ask about detection methods used, repair options available, warranties provided, licensing/insurance, estimated timeline, and total costs including any necessary restoration work."
   },
   {
-    question: "Can carpet be saved after sewage backup?",
-    answer: "Generally no—porous materials like carpet, padding, and upholstery absorb contaminants and should be removed and disposed of safely following biohazard protocols."
+    question: "Is epoxy pipe lining better than repiping for slab leaks?",
+    answer: "Epoxy lining is less invasive and costly than repiping but may not suit all situations. Severely corroded pipes often require complete replacement for long-term solutions."
   },
   {
-    question: "How long does sewage contamination last in the house?",
-    answer: "Without treatment, contamination persists indefinitely. Pathogens can survive days to weeks on surfaces. Professional cleanup eliminates harmful bacteria within days when done properly."
+    question: "Can foundation settlement cause slab leaks?",
+    answer: "Yes—foundation movement stresses pipes beneath slabs, causing joints to separate or pipes to crack. Proper soil compaction during construction helps prevent this issue."
   }
 ];
 
@@ -100,13 +100,13 @@ const FAQ = () => {
           <div className="text-center mb-20 px-4">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-600 text-white mb-6 uppercase tracking-[0.2em] text-[10px] font-bold shadow-2xl">
               <HelpCircle className="w-4 h-4" />
-              Sewage Cleanup Information
+              Slab Leak Information
             </div>
             <h2 className="text-4xl md:text-6xl font-black text-white mb-8 uppercase tracking-tighter leading-none italic">
-              Sewage Backup <span className="text-indigo-400">Cleanup FAQ</span>
+              Slab Leak Repair <span className="text-indigo-400">FAQ</span>
             </h2>
             <p className="text-slate-400 text-lg leading-relaxed italic font-medium max-w-2xl mx-auto">
-              Get expert answers to your most important questions about sewer backup cleanup, safety protocols, costs, and restoration for Klamath Falls homes.
+              Get expert answers to your most important questions about slab leak detection, repair methods, costs, and foundation protection for Swarthmore homes.
             </p>
           </div>
 
@@ -141,9 +141,9 @@ const FAQ = () => {
           <div className="mt-20 p-12 bg-indigo-600 rounded-[3rem] text-center text-white relative overflow-hidden shadow-2xl shadow-indigo-900/40">
             <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl -translate-y-32 translate-x-32" />
             <div className="relative z-10">
-              <h3 className="text-3xl font-black mb-6 uppercase tracking-tight italic">Need Professional Sewage Cleanup?</h3>
+              <h3 className="text-3xl font-black mb-6 uppercase tracking-tight italic">Need Professional Slab Leak Detection?</h3>
               <p className="text-indigo-100 mb-10 font-bold italic max-w-xl mx-auto opacity-80">
-                Don't let sewer contamination threaten your health. Our expert technicians provide fast, emergency sewer backup cleanup services. Call now for immediate assistance.
+                Don't let a slab leak damage your foundation. Our expert technicians provide fast, emergency slab leak detection and repair services. Call now for immediate assistance.
               </p>
               <Button size="lg" className="bg-white text-indigo-600 hover:bg-slate-100 h-20 px-12 rounded-2xl font-black uppercase tracking-[0.2em] text-sm shadow-2xl transition-all active:scale-95" asChild>
                 <a href="tel:8777921410">

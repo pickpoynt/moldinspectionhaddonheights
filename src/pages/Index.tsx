@@ -10,34 +10,34 @@ import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import { ShieldCheck, Bug, Home, Zap } from "lucide-react";
 
 const Index = () => {
-  const primaryKeyword = "Drain Cleaning Evansville Indiana";
-  const firmName = "Evansville Drain Cleaning Pros";
+  const primaryKeyword = "Slab Leak Repair Swarthmore";
+  const firmName = "Swarthmore Slab Leak Repair Pros";
   const phoneNumber = "(877) 792-1410";
   const rawPhone = "8777921410";
-  const zipCodes = "47708, 47710, 47711, 47712, 47713, 47714, 47715, 47716, 47719, 47720, 47721, 47722, 47724, 47725, 47727, 47728, 47730, 47731, 47732, 47733, 47734, 47735, 47736, 47737, 47739, 47740, 47741, 47744, 47747, 47750";
-  const businessCords = { lat: 37.9716, lng: -87.5711 };
+  const zipCodes = "19081, 19018, 19064, 19078, 19023, 19050, 19074, 19096, 19041, 19033, 19063, 19082, 19094, 19026, 19052, 19073, 19083, 19013, 19036, 19070";
+  const businessCords = { lat: 39.9026, lng: -75.3499 };
 
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>Drain Cleaning Evansville Indiana | {firmName} | Call {phoneNumber}</title>
-        <meta name="description" content={`Professional ${primaryKeyword}. Expert drain cleaning technicians providing rapid clog removal, sewer line cleaning, and hydro jetting in Evansville and surrounding areas including zip codes ${zipCodes}. Call ${phoneNumber} now for emergency drain services.`} />
+        <title>{primaryKeyword} | {firmName} | Call {phoneNumber}</title>
+        <meta name="description" content={`Expert ${primaryKeyword}. Professional slab leak detection and repair services in Swarthmore PA. Emergency foundation leak repair, copper pipe replacement under concrete slab. Serving Delaware County areas including ${zipCodes}. Call ${phoneNumber} for immediate slab leak repair.`} />
         <script type="application/ld+json">
           {`
             {
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
               "name": "${firmName}",
-              "image": "https://draincleaningevansvilleindiana.vercel.app/2.jpeg",
-              "@id": "https://draincleaningevansvilleindiana.vercel.app/",
-              "url": "https://draincleaningevansvilleindiana.vercel.app/",
+              "image": "https://slableakrepairswarthmore.vercel.app/2.jpeg",
+              "@id": "https://slableakrepairswarthmore.vercel.app/",
+              "url": "https://slableakrepairswarthmore.vercel.app/",
               "telephone": "${rawPhone}",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "Main Street Service Center",
-                "addressLocality": "Evansville",
-                "addressRegion": "IN",
-                "postalCode": "47708",
+                "addressLocality": "Swarthmore",
+                "addressRegion": "PA",
+                "postalCode": "19081",
                 "addressCountry": "US"
               },
               "geo": {
@@ -60,7 +60,7 @@ const Index = () => {
                 "closes": "23:59"
               },
               "sameAs": [
-                "https://draincleaningevansvilleindiana.vercel.app/"
+                "https://slableakrepairswarthmore.vercel.app/"
               ]
             }
           `}
@@ -70,45 +70,45 @@ const Index = () => {
             {
               "@context": "https://schema.org",
               "@type": "Service",
-              "serviceType": "Drain Cleaning Services",
+              "serviceType": "Slab Leak Repair Services",
               "provider": {
                 "@type": "LocalBusiness",
                 "name": "${firmName}"
               },
               "areaServed": {
                 "@type": "Place",
-                "name": "Evansville"
+                "name": "Swarthmore"
               },
               "hasOfferCatalog": {
                 "@type": "OfferCatalog",
-                "name": "Emergency Drain Cleaning Services",
+                "name": "Emergency Slab Leak Detection & Repair Services",
                 "itemListElement": [
                   {
                     "@type": "Offer",
                     "itemOffered": {
                       "@type": "Service",
-                      "name": "Emergency Drain Snaking"
+                      "name": "Slab Leak Detection"
                     }
                   },
                   {
                     "@type": "Offer",
                     "itemOffered": {
                       "@type": "Service",
-                      "name": "Hydro Jetting Services"
+                      "name": "Copper Pipe Replacement Under Slab"
                     }
                   },
                   {
                     "@type": "Offer",
                     "itemOffered": {
                       "@type": "Service",
-                      "name": "Sewer Line Cleaning"
+                      "name": "Foundation Leak Repair"
                     }
                   },
                   {
                     "@type": "Offer",
                     "itemOffered": {
                       "@type": "Service",
-                      "name": "Camera Inspection"
+                      "name": "Concrete Slab Pipe Repair"
                     }
                   }
                 ]
@@ -120,75 +120,75 @@ const Index = () => {
 
       <Header />
       <Hero
-        title={<span>Drain Cleaning <br /><span className="text-amber-400">Evansville Indiana</span></span>}
-        subtitle={`Professional drain cleaning services for homes and businesses in Evansville. Expert technicians specializing in emergency clog removal, hydro jetting, and sewer line cleaning from kitchens, bathrooms, and main drains. Serving all Vanderburgh County areas including 47708, 47710, 47711, 47712, 47713, 47714, 47715, 47716. Call ${phoneNumber} for immediate emergency drain services.`}
-        badge="EVANSVILLE DRAIN CLEANING PROS"
+        title={<span>Slab Leak Repair <br /><span className="text-amber-400">Swarthmore PA</span></span>}
+        subtitle={`Professional slab leak detection and repair services for homes and businesses in Swarthmore. Expert technicians specializing in foundation leak repair, copper pipe replacement under concrete slabs, and complete water damage restoration. Serving all Delaware County areas including 19081, 19018, 19064, 19078, 19023, 19050. Call ${phoneNumber} for immediate emergency slab leak services.`}
+        badge="SWARTHMORE SLAB LEAK REPAIR PROS"
         phone={rawPhone}
       />
 
-      {/* Drain Cleaning Content Sections */}
+      {/* Slab Leak Repair Content Sections */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
               <div>
-                <h2 className="text-4xl font-black text-slate-900 mb-6 uppercase tracking-tight">Expert <span className="text-indigo-600">Drain Cleaning Services</span></h2>
+                <h2 className="text-4xl font-black text-slate-900 mb-6 uppercase tracking-tight">Expert <span className="text-indigo-600">Slab Leak Detection Services</span></h2>
                 <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                  Our professional drain cleaning technicians use specialized equipment and techniques to safely remove stubborn clogs, clear blocked drains, and restore proper flow to your plumbing system. We understand the urgency and health risks associated with drain blockages in Evansville.
+                  Our professional slab leak detection technicians use advanced electronic equipment and acoustic listening devices to precisely locate water leaks under your concrete foundation in Swarthmore homes.
                 </p>
                 <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                  From kitchen sinks to main sewer lines, our team has the expertise to handle any drain clog situation in Evansville and surrounding Vanderburgh County communities quickly and professionally, ensuring complete clearance and odor elimination.
+                  From copper pipe corrosion to foundation cracks, our team has the expertise to handle any slab leak situation in Swarthmore and surrounding Delaware County communities quickly and professionally, ensuring minimal damage to your flooring and foundation.
                 </p>
                 <ul className="space-y-3 mt-8">
                   <li className="flex items-start gap-3">
                     <ShieldCheck className="w-6 h-6 text-indigo-600 flex-shrink-0 mt-1" />
-                    <span className="text-slate-700 font-medium">Complete drain cleaning using professional-grade equipment</span>
+                    <span className="text-slate-700 font-medium">Electronic leak detection using professional-grade equipment</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <ShieldCheck className="w-6 h-6 text-indigo-600 flex-shrink-0 mt-1" />
-                    <span className="text-slate-700 font-medium">Same-day emergency response for severe blockages</span>
+                    <span className="text-slate-700 font-medium">Same-day emergency response for slab foundation leaks</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <ShieldCheck className="w-6 h-6 text-indigo-600 flex-shrink-0 mt-1" />
-                    <span className="text-slate-700 font-medium">Hydro jetting and camera inspection technology</span>
+                    <span className="text-slate-700 font-medium">Copper pipe replacement and rerouting under concrete slabs</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <ShieldCheck className="w-6 h-6 text-indigo-600 flex-shrink-0 mt-1" />
-                    <span className="text-slate-700 font-medium">Family and pet-safe cleaning methods</span>
+                    <span className="text-slate-700 font-medium">Minimal invasive repair methods to preserve your flooring</span>
                   </li>
                 </ul>
               </div>
               <div className="relative">
-                <img src="/2.jpeg" alt="Professional drain cleaning service in Evansville Indiana" className="rounded-3xl shadow-2xl w-full h-[500px] object-cover" />
+                <img src="/2.jpeg" alt="Professional slab leak detection service in Swarthmore PA" className="rounded-3xl shadow-2xl w-full h-[500px] object-cover" />
                 <div className="absolute -bottom-6 -left-6 bg-indigo-600 text-white p-8 rounded-3xl shadow-xl">
                   <p className="text-4xl font-black">100%</p>
-                  <p className="text-sm font-bold uppercase tracking-widest mt-2">Clog Removal Guaranteed</p>
+                  <p className="text-sm font-bold uppercase tracking-widest mt-2">Leak Detection Guaranteed</p>
                 </div>
               </div>
             </div>
 
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="relative order-last md:order-first">
-                <img src="/3.jpeg" alt="Emergency drain snaking and hydro jetting specialists Evansville" className="rounded-3xl shadow-2xl w-full h-[500px] object-cover" />
+                <img src="/3.jpeg" alt="Emergency copper pipe replacement under slab Swarthmore" className="rounded-3xl shadow-2xl w-full h-[500px] object-cover" />
               </div>
               <div>
-                <h2 className="text-4xl font-black text-slate-900 mb-6 uppercase tracking-tight">Why Choose <span className="text-indigo-600">Our Drain Cleaning Experts</span></h2>
+                <h2 className="text-4xl font-black text-slate-900 mb-6 uppercase tracking-tight">Why Choose <span className="text-indigo-600">Our Slab Leak Experts</span></h2>
                 <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                  With years of experience serving Evansville and throughout Vanderburgh County, our drain cleaning specialists have developed proven strategies for eliminating even the most stubborn clogs and blockages from drains and sewer lines.
+                  With years of experience serving Swarthmore and throughout Delaware County, our slab leak specialists have developed proven strategies for repairing even the most complex leaks under concrete foundations.
                 </p>
                 <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                  We don't just clear the drain—we inspect the entire line, identify root causes, and help prevent future blockages. Our comprehensive approach ensures your drains flow freely and stay clear longer.
+                  We don't just patch the leak—we assess the entire plumbing system, identify corrosion patterns, and help prevent future slab leaks. Our comprehensive approach ensures your pipes stay leak-free longer.
                 </p>
                 <div className="grid grid-cols-2 gap-6 mt-8">
                   <div className="bg-slate-50 p-6 rounded-2xl">
                     <Bug className="w-10 h-10 text-indigo-600 mb-4" />
-                    <h3 className="text-lg font-bold text-slate-900 mb-2 uppercase">Advanced Equipment</h3>
-                    <p className="text-slate-600 text-sm">We use motorized drain snakes, hydro jetters, and camera inspection technology for effective clearing.</p>
+                    <h3 className="text-lg font-bold text-slate-900 mb-2 uppercase">Advanced Detection Technology</h3>
+                    <p className="text-slate-600 text-sm">We use electronic amplifiers, electromagnetic pipe locators, and thermal imaging for accurate leak location.</p>
                   </div>
                   <div className="bg-slate-50 p-6 rounded-2xl">
                     <Home className="w-10 h-10 text-indigo-600 mb-4" />
-                    <h3 className="text-lg font-bold text-slate-900 mb-2 uppercase">Property Protection</h3>
-                    <p className="text-slate-600 text-sm">Our techniques are safe for all pipe types and prevent damage to your plumbing system.</p>
+                    <h3 className="text-lg font-bold text-slate-900 mb-2 uppercase">Foundation Protection</h3>
+                    <p className="text-slate-600 text-sm">Our repair techniques preserve structural integrity and prevent further damage to your concrete slab foundation.</p>
                   </div>
                 </div>
               </div>
@@ -201,9 +201,9 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-black text-slate-900 mb-6 uppercase tracking-tight">Common <span className="text-indigo-600">Drain Clog Sources</span></h2>
+              <h2 className="text-4xl md:text-5xl font-black text-slate-900 mb-6 uppercase tracking-tight">Common <span className="text-indigo-600">Slab Leak Causes</span></h2>
               <p className="text-slate-600 text-xl max-w-3xl mx-auto">
-                Drain clogs can occur in various locations. Here are the most common situations we handle in Evansville:
+                Slab leaks can occur due to various factors. Here are the most common situations we handle in Swarthmore:
               </p>
             </div>
 
@@ -212,32 +212,32 @@ const Index = () => {
                 <div className="w-16 h-16 bg-indigo-600 rounded-2xl flex items-center justify-center mb-6">
                   <Home className="w-10 h-10 text-white" />
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-4 uppercase">Kitchen Sink Drains</h3>
-                <p className="text-slate-600 mb-4">Grease, food particles, and soap scum buildup can block kitchen drains and cause slow drainage.</p>
-                <p className="text-slate-600 text-sm font-medium">Signs: Slow draining, gurgling sounds, foul odors from sink</p>
+                <h3 className="text-xl font-bold text-slate-900 mb-4 uppercase">Copper Pipe Corrosion</h3>
+                <p className="text-slate-600 mb-4">Chemical reactions between copper pipes and soil minerals can cause pinhole leaks under your concrete foundation over time.</p>
+                <p className="text-slate-600 text-sm font-medium">Signs: Unexplained water bill increases, warm spots on floor, sound of running water</p>
               </div>
 
               <div className="bg-white p-8 rounded-3xl shadow-lg border border-slate-100">
                 <div className="w-16 h-16 bg-indigo-600 rounded-2xl flex items-center justify-center mb-6">
                   <Bug className="w-10 h-10 text-white" />
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-4 uppercase">Main Sewer Line Blockages</h3>
-                <p className="text-slate-600 mb-4">Tree roots, grease buildup, or collapsed pipes can block the main sewer line and cause multiple drain backups.</p>
-                <p className="text-slate-600 text-sm font-medium">Signs: Multiple clogs, toilets bubbling, water backing up in drains</p>
+                <h3 className="text-xl font-bold text-slate-900 mb-4 uppercase">Foundation Settlement</h3>
+                <p className="text-slate-600 mb-4">Soil shifting and foundation movement can stress pipes under the slab, causing joints to separate or pipes to crack.</p>
+                <p className="text-slate-600 text-sm font-medium">Signs: Cracks in walls or floors, doors that won't close properly, visible foundation cracks</p>
               </div>
 
               <div className="bg-white p-8 rounded-3xl shadow-lg border border-slate-100">
                 <div className="w-16 h-16 bg-indigo-600 rounded-2xl flex items-center justify-center mb-6">
                   <Zap className="w-10 h-10 text-white" />
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-4 uppercase">Bathroom & Shower Drains</h3>
-                <p className="text-slate-600 mb-4">Hair, soap residue, and mineral deposits can accumulate and block bathroom drains and shower stalls.</p>
-                <p className="text-slate-600 text-sm font-medium">Signs: Standing water in shower, slow toilet flush, sink backup</p>
+                <h3 className="text-xl font-bold text-slate-900 mb-4 uppercase">High Water Pressure</h3>
+                <p className="text-slate-600 mb-4">Excessive water pressure can weaken pipe connections and accelerate corrosion, leading to slab leaks in older homes.</p>
+                <p className="text-slate-600 text-sm font-medium">Signs: Banging pipes, leaking faucets, reduced water pressure, frequent appliance failures</p>
               </div>
             </div>
 
             <div className="mt-16 text-center">
-              <img src="/4.jpeg" alt="Drain cleaning equipment and tools Evansville Indiana" className="rounded-3xl shadow-2xl w-full max-w-4xl mx-auto h-[400px] object-cover" />
+              <img src="/4.jpeg" alt="Slab leak detection equipment and tools Swarthmore PA" className="rounded-3xl shadow-2xl w-full max-w-4xl mx-auto h-[400px] object-cover" />
             </div>
           </div>
         </div>
@@ -248,17 +248,17 @@ const Index = () => {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl md:text-5xl font-black text-slate-900 mb-8 uppercase tracking-tight">Areas We <span className="text-indigo-600">Proudly Serve</span></h2>
             <p className="text-slate-600 text-lg mb-12 max-w-3xl mx-auto">
-              Our emergency drain cleaning experts provide comprehensive service throughout Evansville and all surrounding Vanderburgh County communities. No matter where you're located in our service area, we're ready to respond quickly.
+              Our emergency slab leak repair experts provide comprehensive service throughout Swarthmore and all surrounding Delaware County communities. No matter where you're located in our service area, we're ready to respond quickly.
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-12">
-              {["Evansville", "Newburgh", "Chandler", "Boonville", "Mount Vernon", "Haubstadt", "Fort Branch", "Princeton"].map((city) => (
+              {["Swarthmore", "Media", "Springfield", "Ridley Park", "Folsom", "Secane", "Clifton Heights", "Upper Darby"].map((city) => (
                 <span key={city} className="px-6 py-3 bg-indigo-50 rounded-2xl text-sm font-bold text-indigo-700 uppercase tracking-wide">
                   {city}
                 </span>
               ))}
             </div>
             <p className="text-slate-600 font-medium">
-              Serving Evansville and all surrounding Vanderburgh County areas including zip codes 47708, 47710, 47711, 47712, 47713, 47714, 47715, 47716
+              Serving Swarthmore and all surrounding Delaware County areas including zip codes 19081, 19018, 19064, 19078, 19023, 19050, 19074, 19096
             </p>
           </div>
         </div>
@@ -267,9 +267,9 @@ const Index = () => {
       <div className="bg-slate-50 py-12 border-b border-slate-200">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-center items-center gap-6 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
-            <span className="text-lg font-black tracking-tighter text-slate-400 uppercase">Licensed Drain Cleaning Specialists</span>
+            <span className="text-lg font-black tracking-tighter text-slate-400 uppercase">Licensed Slab Leak Specialists</span>
             <div className="h-6 w-px bg-slate-300 hidden md:block" />
-            <span className="text-lg font-black tracking-tighter text-slate-400 uppercase">Certified Plumbing Technicians</span>
+            <span className="text-lg font-black tracking-tighter text-slate-400 uppercase">Certified Foundation Repair Technicians</span>
             <div className="h-6 w-px bg-slate-300 hidden md:block" />
             <span className="text-lg font-black tracking-tighter text-slate-400 uppercase">24/7 Emergency Service</span>
           </div>
@@ -280,51 +280,52 @@ const Index = () => {
       <WhyUs />
       <Contact />
 
-      {/* Drain Cleaning Questions Section */}
+      {/* Slab Leak Questions Section */}
       <section className="py-20 bg-slate-50">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-black text-slate-900 mb-6 uppercase tracking-tight">Drain Cleaning <span className="text-indigo-600">Questions Answered</span></h2>
+              <h2 className="text-4xl md:text-5xl font-black text-slate-900 mb-6 uppercase tracking-tight">Slab Leak <span className="text-indigo-600">Questions Answered</span></h2>
               <p className="text-slate-600 text-xl max-w-3xl mx-auto">
-                Get expert answers to your most pressing questions about drain cleaning, costs, safety protocols, and plumbing maintenance in Evansville.
+                Get expert answers to your most pressing questions about slab leak detection, repair costs, foundation damage, and plumbing solutions in Swarthmore.
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[
-                { q: "What is the average cost of drain cleaning?", a: "Professional drain cleaning typically costs between $150-$400 for standard clogs, or $200-$800 for main line blockages depending on severity and location." },
-                { q: "Why do plumbers say not to use drain cleaner?", a: "Chemical drain cleaners can damage pipes, especially older metal ones, and often fail to remove the entire clog, making professional clearing more difficult." },
-                { q: "How much does Roto Rooter charge to clean a main sewer line?", a: "Roto Rooter typically charges $350-$600 for main sewer line cleaning, though prices vary based on blockage severity and regional rates." },
-                { q: "What do plumbers recommend instead of Drano?", a: "Plumbers recommend mechanical methods like plungers, drain snakes, or hydro jetting, plus natural solutions like baking soda followed by vinegar." },
-                { q: "Why is snaking a drain so expensive?", a: "Professional snaking requires specialized equipment, trained technicians, and often involves difficult access or severe blockages requiring significant labor." },
-                { q: "Can you clear a main sewer line clog yourself?", a: "Minor clogs may respond to DIY methods, but main line blockages typically require professional equipment like motorized augers or hydro jetting." },
-                { q: "Is professional drain cleaning worth it?", a: "Yes—professional cleaning thoroughly removes clogs, identifies underlying issues, and prevents future problems, saving money long-term." },
-                { q: "How much does Roto Rooter charge to unclog a shower drain?", a: "Roto Rooter shower drain unclogging typically costs $150-$300 depending on clog severity and access difficulty." },
-                { q: "Can snaking a drain make a clog worse?", a: "Improper snaking technique can scratch pipes, push clogs deeper, or damage pipe joints, potentially worsening the situation." },
-                { q: "Is it okay to pour all-purpose cleaner down the drain?", a: "No—all-purpose cleaners aren't designed for drains and can harm plumbing systems or wastewater treatment facilities." },
-                { q: "Why should you never use baking soda and vinegar to unclog a drain?", a: "While safe, the reaction is too weak to clear serious clogs and may create pressure buildup in severely blocked drains." },
-                { q: "Can I unclog a drain myself?", a: "Simple clogs often respond to plunging, manual drain snakes, or natural remedies, but persistent blockages need professional help." },
-                { q: "How often should household drains be cleaned?", a: "Professional cleaning every 18-22 months prevents buildup and identifies potential issues before emergencies occur." },
-                { q: "How much should it cost to clear a clogged drain?", a: "Standard drain clearing averages $150-$400, while complex jobs or main line blockages range $200-$800." },
-                { q: "Is Drano actually bad for your pipes?", a: "Yes—Drano's corrosive chemicals can damage older metal pipes, weaken PVC over time, and create hazardous fumes." },
-                { q: "What do plumbers recommend to unclog drains?", a: "Plumbers recommend mechanical removal using snakes or hydro jetting, plus preventive maintenance like regular cleaning and drain screens." },
-                { q: "What is better, Drano or Liquid Plumber?", a: "Neither is ideal—both contain harsh chemicals. Mechanical methods are safer and more effective for persistent clogs." },
-                { q: "How do I unclog my main sewer line?", a: "Call a professional plumber who will use camera inspection, motorized augers, or hydro jetting to safely clear the blockage." },
-                { q: "What are signs of a blocked drain?", a: "Slow drainage, gurgling sounds, foul odors, water backing up in other fixtures, or multiple drains clogging simultaneously." },
-                { q: "Will homeowners insurance cover sewer line repair?", a: "Coverage varies—many policies require separate sewer backup endorsement. Review your policy details carefully for specific coverage." },
-                { q: "What is the best drain cleaner that won't harm pipes?", a: "Enzyme-based cleaners are safest for pipes, though mechanical methods like snakes or hydro jetting are most effective." },
-                { q: "What do I do if I can't clear the clog?", a: "Stop using chemical products, avoid running water, and call a professional plumber with proper equipment and expertise." },
-                { q: "Why can't you use a plunger with Drano?", a: "Plunging after using Drano can splash corrosive chemicals onto skin or eyes, causing serious injury." },
-                { q: "What is the average price to unblock a drain?", a: "Professional drain unblocking averages $200-$400 for standard clogs, or $350-$800 for main line blockages." },
-                { q: "How much does a plumber charge to run a snake?", a: "Professional drain snaking typically costs $200-$500 depending on clog location, severity, and time required." },
-                { q: "Is sewer jetting worth it?", a: "Yes—hydro jetting thoroughly cleans pipe walls and removes roots/grease buildup more effectively than traditional snaking." },
-                { q: "Why pour vinegar down the drain in October?", a: "This is a myth—there's no special benefit to pouring vinegar down drains in October specifically." },
-                { q: "Why do plumbers not like Drano?", a: "Drano damages pipes, creates safety hazards, and often fails to completely remove clogs, complicating professional repairs." },
-                { q: "What do plumbers recommend to clean drains?", a: "Plumbers recommend regular mechanical cleaning, drain screens, avoiding grease disposal down sinks, and professional maintenance." },
-                { q: "How much does a roto rooter charge to snake a drain?", a: "Roto Rooter drain snaking typically costs $200-$500 depending on clog severity and drain location." },
-                { q: "What is the 135 rule in plumbing?", a: "The 135-degree rule refers to proper pipe angles for drainage to prevent clogs and ensure proper waste flow through the system." },
-                { q: "Is a drain snake or Drano better?", a: "Drain snakes are far superior—they physically remove clogs without damaging pipes, unlike harsh chemical cleaners." }
+                { q: "What is the average cost of a slab leak?", a: "Professional slab leak detection and repair typically costs between $2,000-$5,000 depending on leak location, accessibility, and repair method chosen." },
+                { q: "Will insurance cover a leak under a slab?", a: "Coverage varies—many homeowners policies cover sudden leaks but exclude gradual damage from corrosion or wear. Review your policy details carefully for specific coverage." },
+                { q: "Can slab leaks be repaired?", a: "Yes—slab leaks can be repaired through various methods including pipe rerouting, spot repair, or epoxy pipe lining depending on the severity and location." },
+                { q: "Is a slab leak a big deal?", a: "Absolutely—slab leaks can cause extensive foundation damage, mold growth, and structural issues if left untreated. Immediate professional attention is crucial." },
+                { q: "What is the lifespan of a slab leak repair?", a: "Proper repairs can last 20-50 years depending on the method used. Copper repiping typically lasts longer than epoxy lining solutions." },
+                { q: "How much will a 20x20 concrete slab cost?", a: "A 20x20 concrete slab typically costs $3,000-$6,000 installed, varying based on thickness, reinforcement, and regional labor rates." },
+                { q: "Can pipes burst under slab?", a: "Yes—pipes can burst under slabs due to freezing, corrosion, high water pressure, or foundation movement causing pipe stress and failure." },
+                { q: "What not to say to a home insurance adjuster?", a: "Avoid admitting fault, speculating about pre-existing conditions, or providing recorded statements without documentation of all damage." },
+                { q: "Does home insurance cover slab foundation repair?", a: "Most policies exclude foundation settlement but may cover damage from sudden covered perils like burst pipes. Review your specific policy terms." },
+                { q: "What are the signs of a hidden slab leak?", a: "Warm spots on floors, unexplained water bill increases, sound of running water, wet carpets, or foundation cracks indicate possible slab leaks." },
+                { q: "Should I repipe instead of repairing a slab leak?", a: "Repiping may be more cost-effective long-term for older homes with multiple leaks or corroded plumbing throughout the system." },
+                { q: "How long does it take to fix a slab leak?", a: "Most slab leak repairs take 1-3 days depending on access method, leak location, and whether flooring removal is required." },
+                { q: "Would a 30 year old concrete slab have a moisture problem?", a: "Yes—older slabs often develop moisture issues from deteriorating vapor barriers, rising groundwater, or plumbing leaks under the foundation." },
+                { q: "Can a slab leak cause a sinkhole?", a: "While rare, prolonged water erosion from slab leaks can wash away soil beneath foundations, potentially causing settlement or voids." },
+                { q: "How long can a slab leak go undetected?", a: "Slab leaks can go undetected for months or even years, gradually causing increasing damage to foundations and creating mold growth." },
+                { q: "Will insurance pay for a slab leak?", a: "Many insurers pay for leak detection and repair if caused by sudden covered events, but deny claims for gradual deterioration or neglect." },
+                { q: "How common is a slab leak?", a: "Slab leaks are relatively common in homes built on concrete foundations, especially those with copper piping over 20 years old." },
+                { q: "Will a slab leak affect my home's value?", a: "Untreated slab leaks significantly reduce home value due to foundation damage concerns. Documented repairs with warranties help maintain property values." },
+                { q: "Are slab leaks covered by a home warranty?", a: "Some home warranties offer limited coverage for slab leak detection and repair. Review contract terms carefully for exclusions and coverage limits." },
+                { q: "Can my home insurance pay for a new concrete slab?", a: "Insurance rarely pays for complete slab replacement unless damage results from a covered peril like earthquake or major plumbing catastrophe." },
+                { q: "Can water come up through a concrete slab?", a: "Yes—water can seep through slab cracks, expansion joints, or porous concrete when groundwater pressure exceeds the slab's waterproofing capacity." },
+                { q: "Can a slab leak cause foundation problems?", a: "Absolutely—water from slab leaks erodes supporting soil, causes concrete heaving or settling, and leads to serious structural foundation damage." },
+                { q: "What is the best way to fix a slab leak?", a: "The best method depends on the situation: electronic leak detection followed by minimal invasive repair, pipe rerouting, or trenchless technologies." },
+                { q: "Can you have a slab leak and not know it?", a: "Yes—many slab leaks remain hidden for extended periods until significant damage occurs. Regular monitoring of water bills helps early detection." },
+                { q: "Who is responsible for a water leak under a house?", a: "Homeowners are responsible for all plumbing on their property. Contact your insurance company immediately to determine coverage eligibility." },
+                { q: "Do homeowners insurance cover slab leaks?", a: "Coverage depends on the cause—sudden accidental leaks are often covered, while gradual deterioration from age or corrosion typically isn't." },
+                { q: "Where does the water go when you have a slab leak?", a: "Water spreads beneath the slab, saturating soil, potentially reaching electrical conduits, and causing foundation movement or heaving." },
+                { q: "How long does a slab leak take to repair?", a: "Most repairs take 1-3 days from detection through completion, though complex cases requiring extensive flooring restoration may take longer." },
+                { q: "How urgent is a slab leak?", a: "Extremely urgent—immediate action prevents escalating foundation damage, mold growth, and exponentially higher repair costs." },
+                { q: "How much does it cost to locate a slab leak?", a: "Professional electronic leak detection typically costs $300-$800 depending on home size, number of slabs, and leak complexity." },
+                { q: "Are slab leaks common?", a: "Yes—slab leaks affect thousands of homes annually, particularly in regions with expansive clay soils and older copper plumbing systems." },
+                { q: "How does a plumber detect a slab leak?", a: "Plumbers use electronic amplifiers, thermal imaging cameras, electromagnetic pipe locators, and pressure testing to pinpoint leak locations." },
+                { q: "How to stop a concrete slab from leaking?", a: "Professional repair methods include pipe rerouting, epoxy pipe lining, injection grouting, or installing interior drainage systems depending on the source." }
               ].map((item, idx) => (
                 <div key={idx} className="bg-white p-8 rounded-3xl shadow-md border border-slate-100 hover:shadow-lg transition-shadow">
                   <h3 className="text-lg font-bold text-slate-900 mb-4 uppercase tracking-tight">{item.q}</h3>
@@ -343,10 +344,10 @@ const Index = () => {
             <h2 className="text-3xl font-black text-slate-900 mb-8 uppercase tracking-tight">Regional <span className="text-indigo-600">Service Network</span></h2>
             <div className="flex flex-wrap justify-center gap-6 mb-12">
               {[
-                { name: "Earwig Extermination Denver", url: "https://earwigexterminatordenver.vercel.app/" },
-                { name: "Centipede Repellent Hawaii", url: "https://centipederepellenthawaii.vercel.app/" },
-                { name: "Pest Control South Point Ohio", url: "https://pestcontrolsouthpointohio.vercel.app/" },
-                { name: "Rodent Control Corvallis Oregon", url: "https://rodentcontrolcorvallisoregon.vercel.app/" }
+                { name: "Leaking Pipe Repair Modesto", url: "https://leakingpiperepairinmodesto.vercel.app/" },
+                { name: "Cast Iron Pipe Replacement Boonton", url: "https://castironpipereplacementboonton.vercel.app/" },
+                { name: "Slab Leak Detection Boonton", url: "https://slableakdetectionspecialistboonton.vercel.app/" },
+                { name: "Polybutylene Pipe Replacement Boonton", url: "https://polybutylenepipereplacementboonton.vercel.app/" }
               ].map((link) => (
                 <a
                   key={link.name}
@@ -358,7 +359,7 @@ const Index = () => {
               ))}
             </div>
             <p className="mt-12 text-[10px] font-bold text-slate-400 uppercase tracking-[0.3em]">
-              Professional Drain Cleaning Services in Evansville, IN 47708
+              Professional Slab Leak Repair Services in Swarthmore, PA 19081
             </p>
           </div>
         </div>

@@ -12,15 +12,15 @@ interface HeroProps {
 }
 
 const Hero = ({
-  title = "Sewer Backup Klamath Falls OR",
-  subtitle = "Professional sewer backup cleanup services for homes and businesses in Klamath Falls. Expert technicians specializing in emergency water extraction, complete sanitization, and permanent odor elimination.",
+  title = "Slab Leak Repair Swarthmore PA",
+  subtitle = "Professional slab leak detection and repair services for homes and businesses in Swarthmore. Expert technicians specializing in foundation leak repair, copper pipe replacement under concrete slabs, and complete water damage restoration.",
   image = "/2.jpeg",
   overlayImage = "/1.jpeg",
   phone = "8777921410",
-  badge = "KLAMATH FALLS SEWER BACKUP PROS",
+  badge = "SWARTHMORE SLAB LEAK REPAIR PROS",
   features = [
     { icon: ShieldCheck, text: "Rapid Response" },
-    { icon: Bug, text: "Safe Removal" },
+    { icon: Bug, text: "Safe Detection" },
     { icon: Zap, text: "24/7 Service" }
   ]
 }: HeroProps) => {
