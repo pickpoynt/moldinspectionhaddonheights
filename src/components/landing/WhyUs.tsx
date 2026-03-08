@@ -26,10 +26,10 @@ const WhyUs = () => {
         <div className="flex flex-col lg:flex-row-reverse gap-16 items-center">
           <div className="lg:w-1/2">
             <h2 className="text-4xl md:text-6xl font-black text-slate-900 mb-8 uppercase tracking-tighter leading-none italic">
-              Why Fairview Trusts <br /><span className="text-indigo-600">Our Sewage Cleanup Experts</span>
+              Why Klamath Falls Trusts <br /><span className="text-indigo-600">Our Sewer Backup Experts</span>
             </h2>
             <p className="text-slate-600 text-lg leading-relaxed mb-12 italic font-medium border-l-4 border-indigo-600 pl-6">
-              When sewage backups create health hazards in your home, you need experienced professionals who understand biohazard cleanup and contamination removal. Our Fairview specialists provide comprehensive water extraction and sanitization services.
+              When sewer backups create health hazards in your home, you need experienced professionals who understand biohazard cleanup and contamination removal. Our Klamath Falls specialists provide comprehensive water extraction and sanitization services.
             </p>
 
             <div className="grid gap-6">
@@ -59,7 +59,7 @@ const WhyUs = () => {
             <div className="absolute inset-0 bg-indigo-600/10 rounded-[3rem] -rotate-3 blur-2xl group-hover:rotate-0 transition-transform duration-700" />
             <img
               src="/3.jpeg"
-              alt="Fairview Professional Sewage Backup Cleanup Service"
+              alt="Klamath Falls Professional Sewer Backup Cleanup Service"
               className="relative rounded-[3.5rem] shadow-2xl transition-transform group-hover:scale-[1.02] duration-700"
             />
           </div>

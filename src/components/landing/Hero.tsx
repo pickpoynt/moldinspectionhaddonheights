@@ -12,12 +12,12 @@ interface HeroProps {
 }
 
 const Hero = ({
-  title = "Dead Rat Smell Removal Cohoes",
-  subtitle = "Professional dead rodent odor elimination services for homes and businesses in Cohoes. Expert technicians specializing in locating and removing deceased rodents, complete sanitization, and permanent odor elimination.",
+  title = "Sewer Backup Klamath Falls OR",
+  subtitle = "Professional sewer backup cleanup services for homes and businesses in Klamath Falls. Expert technicians specializing in emergency water extraction, complete sanitization, and permanent odor elimination.",
   image = "/2.jpeg",
   overlayImage = "/1.jpeg",
-  phone = "3238801224",
-  badge = "COHOES DEAD RAT SMELL REMOVAL PROS",
+  phone = "8777921410",
+  badge = "KLAMATH FALLS SEWER BACKUP PROS",
   features = [
     { icon: ShieldCheck, text: "Rapid Response" },
     { icon: Bug, text: "Safe Removal" },

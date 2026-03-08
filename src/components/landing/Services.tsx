@@ -30,17 +30,17 @@ const Services = () => {
         <div className="flex flex-col lg:flex-row gap-16 items-center mb-20">
           <div className="lg:w-1/2">
             <h2 className="text-4xl md:text-6xl font-black text-slate-900 mb-8 uppercase tracking-tighter leading-none italic">
-              Professional <br /><span className="text-indigo-600">Sewage Cleanup Services</span>
+              Professional <br /><span className="text-indigo-600">Sewer Cleanup Services</span>
             </h2>
             <p className="text-slate-600 text-lg leading-relaxed mb-10 italic font-medium border-l-4 border-indigo-600 pl-6">
-              Our Fairview sewage backup cleanup specialists use proven methods to extract contaminated water, sanitize affected areas, and restore your property. We provide complete biohazard cleanup and odor elimination for your safety.
+              Our Klamath Falls sewer backup cleanup specialists use proven methods to extract contaminated water, sanitize affected areas, and restore your property. We provide complete biohazard cleanup and odor elimination for your safety.
             </p>
           </div>
           <div className="lg:w-1/2 relative group">
             <div className="absolute -inset-4 bg-indigo-600/10 rounded-[3rem] blur-2xl group-hover:bg-indigo-600/20 transition-all" />
             <img
               src="/2.jpeg"
-              alt="Fairview Sewage Backup Cleanup Service"
+              alt="Klamath Falls Sewer Backup Cleanup Service"
               className="relative rounded-[2.5rem] shadow-2xl transition-transform group-hover:scale-[1.02] duration-700"
             />
           </div>

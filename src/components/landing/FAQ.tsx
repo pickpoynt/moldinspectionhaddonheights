@@ -106,7 +106,7 @@ const FAQ = () => {
               Sewage Backup <span className="text-indigo-400">Cleanup FAQ</span>
             </h2>
             <p className="text-slate-400 text-lg leading-relaxed italic font-medium max-w-2xl mx-auto">
-              Get expert answers to your most important questions about sewage backup cleanup, safety protocols, costs, and restoration for Fairview homes.
+              Get expert answers to your most important questions about sewer backup cleanup, safety protocols, costs, and restoration for Klamath Falls homes.
             </p>
           </div>
 
@@ -143,7 +143,7 @@ const FAQ = () => {
             <div className="relative z-10">
               <h3 className="text-3xl font-black mb-6 uppercase tracking-tight italic">Need Professional Sewage Cleanup?</h3>
               <p className="text-indigo-100 mb-10 font-bold italic max-w-xl mx-auto opacity-80">
-                Don't let sewage contamination threaten your health. Our expert technicians provide fast, emergency sewage backup cleanup services. Call now for immediate assistance.
+                Don't let sewer contamination threaten your health. Our expert technicians provide fast, emergency sewer backup cleanup services. Call now for immediate assistance.
               </p>
               <Button size="lg" className="bg-white text-indigo-600 hover:bg-slate-100 h-20 px-12 rounded-2xl font-black uppercase tracking-[0.2em] text-sm shadow-2xl transition-all active:scale-95" asChild>
                 <a href="tel:8777921410">
