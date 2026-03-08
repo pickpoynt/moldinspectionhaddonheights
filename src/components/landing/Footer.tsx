@@ -11,12 +11,12 @@ const Footer = () => {
                 <Bug className="w-7 h-7 text-white" />
               </div>
               <div className="flex flex-col">
-                <span className="text-xl font-black uppercase tracking-tighter leading-none uppercase">Cohoes Dead Rat</span>
-                <span className="text-[10px] font-bold text-indigo-500 uppercase tracking-[0.3em] uppercase">Smell Removal Pros</span>
+                <span className="text-xl font-black uppercase tracking-tighter leading-none uppercase">Fairview Sewage</span>
+                <span className="text-[10px] font-bold text-indigo-500 uppercase tracking-[0.3em] uppercase">Backup Cleanup Pros</span>
               </div>
             </a>
             <p className="text-slate-400 text-sm leading-relaxed mb-8 italic font-medium uppercase">
-              Cohoes's trusted emergency dead rodent odor removal specialists providing comprehensive sanitization and deodorization services.
+              Fairview's trusted emergency sewage backup cleanup specialists providing comprehensive sanitization and deodorization services.
             </p>
           </div>
 
@@ -24,18 +24,18 @@ const Footer = () => {
             <h4 className="text-[11px] font-black mb-8 uppercase tracking-[0.3em] text-indigo-500">Related Resources</h4>
             <ul className="space-y-4">
               {[
-                "Emergency Wasp Removal Ojai",
-                "Rodent Control Corvallis Oregon",
-                "Wildlife Removal Douglasville GA",
-                "Tick Control Service Brooksville FL"
+                "Ant Exterminator Fairview",
+                "Spider Pest Control Fairview",
+                "Trenchless Sewer Repair Scottsdale",
+                "Water Heater Repair Beaverton"
               ].map((link) => (
                 <li key={link}>
                   <a
                     href={
-                      link.includes("Emergency Wasp") ? "https://emergencydeadratremovalojai-viea.vercel.app/" :
-                      link.includes("Rodent Control") ? "https://rodentcontrolcorvallisoregon.vercel.app/" :
-                      link.includes("Wildlife Removal") ? "https://wildliferemovaldouglasvillega.vercel.app/" :
-                      "https://tickcontrolservicebrooksvillefl.vercel.app/"
+                      link.includes("Ant Exterminator") ? "https://antexterminatorfairview.vercel.app/" :
+                      link.includes("Spider Pest") ? "https://spiderspestcontrolfairview.vercel.app/" :
+                      link.includes("Trenchless") ? "https://trenchlesssewerrepairscottsdaleaz.vercel.app/" :
+                      "https://waterheaterrepairbeaverton.vercel.app/"
                     }
                     className="text-slate-400 hover:text-white transition-colors flex items-center gap-3 group"
                   >
@@ -56,7 +56,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest uppercase">Call Now</p>
-                  <a href="tel:3238801224" className="text-sm font-bold text-white uppercase tracking-tight">(323) 880-1224</a>
+                  <a href="tel:8777921410" className="text-sm font-bold text-white uppercase tracking-tight">(877) 792-1410</a>
                 </div>
               </li>
               <li className="flex items-center gap-4 group">
@@ -93,7 +93,7 @@ const Footer = () => {
         <div className="pt-12 border-t border-white/5">
           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
             <p className="text-[10px] font-bold text-slate-500 uppercase tracking-[0.2em] uppercase">
-              © {new Date().getFullYear()} Cohoes Emergency Dead Rat Smell Removal Pros. All rights reserved.
+              © {new Date().getFullYear()} Fairview Emergency Sewage Backup Cleanup Pros. All rights reserved.
             </p>
             <div className="flex gap-8">
               <a href="#" className="text-[10px] font-bold text-slate-500 hover:text-white transition-colors uppercase tracking-widest uppercase">Privacy Protocol</a>

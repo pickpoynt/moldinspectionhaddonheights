@@ -5,14 +5,14 @@ import { Bug, Mail, Phone, ShieldCheck, Zap, Globe, BarChart3, Clock } from "luc
 import { Button } from "@/components/ui/button";
 
 const LeaseNumber = () => {
-    const primaryKeyword = "Dead Rat Smell Removal Cohoes";
-    const phoneNumber = "(323) 880-1224";
+    const primaryKeyword = "Sewage Backup Cleanup Fairview";
+    const phoneNumber = "(877) 792-1410";
 
     return (
         <div className="min-h-screen bg-slate-50">
             <Helmet>
                 <title>Lease this Number: {phoneNumber} | {primaryKeyword}</title>
-                <meta name="description" content={`Exclusive opportunity to lease the premium phone number ${phoneNumber} for your Cohoes dead rat smell removal business. Maximize your local SEO and lead generation.`} />
+                <meta name="description" content={`Exclusive opportunity to lease the premium phone number ${phoneNumber} for your Fairview sewage backup cleanup business. Maximize your local SEO and lead generation.`} />
             </Helmet>
 
             <Header />
@@ -22,11 +22,11 @@ const LeaseNumber = () => {
                     <div className="max-w-4xl mx-auto">
                         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-600 text-white mb-8 uppercase tracking-[0.2em] text-[10px] font-bold shadow-lg shadow-indigo-900/20 uppercase">
                             <Bug className="w-4 h-4" />
-                            Cohoes Opportunity
+                            Fairview Opportunity
                         </div>
 
                         <h1 className="text-4xl md:text-6xl font-black text-slate-900 mb-8 uppercase tracking-tighter leading-none">
-                            Dominate the <span className="text-indigo-600">Dead Rat Smell Removal</span> <br /> Market in Cohoes
+                            Dominate the <span className="text-indigo-600">Sewage Backup Cleanup</span> <br /> Market in Fairview
                         </h1>
 
                         <p className="text-slate-600 text-xl leading-relaxed mb-12 italic font-medium">
@@ -40,7 +40,7 @@ const LeaseNumber = () => {
                                 </div>
                                 <h3 className="text-xl font-bold text-slate-900 mb-4 uppercase tracking-tight">Service Infrastructure</h3>
                                 <p className="text-slate-600 text-sm leading-relaxed font-medium italic">
-                                    Immediately capture all inbound requests for dead rat smell removal services in Cohoes. This number is optimized for local lead generation and SEO dominance.
+                                    Immediately capture all inbound requests for sewage backup cleanup services in Fairview. This number is optimized for local lead generation and SEO dominance.
                                 </p>
                             </div>
 
@@ -67,10 +67,10 @@ const LeaseNumber = () => {
                             <div className="relative z-10 text-center max-w-2xl mx-auto">
                                 <h2 className="text-3xl font-black mb-6 uppercase tracking-tight">Secure This Technical Asset</h2>
                                 <p className="text-indigo-100 mb-10 font-bold italic">
-                                    Send an inquiry to our administrative dispatch to initialize the lease protocol. Limited to one provider per Cohoes sector.
+                                    Send an inquiry to our administrative dispatch to initialize the lease protocol. Limited to one provider per Fairview sector.
                                 </p>
                                 <Button className="bg-white text-indigo-600 hover:bg-slate-100 h-20 px-12 rounded-2xl font-black uppercase tracking-[0.2em] text-sm shadow-2xl transition-all active:scale-95" asChild>
-                                    <a href={`mailto:leasemynumber@gmail.com?subject=LEASE INQUIRY: ${phoneNumber} - COHOES DEAD RAT SMELL REMOVAL`}>
+                                    <a href={`mailto:leasemynumber@gmail.com?subject=LEASE INQUIRY: ${phoneNumber} - FAIRVIEW SEWAGE BACKUP CLEANUP`}>
                                         <Mail className="w-6 h-6 mr-4" />
                                         Initialize Lease Inquiry
                                     </a>

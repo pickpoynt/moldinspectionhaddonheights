@@ -9,96 +9,84 @@ import { Button } from "@/components/ui/button";
 
 const faqData = [
   {
-    question: "How much does an exterminator cost for ants?",
-    answer: "Ant extermination costs typically range from $150 to $500 depending on the severity of infestation, size of your home, and ant species. Carpenter ant treatments may cost more due to additional structural work required."
+    question: "How much does sewage backup cleanup cost?",
+    answer: "Professional sewage backup cleanup typically costs between $500-$5,000 depending on severity, affected area size, and extent of contamination. Minor backups may cost less, while extensive damage requiring structural repairs can exceed $10,000."
   },
   {
-    question: "Is it worth getting an exterminator for ants?",
-    answer: "Absolutely! Professional exterminators have access to stronger, more effective treatments and can identify the colony location. DIY methods often only kill visible workers, not the queen or hidden colony."
+    question: "Is it safe to live in a house after sewage backup?",
+    answer: "No, it's not safe until professional cleanup is complete. Sewage contains harmful bacteria, viruses, and parasites that pose serious health risks. Evacuate affected areas immediately and call professionals."
   },
   {
-    question: "How to 100% get rid of ants?",
-    answer: "Complete elimination requires: 1) Identifying entry points and sealing them, 2) Using professional-grade baits that workers carry back to the colony, 3) Eliminating the queen, and 4) Maintaining proper sanitation to prevent re-infestation."
+    question: "What to do when your sewage backs up?",
+    answer: "1) Stop using all plumbing immediately, 2) Call emergency plumber or sewage cleanup professionals, 3) Avoid contact with contaminated water, 4) Turn off electricity if safe to do so, 5) Evacuate affected areas."
   },
   {
-    question: "What is the hardest ant to get rid of?",
-    answer: "Carpenter ants and pharaoh ants are considered the most challenging. Carpenter ants nest deep in wood structures, while pharaoh ants have multiple queens and satellite colonies that make complete eradication difficult."
+    question: "Does homeowners insurance cover sewage cleanup?",
+    answer: "Many policies cover sudden and accidental backups but exclude preventable ones or those from lack of maintenance. Check if you have sewer backup endorsement coverage. Review your policy details carefully."
   },
   {
-    question: "What permanently gets rid of ants?",
-    answer: "Professional-grade bait systems combined with exclusion work (sealing entry points) provide the most permanent solution. Regular maintenance and addressing moisture issues also help prevent future infestations."
+    question: "Can you clear a main sewer line clog yourself?",
+    answer: "Minor clogs may respond to plunging or drain snakes, but severe blockages require professional hydro jetting equipment. Tree roots and major obstructions typically need professional intervention."
   },
   {
-    question: "How much does Orkin charge for ant removal?",
-    answer: "Orkin typically charges between $150-$350 for initial ant treatment, with ongoing monthly plans ranging from $40-$80. Prices vary based on location, property size, and infestation severity."
+    question: "How long does sewage cleanup take?",
+    answer: "Basic cleanup takes 1-3 days, but extensive damage with structural repairs can take 1-2 weeks or longer. Factors include severity, affected materials, and drying time requirements."
   },
   {
-    question: "Can I exterminate ants myself?",
-    answer: "While minor ant problems can be managed with store-bought products, established colonies usually require professional intervention. Professionals can locate hidden nests and use commercial-grade products unavailable to consumers."
+    question: "Is sewage backup a health hazard?",
+    answer: "Yes—sewage contains E. coli, hepatitis A, norovirus, and other dangerous pathogens. It can cause serious illnesses including gastroenteritis, skin infections, and respiratory problems."
   },
   {
-    question: "What is the hardest pest to get rid of?",
-    answer: "Bed bugs, German cockroaches, and certain ant species like pharaoh ants rank among the hardest pests to eliminate due to their resistance to chemicals and complex breeding patterns."
+    question: "Can carpet be cleaned after a sewer backup?",
+    answer: "Carpet should typically be discarded after sewage exposure as it cannot be adequately sanitized. Porous materials absorb contaminants and pose ongoing health risks even after cleaning."
   },
   {
-    question: "What is the best time of year to exterminate ants?",
-    answer: "Early spring is ideal when ants first become active and before colonies grow large. However, ant control should be addressed immediately upon discovery, regardless of season, to prevent expansion."
+    question: "How much does Roto Rooter charge to clean a main sewer line?",
+    answer: "Roto Rooter typically charges $250-$800 for main sewer line cleaning depending on location, severity of blockage, and method used. Hydro jetting costs more than basic snaking."
   },
   {
-    question: "How much is Terminix ant treatment?",
-    answer: "Terminix ant treatments average $200-$400 for initial service, with customized treatment plans available. Costs depend on infestation level, home size, and whether structural damage has occurred."
+    question: "Is sewer jetting worth it?",
+    answer: "Yes—hydro jetting thoroughly cleans pipe walls and removes roots, grease, and debris more effectively than snaking. It provides longer-lasting results and can prevent future blockages."
   },
   {
-    question: "Can I get rid of ants without an exterminator?",
-    answer: "Small, occasional ant trails can sometimes be managed with DIY methods like vinegar sprays and sealing cracks. However, persistent or large-scale infestations typically require professional expertise and products."
+    question: "What is the best disinfectant for sewer backup?",
+    answer: "EPA-registered disinfectants like bleach solutions (1 cup bleach per gallon of water) or specialized enzymatic cleaners designed for biohazard cleanup are most effective against sewage pathogens."
   },
   {
-    question: "What are signs of a major ant infestation?",
-    answer: "Warning signs include: visible ant trails indoors, large numbers of live ants, sawdust-like debris (frass), rustling sounds in walls, hollow-sounding wood, and winged swarmers emerging indoors."
+    question: "Will homeowners insurance cover sewage backup?",
+    answer: "Coverage varies by policy. Many require separate sewer backup endorsement. Standard policies often exclude backups from external sources or those caused by neglect or lack of maintenance."
   },
   {
-    question: "Is it worth hiring an exterminator for ants?",
-    answer: "Yes, especially for carpenter ants that cause structural damage. Professionals save money long-term by preventing property damage, using more effective treatments, and providing warranties on their work."
+    question: "Is it safe to stay in a house with sewage backup in basement?",
+    answer: "No—evacuate affected areas immediately. Airborne pathogens, toxic gases like methane, and direct contact with contaminated water pose serious health risks to occupants."
   },
   {
-    question: "Are ant infestations covered by insurance?",
-    answer: "Most homeowners insurance policies do NOT cover ant damage or extermination costs. Ant infestations are considered preventable through regular maintenance, making early detection and treatment crucial."
+    question: "What is the average cost to unclog a sewer line?",
+    answer: "Average costs range from $200-$800 for basic clearing, or $1,000-$4,000+ for extensive repairs or pipe replacement. Costs vary based on blockage type, location, and repair method needed."
   },
   {
-    question: "Do I need to leave during ant extermination?",
-    answer: "For most ant treatments, you can remain home but may need to vacate treated areas for 2-4 hours. Your technician will advise based on products used. Some eco-friendly options allow immediate re-entry."
+    question: "Is sewage backup a biohazard?",
+    answer: "Yes—it's classified as Category 3 water damage (black water), meaning it contains harmful pathogens requiring professional biohazard cleanup following EPA and OSHA safety protocols."
   },
   {
-    question: "Is it cheaper to DIY or hire an exterminator?",
-    answer: "DIY appears cheaper initially ($20-$100 for products) but often costs more long-term due to repeated treatments and potential structural damage. Professional treatment ($150-$500) typically provides faster, longer-lasting results."
+    question: "What's the best way to completely clean out a sewer line?",
+    answer: "Professional hydro jetting uses high-pressure water (3,000-8,000 PSI) to thoroughly scour pipe interiors, removing all buildup, roots, and debris for comprehensive cleaning."
   },
   {
-    question: "Can you get rid of ants permanently?",
-    answer: "Yes, with professional treatment, proper exclusion techniques, and ongoing prevention measures. Regular inspections and maintenance treatments help ensure your property remains rodent-free year-round."
+    question: "How often should sewer drains be cleaned?",
+    answer: "Professional cleaning every 18-22 months prevents buildup and identifies potential issues early. Homes with large trees nearby may need more frequent maintenance."
   },
   {
-    question: "Do coffee grounds repel ants?",
-    answer: "Coffee grounds may temporarily deter some ant species due to their strong smell, but they won't eliminate an established colony. They're best used as a supplementary deterrent, not a primary treatment."
+    question: "How much does Servpro biohazard cleanup cost per hour?",
+    answer: "Servpro biohazard cleanup averages $75-$150 per hour, with total projects ranging $500-$5,000+ depending on contamination extent and affected area size."
   },
   {
-    question: "How hard is it to get rid of an ant infestation?",
-    answer: "Difficulty varies by species and infestation size. Small pavement ant colonies might resolve quickly, while carpenter ant infestations can require multiple treatments over several weeks for complete elimination."
+    question: "Can carpet be saved after sewage backup?",
+    answer: "Generally no—porous materials like carpet, padding, and upholstery absorb contaminants and should be removed and disposed of safely following biohazard protocols."
   },
   {
-    question: "How long does it take to get rid of ants after an exterminator?",
-    answer: "Most customers see significant reduction within 24-48 hours. Complete elimination typically takes 1-2 weeks for common ants, though carpenter ants may require follow-up treatments over 3-6 weeks."
-  },
-  {
-    question: "How will an exterminator get rid of ants?",
-    answer: "Professionals use Integrated Pest Management: thorough inspection to identify species and nest locations, targeted bait placement, perimeter barriers, crack and crevice treatments, and recommendations for exclusion and sanitation improvements."
-  },
-  {
-    question: "What time of year are ants most active?",
-    answer: "Ants peak in spring and summer when temperatures rise and they forage for food. However, indoor infestations can remain active year-round in heated structures, especially near kitchens and bathrooms."
-  },
-  {
-    question: "What are the signs of an ant infestation?",
-    answer: "Common indicators include: seeing live ants indoors consistently, discovering ant trails, finding frass (sawdust-like material), hearing rustling in walls, noticing soil mounds near foundations, and spotting discarded wings from swarmers."
+    question: "How long does sewage contamination last in the house?",
+    answer: "Without treatment, contamination persists indefinitely. Pathogens can survive days to weeks on surfaces. Professional cleanup eliminates harmful bacteria within days when done properly."
   }
 ];
 
@@ -112,13 +100,13 @@ const FAQ = () => {
           <div className="text-center mb-20 px-4">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-600 text-white mb-6 uppercase tracking-[0.2em] text-[10px] font-bold shadow-2xl">
               <HelpCircle className="w-4 h-4" />
-              Ant Control Information
+              Sewage Cleanup Information
             </div>
             <h2 className="text-4xl md:text-6xl font-black text-white mb-8 uppercase tracking-tighter leading-none italic">
-              Ant <span className="text-indigo-400">Extermination FAQ</span>
+              Sewage Backup <span className="text-indigo-400">Cleanup FAQ</span>
             </h2>
             <p className="text-slate-400 text-lg leading-relaxed italic font-medium max-w-2xl mx-auto">
-              Get expert answers to your most important questions about ant control, treatment methods, costs, and prevention strategies for Fairview homes.
+              Get expert answers to your most important questions about sewage backup cleanup, safety protocols, costs, and restoration for Fairview homes.
             </p>
           </div>
 
@@ -153,13 +141,13 @@ const FAQ = () => {
           <div className="mt-20 p-12 bg-indigo-600 rounded-[3rem] text-center text-white relative overflow-hidden shadow-2xl shadow-indigo-900/40">
             <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl -translate-y-32 translate-x-32" />
             <div className="relative z-10">
-              <h3 className="text-3xl font-black mb-6 uppercase tracking-tight italic">Need Professional Ant Control?</h3>
+              <h3 className="text-3xl font-black mb-6 uppercase tracking-tight italic">Need Professional Sewage Cleanup?</h3>
               <p className="text-indigo-100 mb-10 font-bold italic max-w-xl mx-auto opacity-80">
-                Don't let ants take over your Fairview home. Our expert technicians provide fast, effective ant elimination services. Call now for immediate assistance.
+                Don't let sewage contamination threaten your health. Our expert technicians provide fast, emergency sewage backup cleanup services. Call now for immediate assistance.
               </p>
               <Button size="lg" className="bg-white text-indigo-600 hover:bg-slate-100 h-20 px-12 rounded-2xl font-black uppercase tracking-[0.2em] text-sm shadow-2xl transition-all active:scale-95" asChild>
-                <a href="tel:3238801224">
-                  Call for Inspection
+                <a href="tel:8777921410">
+                  Call for Emergency Service
                 </a>
               </Button>
             </div>

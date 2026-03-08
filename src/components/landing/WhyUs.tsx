@@ -3,18 +3,18 @@ import { Button } from "@/components/ui/button";
 
 const features = [
   {
-    title: "Certified Dead Rodent Specialists",
-    description: "Expert technicians with specialized training in biohazard cleanup, odor elimination, and safe carcass removal.",
+    title: "Certified Sewage Cleanup Specialists",
+    description: "Expert technicians with specialized training in biohazard cleanup, contamination removal, and water extraction.",
     icon: ShieldCheck
   },
   {
-    title: "Fast Response Time",
-    description: "Quick scheduling and prompt service to address dead rodent odors before they permeate your entire property.",
+    title: "Fast Emergency Response",
+    description: "Quick scheduling and prompt service to address sewage backups before they cause extensive damage and health hazards.",
     icon: Zap
   },
   {
-    title: "Proven Odor Elimination Methods",
-    description: "Advanced enzymatic cleaners, ozone treatment, and antimicrobial sprays that permanently eliminate odors at the source.",
+    title: "Proven Contamination Removal Methods",
+    description: "Advanced EPA-approved disinfectants, industrial extractors, and antimicrobial treatments that permanently eliminate biohazards.",
     icon: Bug
   }
 ];
@@ -26,10 +26,10 @@ const WhyUs = () => {
         <div className="flex flex-col lg:flex-row-reverse gap-16 items-center">
           <div className="lg:w-1/2">
             <h2 className="text-4xl md:text-6xl font-black text-slate-900 mb-8 uppercase tracking-tighter leading-none italic">
-              Why Cohoes Trusts <br /><span className="text-indigo-600">Our Dead Rat Experts</span>
+              Why Fairview Trusts <br /><span className="text-indigo-600">Our Sewage Cleanup Experts</span>
             </h2>
             <p className="text-slate-600 text-lg leading-relaxed mb-12 italic font-medium border-l-4 border-indigo-600 pl-6">
-              When decomposing rodents create health hazards in your home, you need experienced professionals who understand biohazard cleanup and odor elimination. Our Cohoes specialists provide comprehensive removal and sanitization services.
+              When sewage backups create health hazards in your home, you need experienced professionals who understand biohazard cleanup and contamination removal. Our Fairview specialists provide comprehensive water extraction and sanitization services.
             </p>
 
             <div className="grid gap-6">
@@ -51,7 +51,7 @@ const WhyUs = () => {
             </div>
 
             <Button className="mt-12 bg-indigo-600 text-white h-16 px-10 rounded-2xl font-black uppercase tracking-widest text-sm shadow-2xl active:scale-95 transition-all" asChild>
-              <a href="tel:3238801224">Call Now</a>
+              <a href="tel:8777921410">Call Now</a>
             </Button>
           </div>
 
@@ -59,7 +59,7 @@ const WhyUs = () => {
             <div className="absolute inset-0 bg-indigo-600/10 rounded-[3rem] -rotate-3 blur-2xl group-hover:rotate-0 transition-transform duration-700" />
             <img
               src="/3.jpeg"
-              alt="Cohoes Professional Dead Rat Removal Service"
+              alt="Fairview Professional Sewage Backup Cleanup Service"
               className="relative rounded-[3.5rem] shadow-2xl transition-transform group-hover:scale-[1.02] duration-700"
             />
           </div>
