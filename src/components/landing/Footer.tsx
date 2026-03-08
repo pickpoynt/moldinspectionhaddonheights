@@ -11,12 +11,12 @@ const Footer = () => {
                 <Bug className="w-7 h-7 text-white" />
               </div>
               <div className="flex flex-col">
-                <span className="text-xl font-black uppercase tracking-tighter leading-none uppercase">Klamath Falls Sewer</span>
-                <span className="text-[10px] font-bold text-indigo-500 uppercase tracking-[0.3em] uppercase">Backup Pros</span>
+                <span className="text-xl font-black uppercase tracking-tighter leading-none uppercase">Evansville Drain Cleaning</span>
+                <span className="text-[10px] font-bold text-indigo-500 uppercase tracking-[0.3em] uppercase">Pros</span>
               </div>
             </a>
             <p className="text-slate-400 text-sm leading-relaxed mb-8 italic font-medium uppercase">
-              Klamath Falls' trusted emergency sewer backup cleanup specialists providing comprehensive sanitization and deodorization services.
+              Evansville's trusted emergency drain cleaning specialists providing comprehensive clog removal and hydro jetting services.
             </p>
           </div>
 
@@ -24,18 +24,18 @@ const Footer = () => {
             <h4 className="text-[11px] font-black mb-8 uppercase tracking-[0.3em] text-indigo-500">Related Resources</h4>
             <ul className="space-y-4">
               {[
-                "Trenchless Sewer Repair Scottsdale",
-                "Water Heater Repair Beaverton",
-                "Cast Iron Pipe Replacement Boonton",
-                "Leaking Pipe Repair Modesto"
+                "Earwig Extermination Denver",
+                "Centipede Repellent Hawaii",
+                "Pest Control South Point Ohio",
+                "Rodent Control Corvallis Oregon"
               ].map((link) => (
                 <li key={link}>
                   <a
                     href={
-                      link.includes("Trenchless") ? "https://trenchlesssewerrepairscottsdaleaz.vercel.app/" :
-                      link.includes("Water Heater") ? "https://waterheaterrepairbeaverton.vercel.app/" :
-                      link.includes("Cast Iron") ? "https://castironpipereplacementboonton.vercel.app/" :
-                      "https://leakingpiperepairinmodesto.vercel.app/"
+                      link.includes("Earwig") ? "https://earwigexterminatordenver.vercel.app/" :
+                      link.includes("Centipede") ? "https://centipederepellenthawaii.vercel.app/" :
+                      link.includes("Pest Control") ? "https://pestcontrolsouthpointohio.vercel.app/" :
+                      "https://rodentcontrolcorvallisoregon.vercel.app/"
                     }
                     className="text-slate-400 hover:text-white transition-colors flex items-center gap-3 group"
                   >
@@ -65,7 +65,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest uppercase">Service Area</p>
-                  <p className="text-sm font-bold text-white uppercase tracking-tight uppercase">Klamath Falls, OR 97601</p>
+                  <p className="text-sm font-bold text-white uppercase tracking-tight uppercase">Evansville, IN 47708</p>
                 </div>
               </li>
             </ul>
@@ -93,7 +93,7 @@ const Footer = () => {
         <div className="pt-12 border-t border-white/5">
           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
             <p className="text-[10px] font-bold text-slate-500 uppercase tracking-[0.2em] uppercase">
-              © {new Date().getFullYear()} Klamath Falls Emergency Sewer Backup Cleanup Pros. All rights reserved.
+              © {new Date().getFullYear()} Evansville Drain Cleaning Pros. All rights reserved.
             </p>
             <div className="flex gap-8">
               <a href="#" className="text-[10px] font-bold text-slate-500 hover:text-white transition-colors uppercase tracking-widest uppercase">Privacy Protocol</a>

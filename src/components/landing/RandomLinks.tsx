@@ -1,12 +1,8 @@
 const links = [
-  { text: "Rodent Control Corvallis Oregon", url: "https://rodentcontrolcorvallisoregon.vercel.app/" },
-  { text: "Wildlife Removal Gastonia NC", url: "https://wildliferemovalgastonianc.vercel.app/" },
-  { text: "Bed Bug Heat Treatment Baltimore MD", url: "https://bedbugheattreatmentbaltimoremd.vercel.app/" },
-  { text: "Pest Control Baton Rouge", url: "https://pestcontrolbatonrouge.vercel.app/" },
   { text: "Earwig Exterminator Denver", url: "https://earwigexterminatordenver.vercel.app/" },
   { text: "Centipede Repellent Hawaii", url: "https://centipederepellenthawaii.vercel.app/" },
-  { text: "Termite Inspection Burbank", url: "https://termiteinspectionburbank.vercel.app/" },
-  { text: "Gopher Control Frankenmuth MI", url: "https://gophercontrolfrankenmuthmi.vercel.app/" }
+  { text: "Pest Control South Point Ohio", url: "https://pestcontrolsouthpointohio.vercel.app/" },
+  { text: "Rodent Control Corvallis Oregon", url: "https://rodentcontrolcorvallisoregon.vercel.app/" }
 ];
 
 const RandomLinks = () => {
