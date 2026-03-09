@@ -5,8 +5,8 @@ import { Bug, Mail, Phone, ShieldCheck, Zap, Globe, BarChart3, Clock } from "luc
 import { Button } from "@/components/ui/button";
 
 const LeaseNumber = () => {
-    const primaryKeyword = "Slab Leak Detection Eden Prairie";
-    const phoneNumber = "(877) 792-1410";
+    const primaryKeyword = "Mold Inspection Haddon Heights";
+    const phoneNumber = "(380) 266-0944";
 
     return (
         <div className="min-h-screen bg-slate-50">
@@ -14,7 +14,7 @@ const LeaseNumber = () => {
                 <title>Lease this Number: {phoneNumber} | {primaryKeyword}</title>
                 <meta
                     name="description"
-                    content={`Exclusive opportunity to lease the premium phone number ${phoneNumber} for your slab leak detection and plumbing business. Maximize your local SEO and lead generation in Eden Prairie MN.`}
+                    content={`Exclusive opportunity to lease the premium phone number ${phoneNumber} for your mold inspection and air quality testing business. Maximize your local SEO and lead generation in Haddon Heights NJ.`}
                 />
             </Helmet>
 
@@ -25,11 +25,11 @@ const LeaseNumber = () => {
                     <div className="max-w-4xl mx-auto">
                         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-600 text-white mb-8 uppercase tracking-[0.2em] text-[10px] font-bold shadow-lg shadow-indigo-900/20 uppercase">
                             <Bug className="w-4 h-4" />
-                            Eden Prairie Opportunity
+                            Haddon Heights Opportunity
                         </div>
 
                         <h1 className="text-4xl md:text-6xl font-black text-slate-900 mb-8 uppercase tracking-tighter leading-none">
-                            Dominate the <span className="text-indigo-600">Slab Leak Detection</span> <br /> Market in Eden Prairie
+                            Dominate the <span className="text-indigo-600">Mold Inspection</span> <br /> Market in Haddon Heights
                         </h1>
 
                         <p className="text-slate-600 text-xl leading-relaxed mb-12 italic font-medium">
@@ -43,7 +43,7 @@ const LeaseNumber = () => {
                                 </div>
                                 <h3 className="text-xl font-bold text-slate-900 mb-4 uppercase tracking-tight">Service Infrastructure</h3>
                                 <p className="text-slate-600 text-sm leading-relaxed font-medium italic">
-                                    Immediately capture inbound calls for slab leak detection and emergency water leak services in Eden Prairie. This number is optimized for local lead generation and SEO dominance.
+                                    Immediately capture inbound calls for mold inspection and air quality testing services in Haddon Heights. This number is optimized for local lead generation and SEO dominance.
                                 </p>
                             </div>
 
@@ -70,10 +70,10 @@ const LeaseNumber = () => {
                             <div className="relative z-10 text-center max-w-2xl mx-auto">
                                 <h2 className="text-3xl font-black mb-6 uppercase tracking-tight">Secure This Technical Asset</h2>
                                 <p className="text-indigo-100 mb-10 font-bold italic">
-                                    Send an inquiry to our administrative dispatch to initialize the lease protocol. Limited to one provider per Eden Prairie sector.
+                                    Send an inquiry to our administrative dispatch to initialize the lease protocol. Limited to one provider per Haddon Heights sector.
                                 </p>
                                 <Button className="bg-white text-indigo-600 hover:bg-slate-100 h-20 px-12 rounded-2xl font-black uppercase tracking-[0.2em] text-sm shadow-2xl transition-all active:scale-95" asChild>
-                                    <a href={`mailto:leasemynumber@gmail.com?subject=LEASE INQUIRY: ${phoneNumber} - SLAB LEAK DETECTION EDEN PRAIRIE`}>
+                                    <a href={`mailto:leasemynumber@gmail.com?subject=LEASE INQUIRY: ${phoneNumber} - MOLD INSPECTION HADDON HEIGHTS`}>
                                         <Mail className="w-6 h-6 mr-4" />
                                         Initialize Lease Inquiry
                                     </a>

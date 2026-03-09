@@ -11,12 +11,12 @@ const Footer = () => {
                 <Bug className="w-7 h-7 text-white" />
               </div>
               <div className="flex flex-col">
-                <span className="text-xl font-black uppercase tracking-tighter leading-none uppercase">Eden Prairie Slab Leak Detection</span>
-                <span className="text-[10px] font-bold text-indigo-500 uppercase tracking-[0.3em] uppercase">Local Pros</span>
+                <span className="text-xl font-black uppercase tracking-tighter leading-none uppercase">Haddon Heights Mold Inspection</span>
+                <span className="text-[10px] font-bold text-indigo-500 uppercase tracking-[0.3em] uppercase">Pros</span>
               </div>
             </a>
             <p className="text-slate-400 text-sm leading-relaxed mb-8 italic font-medium uppercase">
-              Eden Prairie's trusted slab leak detection and underground water leak specialists providing comprehensive foundation protection services.
+              Haddon Heights' trusted mold inspection and air quality testing specialists providing comprehensive mold assessment services.
             </p>
           </div>
 
@@ -24,18 +24,18 @@ const Footer = () => {
             <h4 className="text-[11px] font-black mb-8 uppercase tracking-[0.3em] text-indigo-500">Related Resources</h4>
             <ul className="space-y-4">
               {[
-                "Trenchless Sewer Repair Scottsdale AZ",
-                "Cast Iron Pipe Replacement Boonton",
-                "Leaking Pipe Repair in Modesto",
-                "Slab Leak Detection Specialist Boonton"
+                "Mold Remediation Eau Claire WI",
+                "Toxic Black Mold Cleanup Gulf Breeze",
+                "Burst Pipe Repair Swarthmore",
+                "Slab Leak Repair Swarthmore"
               ].map((link) => (
                 <li key={link}>
                   <a
                     href={
-                      link.includes("Trenchless Sewer") ? "https://trenchlesssewerrepairscottsdaleaz.vercel.app/" :
-                      link.includes("Cast Iron") ? "https://castironpipereplacementboonton.vercel.app/" :
-                      link.includes("Leaking Pipe") ? "https://leakingpiperepairinmodesto.vercel.app/" :
-                      "https://slableakdetectionspecialistboonton.vercel.app/"
+                      link.includes("Mold Remediation") ? "https://moldremediationeauclairewi.vercel.app/" :
+                      link.includes("Toxic Black") ? "https://toxicblackmoldcleanupgulfbreeze.vercel.app/" :
+                      link.includes("Burst Pipe") ? "https://burstpiperepairswarthmore.vercel.app/" :
+                      "https://slableakrepairswarthmore.vercel.app/"
                     }
                     className="text-slate-400 hover:text-white transition-colors flex items-center gap-3 group"
                   >
@@ -65,7 +65,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest uppercase">Service Area</p>
-                  <p className="text-sm font-bold text-white uppercase tracking-tight uppercase">Eden Prairie, MN 55344</p>
+                  <p className="text-sm font-bold text-white uppercase tracking-tight uppercase">Haddon Heights, NJ 08035</p>
                 </div>
               </li>
             </ul>
@@ -87,7 +87,7 @@ const Footer = () => {
         <div className="pt-12 border-t border-white/5">
           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
             <p className="text-[10px] font-bold text-slate-500 uppercase tracking-[0.2em] uppercase">
-              © {new Date().getFullYear()} Eden Prairie Slab Leak Detection Pros. All rights reserved.
+              © {new Date().getFullYear()} Haddon Heights Mold Inspection Pros. All rights reserved.
             </p>
             <div className="flex gap-8">
               <a href="#" className="text-[10px] font-bold text-slate-500 hover:text-white transition-colors uppercase tracking-widest uppercase">Privacy Protocol</a>

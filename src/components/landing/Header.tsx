@@ -17,7 +17,7 @@ const Header = () => {
   const navLinks = [
     { name: "Services", href: "#services" },
     { name: "Why Choose Us", href: "#why-us" },
-    { name: "Slab Leak Info", href: "#faq" },
+    { name: "Mold Inspection Info", href: "#faq" },
     { name: "FAQ", href: "#faq" },
     { name: "LEASE MY NUMBER", href: "/lease-my-number" }
   ];
@@ -49,7 +49,7 @@ const Header = () => {
             </div>
             <div className="flex flex-col">
               <span className={`text-xl font-black uppercase tracking-tighter leading-none transition-colors ${isScrolled ? 'text-slate-900' : 'text-white'}`}>
-                Eden Prairie Slab Leak Detection
+                Haddon Heights Mold Inspection
               </span>
               <span className="text-[10px] font-bold text-indigo-500 uppercase tracking-[0.3em] mt-1">
                 Pros
@@ -73,13 +73,13 @@ const Header = () => {
 
             <div className="flex items-center gap-6 border-l border-slate-200 pl-8">
               <div className="flex flex-col items-end">
-                <span className={`text-[10px] font-bold uppercase tracking-widest mb-1 ${isScrolled ? 'text-slate-400' : 'text-slate-200'}`}>Eden Prairie Dispatch</span>
-                <a href="tel:8777921410" className={`text-xl font-black hover:scale-105 transition-transform ${isScrolled ? 'text-indigo-600' : 'text-white'}`}>
-                  (877) 792-1410
+                <span className={`text-[10px] font-bold uppercase tracking-widest mb-1 ${isScrolled ? 'text-slate-400' : 'text-slate-200'}`}>Haddon Heights Dispatch</span>
+                <a href="tel:3802660944" className={`text-xl font-black hover:scale-105 transition-transform ${isScrolled ? 'text-indigo-600' : 'text-white'}`}>
+                  (380) 266-0944
                 </a>
               </div>
               <Button className="bg-slate-900 text-white hover:bg-indigo-600 h-14 px-8 rounded-xl font-bold uppercase tracking-widest text-xs shadow-xl active:scale-95 transition-all" asChild>
-                <a href="tel:8777921410">Call Now</a>
+                <a href="tel:3802660944">Call Now</a>
               </Button>
             </div>
           </div>
@@ -108,10 +108,10 @@ const Header = () => {
             ))}
           </div>
           <div className="p-8 bg-indigo-600 rounded-[2rem] text-white">
-            <p className="text-[10px] font-black uppercase tracking-[0.3em] mb-4 opacity-70">Eden Prairie Hotline</p>
-            <a href="tel:8777921410" className="text-3xl font-black block mb-6">(877) 792-1410</a>
+            <p className="text-[10px] font-black uppercase tracking-[0.3em] mb-4 opacity-70">Haddon Heights Hotline</p>
+            <a href="tel:3802660944" className="text-3xl font-black block mb-6">(380) 266-0944</a>
             <Button className="w-full bg-white text-indigo-600 h-14 rounded-2xl font-black uppercase tracking-widest shadow-xl" asChild>
-              <a href="tel:8777921410">CALL NOW</a>
+              <a href="tel:3802660944">CALL NOW</a>
             </Button>
           </div>
         </div>

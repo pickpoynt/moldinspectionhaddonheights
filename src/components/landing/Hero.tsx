@@ -12,16 +12,16 @@ interface HeroProps {
 }
 
 const Hero = ({
-  title = "Slab Leak Detection Eden Prairie MN",
-  subtitle = "Specialized slab leak detection and water leak location for homes and businesses in Eden Prairie. We use advanced electronic equipment to pinpoint hidden leaks under concrete slabs and foundations with minimal disruption.",
+  title = "Mold Inspection Haddon Heights NJ",
+  subtitle = "Professional mold inspection and air quality testing in Haddon Heights homes and businesses. Our certified inspectors use advanced equipment to detect hidden mold, conduct comprehensive air sampling, and provide detailed remediation protocols.",
   image = "/2.jpeg",
   overlayImage = "/4.jpeg",
-  phone = "8777921410",
-  badge = "SWARTHMORE BURST PIPE REPAIR PROS",
+  phone = "3802660944",
+  badge = "HADDON HEIGHTS MOLD INSPECTION PROS",
   features = [
-    { icon: ShieldCheck, text: "Rapid Response" },
-    { icon: Bug, text: "Safe Detection" },
-    { icon: Zap, text: "24/7 Service" }
+    { icon: ShieldCheck, text: "Certified Inspectors" },
+    { icon: Bug, text: "Advanced Testing" },
+    { icon: Zap, text: "Fast Results" }
   ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");

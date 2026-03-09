@@ -10,12 +10,12 @@ import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import { ShieldCheck, Bug, Home, Zap } from "lucide-react";
 
 const Index = () => {
-  const primaryKeyword = "Slab Leak Detection Eden Prairie";
-  const firmName = "Eden Prairie Slab Leak Detection Pros";
-  const phoneNumber = "(877) 792-1410";
-  const rawPhone = "8777921410";
-  const zipCodes = "55344, 55346, 55347, 55343, 55345, 55379, 55438, 55317, 55331";
-  const businessCords = { lat: 44.8547, lng: -93.4708 };
+  const primaryKeyword = "Mold Inspection Haddon Heights";
+  const firmName = "Haddon Heights Mold Inspection Pros";
+  const phoneNumber = "(380) 266-0944";
+  const rawPhone = "3802660944";
+  const zipCodes = "08035, 08108, 08107, 08033, 08034, 08002, 08003, 08004, 08007, 08009";
+  const businessCords = { lat: 39.8568, lng: -75.0621 };
 
   return (
     <div className="min-h-screen bg-slate-50">
@@ -23,7 +23,7 @@ const Index = () => {
         <title>{primaryKeyword} | {firmName} | Call {phoneNumber} | {zipCodes}</title>
         <meta
           name="description"
-          content={`Expert ${primaryKeyword} specialists in Eden Prairie, MN. Non-invasive electronic slab leak detection under concrete slabs and foundations with same-day repair options. Serving Eden Prairie and nearby west metro zip codes ${zipCodes}. Call ${phoneNumber} for professional slab leak detection and repair.`}
+          content={`Expert ${primaryKeyword} specialists in Haddon Heights, NJ. Certified mold inspectors providing comprehensive air quality testing, moisture mapping, and mold remediation verification. Serving Camden County areas including ${zipCodes}. Call ${phoneNumber} for professional mold inspection services.`}
         />
         <script type="application/ld+json">
           {`
@@ -31,16 +31,16 @@ const Index = () => {
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
               "name": "${firmName}",
-              "image": "https://slableakdetectionedenprairie.vercel.app/2.jpeg",
-              "@id": "https://slableakdetectionedenprairie.vercel.app/",
-              "url": "https://slableakdetectionedenprairie.vercel.app/",
+              "image": "https://moldinspectionhaddonheights.vercel.app/2.jpeg",
+              "@id": "https://moldinspectionhaddonheights.vercel.app/",
+              "url": "https://moldinspectionhaddonheights.vercel.app/",
               "telephone": "${rawPhone}",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "123 Prairie Center Dr",
-                "addressLocality": "Eden Prairie",
-                "addressRegion": "MN",
-                "postalCode": "55344",
+                "streetAddress": "456 Kings Hwy East",
+                "addressLocality": "Haddon Heights",
+                "addressRegion": "NJ",
+                "postalCode": "08035",
                 "addressCountry": "US"
               },
               "geo": {
@@ -63,7 +63,7 @@ const Index = () => {
                 "closes": "23:59"
               },
               "sameAs": [
-                "https://slableakdetectionedenprairie.vercel.app/"
+                "https://moldinspectionhaddonheights.vercel.app/"
               ]
             }
           `}
@@ -73,45 +73,45 @@ const Index = () => {
             {
               "@context": "https://schema.org",
               "@type": "Service",
-              "serviceType": "Slab Leak Detection & Repair Services",
+              "serviceType": "Mold Inspection & Testing Services",
               "provider": {
                 "@type": "LocalBusiness",
                 "name": "${firmName}"
               },
               "areaServed": {
                 "@type": "Place",
-                "name": "Eden Prairie, MN"
+                "name": "Haddon Heights, NJ"
               },
               "hasOfferCatalog": {
                 "@type": "OfferCatalog",
-                "name": "Professional Slab Leak Detection & Repair Services",
+                "name": "Professional Mold Inspection & Air Quality Testing Services",
                 "itemListElement": [
                   {
                     "@type": "Offer",
                     "itemOffered": {
                       "@type": "Service",
-                      "name": "Slab Leak Detection Under Concrete Slabs"
+                      "name": "Residential Mold Inspection"
                     }
                   },
                   {
                     "@type": "Offer",
                     "itemOffered": {
                       "@type": "Service",
-                      "name": "Electronic Water Leak Detection"
+                      "name": "Commercial Mold Testing"
                     }
                   },
                   {
                     "@type": "Offer",
                     "itemOffered": {
                       "@type": "Service",
-                      "name": "Slab Leak Repair & Pipe Rerouting"
+                      "name": "Air Quality Testing"
                     }
                   },
                   {
                     "@type": "Offer",
                     "itemOffered": {
                       "@type": "Service",
-                      "name": "Foundation Leak Repair & Drying"
+                      "name": "Post-Remediation Verification"
                     }
                   }
                 ]
@@ -125,61 +125,61 @@ const Index = () => {
       <Hero
         title={
           <span>
-            Slab Leak Detection
+            Mold Inspection
             <br />
-            <span className="text-amber-400">Eden Prairie MN</span>
+            <span className="text-amber-400">Haddon Heights NJ</span>
           </span>
         }
-        subtitle={`Specialized slab leak detection in Eden Prairie homes and businesses using non-invasive electronic equipment and acoustic listening devices. We pinpoint hidden leaks under concrete slabs, reroute failing lines, and protect your foundation from costly water damage. Serving Eden Prairie neighborhoods and nearby west metro communities. Call ${phoneNumber} now to speak with a local slab leak specialist.`}
-        badge="EDEN PRAIRIE SLAB LEAK PROS"
+        subtitle={`Professional mold inspection in Haddon Heights homes and businesses using advanced air quality testing and moisture detection equipment. Our certified inspectors identify hidden mold growth, conduct comprehensive air sampling, and provide detailed remediation protocols. Serving Haddon Heights neighborhoods and Camden County communities. Call ${phoneNumber} now to speak with a local mold inspection specialist.`}
+        badge="HADDON HEIGHTS MOLD INSPECTION PROS"
         phone={rawPhone}
         image="/2.jpeg"
         overlayImage="/4.jpeg"
       />
 
-      {/* Slab Leak Detection Content Sections */}
+      {/* Mold Inspection Content Sections */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
               <div>
                 <h2 className="text-4xl font-black text-slate-900 mb-6 uppercase tracking-tight">
-                  Precision <span className="text-indigo-600">Slab Leak Detection</span> In Your Home
+                  Certified <span className="text-indigo-600">Mold Inspection Services</span> For Your Home
                 </h2>
                 <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                  Our Eden Prairie slab leak technicians use advanced electronic leak detection, acoustic listening equipment, and thermal imaging to accurately locate leaks buried under your concrete slab or basement floor—without unnecessary demolition.
+                  Our Haddon Heights mold inspectors use advanced air quality testing equipment, moisture meters, and thermal imaging to detect hidden mold growth behind walls, under floors, and in hard-to-reach areas—without unnecessary destruction.
                 </p>
                 <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                  From hot water line leaks that drive up your bill to hidden slab leaks slowly washing away soil beneath your foundation, our team delivers fast, precise diagnosis and clear repair options for Eden Prairie homeowners.
+                  From suspicious odors that won't go away to visible mold after water damage, our team delivers comprehensive mold assessments and clear remediation protocols for Haddon Heights homeowners.
                 </p>
                 <ul className="space-y-3 mt-8">
                   <li className="flex items-start gap-3">
                     <ShieldCheck className="w-6 h-6 text-indigo-600 flex-shrink-0 mt-1" />
-                    <span className="text-slate-700 font-medium">Non-invasive electronic slab leak detection that protects finished floors</span>
+                    <span className="text-slate-700 font-medium">Comprehensive air quality testing and surface sampling for mold spores</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <ShieldCheck className="w-6 h-6 text-indigo-600 flex-shrink-0 mt-1" />
-                    <span className="text-slate-700 font-medium">Pinpoint location of leaks under concrete, driveways, and interior slabs</span>
+                    <span className="text-slate-700 font-medium">Moisture mapping to identify water intrusion sources</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <ShieldCheck className="w-6 h-6 text-indigo-600 flex-shrink-0 mt-1" />
-                    <span className="text-slate-700 font-medium">Permanent repair options including pipe rerouting and repiping</span>
+                    <span className="text-slate-700 font-medium">Detailed inspection reports with remediation specifications</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <ShieldCheck className="w-6 h-6 text-indigo-600 flex-shrink-0 mt-1" />
-                    <span className="text-slate-700 font-medium">Moisture management strategies to help prevent mold and structural damage</span>
+                    <span className="text-slate-700 font-medium">Post-remediation verification testing to ensure successful cleanup</span>
                   </li>
                 </ul>
               </div>
               <div className="relative">
                 <img
                   src="/1.jpeg"
-                  alt="Professional slab leak detection service in Eden Prairie MN"
+                  alt="Professional mold inspection service in Haddon Heights NJ"
                   className="rounded-3xl shadow-2xl w-full h-[500px] object-cover"
                 />
                 <div className="absolute -bottom-6 -left-6 bg-indigo-600 text-white p-8 rounded-3xl shadow-xl">
                   <p className="text-4xl font-black">100%</p>
-                  <p className="text-sm font-bold uppercase tracking-widest mt-2">FOCUSED ON FOUNDATION PROTECTION</p>
+                  <p className="text-sm font-bold uppercase tracking-widest mt-2">CERTIFIED MOLD INSPECTORS</p>
                 </div>
               </div>
             </div>
@@ -188,33 +188,33 @@ const Index = () => {
               <div className="relative order-last md:order-first">
                 <img
                   src="/3.jpeg"
-                  alt="Slab leak repair and pipe rerouting in Eden Prairie"
+                  alt="Air quality testing and mold detection in Haddon Heights"
                   className="rounded-3xl shadow-2xl w-full h-[500px] object-cover"
                 />
               </div>
               <div>
                 <h2 className="text-4xl font-black text-slate-900 mb-6 uppercase tracking-tight">
-                  Why Eden Prairie Chooses <span className="text-indigo-600">Our Slab Leak Experts</span>
+                  Why Haddon Heights Chooses <span className="text-indigo-600">Our Mold Inspectors</span>
                 </h2>
                 <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                  With years of experience in Eden Prairie and the southwest metro, our slab leak specialists have developed proven strategies for repairing even the most complex underground leaks with minimal disruption to your home.
+                  With years of experience in Haddon Heights and Camden County, our certified mold inspectors have identified thousands of hidden mold situations and helped homeowners develop effective remediation plans.
                 </p>
                 <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                  We do more than patch a bad spot. We evaluate your entire plumbing layout, explain whether spot repairs or repiping makes the most sense, and design solutions that protect both your foundation and water bill long term.
+                  We don't just test for mold—we identify the moisture source causing the problem, document everything with detailed reports, and provide specifications that remediation contractors can follow precisely.
                 </p>
                 <div className="grid grid-cols-2 gap-6 mt-8">
                   <div className="bg-slate-50 p-6 rounded-2xl">
                     <Bug className="w-10 h-10 text-indigo-600 mb-4" />
-                    <h3 className="text-lg font-bold text-slate-900 mb-2 uppercase">Advanced Detection Technology</h3>
+                    <h3 className="text-lg font-bold text-slate-900 mb-2 uppercase">Advanced Testing Technology</h3>
                     <p className="text-slate-600 text-sm">
-                      We use sensitive electronic amplifiers, thermal imaging cameras, and pressure testing to hear and see leaks through concrete.
+                      We use spore trap air sampling, moisture meters, thermal cameras, and borescopes to find hidden mold without destructive exploration.
                     </p>
                   </div>
                   <div className="bg-slate-50 p-6 rounded-2xl">
                     <Home className="w-10 h-10 text-indigo-600 mb-4" />
-                    <h3 className="text-lg font-bold text-slate-900 mb-2 uppercase">Water Damage Prevention</h3>
+                    <h3 className="text-lg font-bold text-slate-900 mb-2 uppercase">Health Protection Focus</h3>
                     <p className="text-slate-600 text-sm">
-                      Our rapid response helps limit structural damage, protect flooring, and slow or stop mold growth from hidden moisture.
+                      Our thorough inspections help protect your family from mold exposure and identify conditions that could lead to future growth.
                     </p>
                   </div>
                 </div>
@@ -330,22 +330,59 @@ const Index = () => {
       <WhyUs />
       <Contact />
 
-      {/* Slab Leak Questions Section */}
+      {/* Mold Inspection Questions Section */}
       <section className="py-20 bg-slate-50">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-black text-slate-900 mb-6 uppercase tracking-tight">
-                Slab Leak &amp; Water Leak <span className="text-indigo-600">Questions Answered</span>
+                Mold Inspection &amp; Testing <span className="text-indigo-600">Questions Answered</span>
               </h2>
               <p className="text-slate-600 text-xl max-w-3xl mx-auto">
-                Get clear answers to the most common questions Eden Prairie homeowners ask about slab leaks, water leak detection, repair costs and
-                insurance coverage.
+                Get expert answers to your most pressing questions about mold inspection costs, testing procedures, remediation, and health concerns in Haddon Heights.
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[
+                { q: "How much does it cost to run a mold test?", a: "Professional mold testing typically costs $300-$600 depending on the number of air samples, surface samples, and the size of your property." },
+                { q: "What kills 100% of mold?", a: "Professional remediation using HEPA filtration, antimicrobial treatments, and proper containment can eliminate 99.9% of mold when done correctly." },
+                { q: "What's the average cost to remove mold?", a: "Mold remediation averages $1,500-$5,000 for typical residential projects, with extensive contamination reaching $10,000+." },
+                { q: "What are the 10 warning signs of mold toxicity?", a: "Persistent coughing, headaches, fatigue, skin rashes, watery eyes, nasal congestion, wheezing, difficulty concentrating, sinus infections, and sensitivity to light." },
+                { q: "Can I test for black mold myself?", a: "DIY test kits exist but often lack accuracy. Professional inspectors use calibrated equipment and certified labs for reliable results." },
+                { q: "What removes mold instantly?", a: "Professional-grade biocides and antimicrobial solutions work quickly, but complete removal requires addressing the moisture source and proper containment." },
+                { q: "Can air purifiers help with mold?", a: "HEPA air purifiers can capture airborne mold spores and improve air quality, but they don't eliminate the source of mold growth." },
+                { q: "What plant removes 78% of airborne mold?", a: "English ivy has been shown in NASA studies to significantly reduce airborne mold particles, though it's not a substitute for proper remediation." },
+                { q: "Can a house with mold be saved?", a: "Yes—most homes can be successfully remediated when mold is identified early and the moisture source is corrected." },
+                { q: "Is professional mold removal worth it?", a: "Absolutely—professionals have the equipment, expertise, and safety protocols to completely remove mold and prevent recurrence." },
+                { q: "What to do if you can't afford mold remediation?", a: "Small areas (under 10 sq ft) can sometimes be DIY-cleaned. For larger issues, look into payment plans or home improvement loans." },
+                { q: "How to pass a mold inspection?", a: "Fix all moisture sources, ensure proper ventilation, clean visible mold, maintain humidity below 60%, and consider pre-inspection testing." },
+                { q: "What are the signs of hidden mold?", a: "Musty odors, unexplained allergic reactions, water stains, peeling paint, condensation on windows, and warping surfaces indicate hidden mold." },
+                { q: "What does mold sickness feel like?", a: "Symptoms vary but often include respiratory issues, headaches, fatigue, skin irritation, cognitive problems, and flu-like symptoms that improve when away from the affected building." },
+                { q: "Can you safely live in a house with mold?", a: "Living with significant mold growth is not recommended, especially for those with respiratory conditions, allergies, or compromised immune systems." },
+                { q: "Can I remove black mold myself?", a: "Small patches (under 10 sq ft) may be DIY-safe with proper PPE. Larger infestations require professional remediation for safety." },
+                { q: "What kills 100% of black mold?", a: "Professional remediation with industrial HEPA filtration, antimicrobial treatments, and removal of contaminated materials achieves near-complete elimination." },
+                { q: "What is the biggest red flag in a home inspection?", a: "Extensive mold growth, especially black mold, combined with structural damage and unresolved moisture issues." },
+                { q: "Will insurance pay for a mold test?", a: "Some policies cover mold testing if it's part of a covered claim. Standalone testing is typically out-of-pocket." },
+                { q: "What kills mold permanently?", a: "Removing the moisture source is key. Professional remediation plus humidity control prevents regrowth permanently." },
+                { q: "Can a house with mold be fixed?", a: "Yes—with proper identification, remediation by professionals, and moisture control, virtually any mold problem can be resolved." },
+                { q: "Can mold grow back after remediation?", a: "Mold can return if moisture sources aren't addressed. Proper remediation includes fixing leaks and controlling humidity." },
+                { q: "What kills mold spores best?", a: "HEPA filtration removes spores from air, while professional-grade biocides and UV-C light can kill spores on surfaces." },
+                { q: "How do I know if I have a mold problem?", a: "Look for visible growth, musty odors, water damage, condensation issues, and unexplained health symptoms among occupants." },
+                { q: "What pulls mold out of the air?", a: "HEPA air purifiers, proper ventilation, dehumidifiers, and activated carbon filters can reduce airborne mold spores." },
+                { q: "What not to use when cleaning mold?", a: "Avoid bleach on porous materials, mixing chemicals, or dry brushing which spreads spores. Never use ozone generators in occupied spaces." },
+                { q: "What are the first signs of mold sickness?", a: "Early symptoms include nasal congestion, coughing, eye irritation, skin rashes, and worsening asthma or allergy symptoms." },
+                { q: "What temperature kills mold?", a: "Temperatures above 140°F (60°C) can kill mold, but heat treatment alone isn't sufficient—moisture control is essential." }
+              ].map((item, idx) => (
+                <div key={idx} className="bg-white p-8 rounded-3xl shadow-md border border-slate-100 hover:shadow-lg transition-shadow">
+                  <h3 className="text-lg font-bold text-slate-900 mb-4 uppercase tracking-tight">{item.q}</h3>
+                  <p className="text-slate-600 leading-relaxed">{item.a}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
                 {
                   q: "How much should water leak detection cost?",
                   a: "Professional water and slab leak detection typically ranges from $250–$650 in the Eden Prairie area, depending on how complex your plumbing layout is and how difficult the leak is to access."
@@ -497,6 +534,59 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-20 bg-slate-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-black text-slate-900 mb-6 uppercase tracking-tight">
+                Mold Inspection &amp; Testing <span className="text-indigo-600">Questions Answered</span>
+              </h2>
+              <p className="text-slate-600 text-xl max-w-3xl mx-auto">
+                Get expert answers to your most pressing questions about mold inspection costs, testing procedures, remediation, and health concerns in Haddon Heights.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {[
+                { q: "How much does it cost to run a mold test?", a: "Professional mold testing typically costs $300-$600 depending on the number of air samples, surface samples, and the size of your property." },
+                { q: "What kills 100% of mold?", a: "Professional remediation using HEPA filtration, antimicrobial treatments, and proper containment can eliminate 99.9% of mold when done correctly." },
+                { q: "What's the average cost to remove mold?", a: "Mold remediation averages $1,500-$5,000 for typical residential projects, with extensive contamination reaching $10,000+." },
+                { q: "What are the 10 warning signs of mold toxicity?", a: "Persistent coughing, headaches, fatigue, skin rashes, watery eyes, nasal congestion, wheezing, difficulty concentrating, sinus infections, and sensitivity to light." },
+                { q: "Can I test for black mold myself?", a: "DIY test kits exist but often lack accuracy. Professional inspectors use calibrated equipment and certified labs for reliable results." },
+                { q: "What removes mold instantly?", a: "Professional-grade biocides and antimicrobial solutions work quickly, but complete removal requires addressing the moisture source and proper containment." },
+                { q: "Can air purifiers help with mold?", a: "HEPA air purifiers can capture airborne mold spores and improve air quality, but they don't eliminate the source of mold growth." },
+                { q: "What plant removes 78% of airborne mold?", a: "English ivy has been shown in NASA studies to significantly reduce airborne mold particles, though it's not a substitute for proper remediation." },
+                { q: "Can a house with mold be saved?", a: "Yes—most homes can be successfully remediated when mold is identified early and the moisture source is corrected." },
+                { q: "Is professional mold removal worth it?", a: "Absolutely—professionals have the equipment, expertise, and safety protocols to completely remove mold and prevent recurrence." },
+                { q: "What to do if you can't afford mold remediation?", a: "Small areas (under 10 sq ft) can sometimes be DIY-cleaned. For larger issues, look into payment plans or home improvement loans." },
+                { q: "How to pass a mold inspection?", a: "Fix all moisture sources, ensure proper ventilation, clean visible mold, maintain humidity below 60%, and consider pre-inspection testing." },
+                { q: "What are the signs of hidden mold?", a: "Musty odors, unexplained allergic reactions, water stains, peeling paint, condensation on windows, and warping surfaces indicate hidden mold." },
+                { q: "What does mold sickness feel like?", a: "Symptoms vary but often include respiratory issues, headaches, fatigue, skin irritation, cognitive problems, and flu-like symptoms that improve when away from the affected building." },
+                { q: "Can you safely live in a house with mold?", a: "Living with significant mold growth is not recommended, especially for those with respiratory conditions, allergies, or compromised immune systems." },
+                { q: "Can I remove black mold myself?", a: "Small patches (under 10 sq ft) may be DIY-safe with proper PPE. Larger infestations require professional remediation for safety." },
+                { q: "What kills 100% of black mold?", a: "Professional remediation with industrial HEPA filtration, antimicrobial treatments, and removal of contaminated materials achieves near-complete elimination." },
+                { q: "What is the biggest red flag in a home inspection?", a: "Extensive mold growth, especially black mold, combined with structural damage and unresolved moisture issues." },
+                { q: "Will insurance pay for a mold test?", a: "Some policies cover mold testing if it's part of a covered claim. Standalone testing is typically out-of-pocket." },
+                { q: "What kills mold permanently?", a: "Removing the moisture source is key. Professional remediation plus humidity control prevents regrowth permanently." },
+                { q: "Can a house with mold be fixed?", a: "Yes—with proper identification, remediation by professionals, and moisture control, virtually any mold problem can be resolved." },
+                { q: "Can mold grow back after remediation?", a: "Mold can return if moisture sources aren't addressed. Proper remediation includes fixing leaks and controlling humidity." },
+                { q: "What kills mold spores best?", a: "HEPA filtration removes spores from air, while professional-grade biocides and UV-C light can kill spores on surfaces." },
+                { q: "How do I know if I have a mold problem?", a: "Look for visible growth, musty odors, water damage, condensation issues, and unexplained health symptoms among occupants." },
+                { q: "What pulls mold out of the air?", a: "HEPA air purifiers, proper ventilation, dehumidifiers, and activated carbon filters can reduce airborne mold spores." },
+                { q: "What not to use when cleaning mold?", a: "Avoid bleach on porous materials, mixing chemicals, or dry brushing which spreads spores. Never use ozone generators in occupied spaces." },
+                { q: "What are the first signs of mold sickness?", a: "Early symptoms include nasal congestion, coughing, eye irritation, skin rashes, and worsening asthma or allergy symptoms." },
+                { q: "What temperature kills mold?", a: "Temperatures above 140°F (60°C) can kill mold, but heat treatment alone isn't sufficient—moisture control is essential." }
+              ].map((item, idx) => (
+                <div key={idx} className="bg-white p-8 rounded-3xl shadow-md border border-slate-100 hover:shadow-lg transition-shadow">
+                  <h3 className="text-lg font-bold text-slate-900 mb-4 uppercase tracking-tight">{item.q}</h3>
+                  <p className="text-slate-600 leading-relaxed">{item.a}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Local Service Network Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
@@ -504,10 +594,10 @@ const Index = () => {
             <h2 className="text-3xl font-black text-slate-900 mb-8 uppercase tracking-tight">Regional <span className="text-indigo-600">Service Network</span></h2>
             <div className="flex flex-wrap justify-center gap-6 mb-12">
               {[
-                { name: "Trenchless Sewer Repair Scottsdale AZ", url: "https://trenchlesssewerrepairscottsdaleaz.vercel.app/" },
-                { name: "Cast Iron Pipe Replacement Boonton", url: "https://castironpipereplacementboonton.vercel.app/" },
-                { name: "Leaking Pipe Repair in Modesto", url: "https://leakingpiperepairinmodesto.vercel.app/" },
-                { name: "Slab Leak Detection Specialist Boonton", url: "https://slableakdetectionspecialistboonton.vercel.app/" }
+                { name: "Mold Remediation Eau Claire WI", url: "https://moldremediationeauclairewi.vercel.app/" },
+                { name: "Toxic Black Mold Cleanup Gulf Breeze", url: "https://toxicblackmoldcleanupgulfbreeze.vercel.app/" },
+                { name: "Burst Pipe Repair Swarthmore", url: "https://burstpiperepairswarthmore.vercel.app/" },
+                { name: "Slab Leak Repair Swarthmore", url: "https://slableakrepairswarthmore.vercel.app/" }
               ].map((link) => (
                 <a
                   key={link.name}
@@ -519,7 +609,7 @@ const Index = () => {
               ))}
             </div>
             <p className="mt-12 text-[10px] font-bold text-slate-400 uppercase tracking-[0.3em]">
-              Professional Slab Leak Detection Services in Eden Prairie, MN 55344
+              Professional Mold Inspection Services in Haddon Heights, NJ 08035
             </p>
           </div>
         </div>
