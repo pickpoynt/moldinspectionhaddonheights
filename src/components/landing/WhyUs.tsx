@@ -3,21 +3,21 @@ import { Button } from "@/components/ui/button";
 
 const features = [
   {
-    title: "Certified Slab Leak Specialists",
-    description: "Expert technicians with specialized training in electronic leak detection, foundation repair, and copper pipe replacement under concrete slabs.",
+    title: "Certified Mold Inspection Specialists",
+    description: "Expert inspectors with specialized training in air quality testing, moisture mapping, and mold remediation protocols for residential and commercial properties.",
     icon: ShieldCheck
   },
   {
     title: "Fast Emergency Response",
-    description: "Quick scheduling and prompt service to address slab leaks before they cause extensive foundation damage and water waste.",
+    description: "Quick scheduling and prompt service to address mold concerns before they spread and compromise indoor air quality throughout your property.",
     icon: Zap
   },
   {
-    title: "Proven Leak Detection Methods",
-    description: "Advanced electronic amplifiers, thermal imaging, and electromagnetic pipe locators that accurately pinpoint leaks without unnecessary floor removal.",
+    title: "Advanced Testing Methods",
+    description: "Professional spore trap air sampling, surface testing, and thermal imaging that accurately identifies mold species and contamination levels without unnecessary destruction.",
     icon: Bug
   }
-];
+];;
 
 const WhyUs = () => {
   return (
@@ -26,10 +26,10 @@ const WhyUs = () => {
         <div className="flex flex-col lg:flex-row-reverse gap-16 items-center">
           <div className="lg:w-1/2">
             <h2 className="text-4xl md:text-6xl font-black text-slate-900 mb-8 uppercase tracking-tighter leading-none italic">
-              Why Eden Prairie Trusts <br /><span className="text-indigo-600">Our Slab Leak Experts</span>
+              Why Haddon Heights Trusts <br /><span className="text-indigo-600">Our Mold Inspection Experts</span>
             </h2>
             <p className="text-slate-600 text-lg leading-relaxed mb-12 italic font-medium border-l-4 border-indigo-600 pl-6">
-              When water leaks appear under your concrete foundation, you need experienced professionals who understand electronic detection and permanent repair methods. Our Eden Prairie specialists provide comprehensive slab leak services tailored to local homes.
+              When mold appears in your home or business, you need experienced professionals who understand air quality testing and comprehensive remediation protocols. Our Haddon Heights specialists provide complete mold inspection services tailored to local properties.
             </p>
 
             <div className="grid gap-6">
@@ -59,7 +59,7 @@ const WhyUs = () => {
             <div className="absolute inset-0 bg-indigo-600/10 rounded-[3rem] -rotate-3 blur-2xl group-hover:rotate-0 transition-transform duration-700" />
             <img
               src="/3.jpeg"
-              alt="Eden Prairie professional slab leak repair service"
+              alt="Haddon Heights professional mold inspection service"
               className="relative rounded-[3.5rem] shadow-2xl transition-transform group-hover:scale-[1.02] duration-700"
             />
           </div>

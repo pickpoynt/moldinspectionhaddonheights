@@ -27,7 +27,7 @@ const Footer = () => {
                 "Mold Remediation Eau Claire WI",
                 "Toxic Black Mold Cleanup Gulf Breeze",
                 "Burst Pipe Repair Swarthmore",
-                "Slab Leak Repair Swarthmore"
+                "Water Damage Restoration Camden"
               ].map((link) => (
                 <li key={link}>
                   <a
@@ -35,7 +35,7 @@ const Footer = () => {
                       link.includes("Mold Remediation") ? "https://moldremediationeauclairewi.vercel.app/" :
                       link.includes("Toxic Black") ? "https://toxicblackmoldcleanupgulfbreeze.vercel.app/" :
                       link.includes("Burst Pipe") ? "https://burstpiperepairswarthmore.vercel.app/" :
-                      "https://slableakrepairswarthmore.vercel.app/"
+                      "https://waterdamagerestorationcamden.vercel.app/"
                     }
                     className="text-slate-400 hover:text-white transition-colors flex items-center gap-3 group"
                   >

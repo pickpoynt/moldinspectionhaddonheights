@@ -229,11 +229,11 @@ const Index = () => {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-black text-slate-900 mb-6 uppercase tracking-tight">
-                Common <span className="text-indigo-600">Slab Leak Causes & Signs</span>
+                Common <span className="text-indigo-600">Mold Growth Causes & Signs</span>
               </h2>
               <p className="text-slate-600 text-xl max-w-3xl mx-auto">
-                Slab leaks usually start small and quiet, but the damage can be serious. Here are some of the most common situations we see in
-                Eden Prairie homes:
+                Mold growth usually starts small and hidden, but the health effects can be serious. Here are some of the most common situations we see in
+                Haddon Heights homes:
               </p>
             </div>
 
@@ -242,13 +242,12 @@ const Index = () => {
                 <div className="w-16 h-16 bg-indigo-600 rounded-2xl flex items-center justify-center mb-6">
                   <Home className="w-10 h-10 text-white" />
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-4 uppercase">Aging Copper Or Galvanized Lines</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-4 uppercase">Water Leaks & Moisture Intrusion</h3>
                 <p className="text-slate-600 mb-4">
-                  Older copper and galvanized pipes under the slab can develop pinhole leaks from corrosion, water chemistry, or years of movement
-                  in Minnesota freeze–thaw cycles.
+                  Plumbing leaks, roof leaks, and basement flooding create ideal conditions for mold growth within 24-48 hours. New Jersey humidity makes rapid colonization common.
                 </p>
                 <p className="text-slate-600 text-sm font-medium">
-                  Signs: Hot spots on floors, higher water bills, faint hissing sounds, damp carpet along interior walls
+                  Signs: Musty odors, water stains, peeling paint, warped surfaces, condensation on windows
                 </p>
               </div>
 
@@ -256,13 +255,12 @@ const Index = () => {
                 <div className="w-16 h-16 bg-indigo-600 rounded-2xl flex items-center justify-center mb-6">
                   <Bug className="w-10 h-10 text-white" />
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-4 uppercase">Soil Movement & Foundation Stress</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-4 uppercase">Poor Ventilation & High Humidity</h3>
                 <p className="text-slate-600 mb-4">
-                  Seasonal moisture changes can cause the soil beneath your slab to expand and contract, stressing pipes and joints until a hidden
-                  leak forms.
+                  Inadequate airflow in bathrooms, kitchens, and attics traps moisture and allows mold spores to settle and grow on organic materials.
                 </p>
                 <p className="text-slate-600 text-sm font-medium">
-                  Signs: New cracks in floors or walls, doors sticking, damp spots that keep returning, musty odors
+                  Signs: Condensation, foggy windows, damp feeling, allergic reactions, visible growth in corners
                 </p>
               </div>
 
@@ -270,13 +268,12 @@ const Index = () => {
                 <div className="w-16 h-16 bg-indigo-600 rounded-2xl flex items-center justify-center mb-6">
                   <Zap className="w-10 h-10 text-white" />
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-4 uppercase">High Water Pressure & Poor Installation</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-4 uppercase">Previous Water Damage & Flooding</h3>
                 <p className="text-slate-600 mb-4">
-                  Excessive water pressure and tight pipe bends can slowly wear through pipe walls, especially where lines pass through or under
-                  the slab.
+                  Past flooding events and unresolved water damage leave residual moisture in walls, flooring, and structural elements where mold thrives.
                 </p>
                 <p className="text-slate-600 text-sm font-medium">
-                  Signs: Banging pipes, pressure spikes, multiple small leaks over time, frequent plumbing repairs
+                  Signs: Staining, soft drywall, buckling floors, persistent odors, recurring health symptoms at home
                 </p>
               </div>
             </div>
@@ -284,7 +281,7 @@ const Index = () => {
             <div className="mt-16 text-center">
               <img
                 src="/4.jpeg"
-                alt="Specialized slab leak detection and repair equipment in Eden Prairie"
+                alt="Professional mold inspection and air quality testing equipment in Haddon Heights"
                 className="rounded-3xl shadow-2xl w-full max-w-4xl mx-auto h-[400px] object-cover"
               />
             </div>
@@ -297,18 +294,18 @@ const Index = () => {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl md:text-5xl font-black text-slate-900 mb-8 uppercase tracking-tight">Areas We <span className="text-indigo-600">Proudly Serve</span></h2>
             <p className="text-slate-600 text-lg mb-12 max-w-3xl mx-auto">
-              Our Eden Prairie slab leak detection team serves homeowners across the southwest Twin Cities metro. No matter where you are in our
-              service area, we work to provide fast, clear answers and long-term repair solutions.
+              Our Haddon Heights mold inspection team serves homeowners across Camden County and southern New Jersey. No matter where you are in our
+              service area, we work to provide fast, clear answers and comprehensive air quality solutions.
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-12">
-              {["Eden Prairie", "Minnetonka", "Bloomington", "Chanhassen", "Edina", "Shakopee", "Hopkins", "Plymouth"].map((city) => (
+              {["Haddon Heights", "Audubon", "Collingswood", "Haddonfield", "Mount Ephraim", "Oaklyn", "Westmont", "Barrington"].map((city) => (
                 <span key={city} className="px-6 py-3 bg-indigo-50 rounded-2xl text-sm font-bold text-indigo-700 uppercase tracking-wide">
                   {city}
                 </span>
               ))}
             </div>
             <p className="text-slate-600 font-medium">
-              Serving Eden Prairie and surrounding communities in zip codes 55344, 55346 and 55347.
+              Serving Haddon Heights and surrounding communities in zip codes 08035, 08108, 08107, 08033, 08034, 08002, 08003, 08004, 08007, 08009.
             </p>
           </div>
         </div>
@@ -317,11 +314,11 @@ const Index = () => {
       <div className="bg-slate-50 py-12 border-b border-slate-200">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-center items-center gap-6 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
-            <span className="text-lg font-black tracking-tighter text-slate-400 uppercase">Licensed Slab Leak Specialists</span>
+            <span className="text-lg font-black tracking-tighter text-slate-400 uppercase">Certified Mold Inspectors</span>
             <div className="h-6 w-px bg-slate-300 hidden md:block" />
-            <span className="text-lg font-black tracking-tighter text-slate-400 uppercase">Certified Water Leak Detection</span>
+            <span className="text-lg font-black tracking-tighter text-slate-400 uppercase">Advanced Air Quality Testing</span>
             <div className="h-6 w-px bg-slate-300 hidden md:block" />
-            <span className="text-lg font-black tracking-tighter text-slate-400 uppercase">Local Eden Prairie Service</span>
+            <span className="text-lg font-black tracking-tighter text-slate-400 uppercase">Local Haddon Heights Service</span>
           </div>
         </div>
       </div>

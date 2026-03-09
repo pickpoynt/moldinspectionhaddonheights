@@ -9,86 +9,86 @@ import { Button } from "@/components/ui/button";
 
 const faqData = [
   {
-    question: "How much does slab leak detection cost?",
-    answer: "Professional slab leak detection typically costs between $300-$800 depending on home size, number of slabs, and leak complexity. Many companies apply this fee toward repair costs."
+    question: "How much does mold inspection cost?",
+    answer: "Professional mold inspection typically costs between $300-$600 depending on home size, number of air samples, and testing complexity. Many inspectors apply this fee toward remediation verification services."
   },
   {
-    question: "Is it safe to live in a house with a slab leak?",
-    answer: "While generally safe short-term, prolonged exposure can lead to mold growth and foundation damage. It's best to address slab leaks promptly to prevent health hazards and structural issues."
+    question: "Is it safe to live in a house with mold?",
+    answer: "Living with significant mold growth is not recommended, especially for those with respiratory conditions, allergies, or compromised immune systems. Professional remediation should be pursued promptly."
   },
   {
-    question: "What to do when you suspect a slab leak?",
-    answer: "1) Check your water meter for unusual usage, 2) Look for warm spots or wet areas on floors, 3) Listen for running water sounds, 4) Call a professional leak detection specialist immediately."
+    question: "What to do when you suspect mold?",
+    answer: "1) Look for visible growth or musty odors, 2) Check for water damage or condensation issues, 3) Monitor health symptoms among occupants, 4) Call a professional mold inspector immediately."
   },
   {
-    question: "Does homeowners insurance cover slab leak repair?",
-    answer: "Many policies cover sudden accidental leaks but exclude gradual damage from corrosion or wear. Check if you have plumbing coverage endorsement. Review your policy details carefully."
+    question: "Does homeowners insurance cover mold inspection?",
+    answer: "Many policies cover mold inspection if it's part of a covered claim (like sudden water damage). Standalone testing is typically out-of-pocket. Review your policy details carefully."
   },
   {
-    question: "Can slab leaks be repaired without breaking concrete?",
-    answer: "Yes—options include pipe rerouting through walls/attic, epoxy pipe lining, or spot repairs using minimal access points. The best method depends on leak location and severity."
+    question: "Can mold be removed without damaging property?",
+    answer: "Yes—professional remediation uses containment, HEPA filtration, and targeted treatments to remove mold while minimizing disruption to your home and belongings."
   },
   {
-    question: "How long does slab leak repair take?",
-    answer: "Most repairs take 1-3 days from detection through completion. Complex cases requiring extensive flooring restoration or multiple leaks may take longer to complete properly."
+    question: "How long does mold inspection take?",
+    answer: "Most inspections take 1-3 hours including visual assessment, air sampling, moisture mapping, and documentation. Lab results for air samples typically return within 24-48 hours."
   },
   {
-    question: "Is slab leak repair worth it?",
-    answer: "Absolutely—ignoring slab leaks leads to exponentially higher costs from foundation damage, mold remediation, and increased water bills. Early repair protects your home's value."
+    question: "Is professional mold inspection worth it?",
+    answer: "Absolutely—ignoring mold can lead to exponentially higher costs from structural damage, health issues, and reduced property values. Early detection protects your investment."
   },
   {
-    question: "What causes copper pipes to leak under slabs?",
-    answer: "Soil chemicals, high water pressure, poor installation, and natural corrosion over time can all cause pinhole leaks in copper pipes beneath concrete foundations."
+    question: "What causes mold growth indoors?",
+    answer: "Excess moisture from leaks, poor ventilation, high humidity, flooding, or condensation creates ideal conditions for mold growth in homes and businesses."
   },
   {
-    question: "How accurate is electronic leak detection?",
-    answer: "Professional electronic detection is highly accurate, typically locating leaks within inches. Advanced equipment includes acoustic amplifiers and thermal imaging cameras."
+    question: "How accurate is air quality testing for mold?",
+    answer: "Professional air sampling using spore traps is highly accurate when conducted by certified inspectors. Results identify mold species and concentration levels in your indoor air."
   },
   {
-    question: "Will slab leak affect my home's value?",
-    answer: "Documented repairs with warranties help maintain property values. However, untreated slab leaks significantly reduce home value due to foundation damage concerns."
+    question: "Will mold affect my home's value?",
+    answer: "Documented mold remediation with clearance testing helps maintain property values. However, untreated mold significantly reduces home value due to health and structural concerns."
   },
   {
-    question: "What is the best method to fix a slab leak?",
-    answer: "The best method depends on your situation: pipe rerouting avoids floor removal, epoxy lining seals from inside, while traditional spot repair provides permanent fixes."
+    question: "What is the best method to test for mold?",
+    answer: "Comprehensive testing includes visual inspection, air sampling, surface sampling, and moisture mapping. The best approach depends on your specific situation and concerns."
   },
   {
-    question: "How often do slab leaks occur?",
-    answer: "Slab leaks affect thousands of homes annually, particularly those built on concrete foundations with copper piping over 20 years old in regions with expansive soils."
+    question: "How often does mold grow back after remediation?",
+    answer: "Mold returns primarily when moisture sources aren't addressed. Proper remediation combined with humidity control and leak prevention ensures long-term success."
   },
   {
-    question: "Can I detect a slab leak myself?",
-    answer: "You can monitor water bills for increases, check for warm/wet floor spots, and listen for running water. However, professional detection equipment is needed for precise location."
+    question: "Can I test for mold myself?",
+    answer: "DIY test kits exist but often lack accuracy. Professional inspectors use calibrated equipment, certified labs, and expertise to provide reliable, actionable results."
   },
   {
-    question: "What are signs of foundation damage from slab leaks?",
-    answer: "Cracks in walls/floors, doors that won't close properly, uneven floors, and visible foundation cracks indicate potential structural damage from water erosion."
+    question: "What are signs of hidden mold?",
+    answer: "Musty odors, unexplained allergic reactions, water stains, peeling paint, condensation on windows, warping surfaces, and condensation issues indicate potential hidden mold."
   },
   {
-    question: "Does a slab leak require immediate repair?",
-    answer: "Yes—immediate action prevents escalating foundation damage, mold growth, and exponentially higher repair costs. Contact a specialist as soon as you suspect a leak."
+    question: "Does mold require immediate removal?",
+    answer: "Yes—immediate action prevents spreading spores, structural damage, and worsening health symptoms. Contact a professional inspector as soon as you suspect mold."
   },
   {
-    question: "How long do slab leak repairs last?",
-    answer: "Properly executed repairs can last 20-50 years. Copper repiping typically lasts longer than epoxy lining, though both provide decades of reliable service when installed correctly."
+    question: "How long do mold remediation results last?",
+    answer: "Properly executed remediation provides long-term results when moisture sources are corrected. Post-remediation verification ensures successful cleanup and safe re-occupancy."
   },
   {
-    question: "Can slab leaks cause mold growth?",
-    answer: "Yes—moisture from slab leaks creates ideal conditions for mold growth beneath flooring and in wall cavities, potentially causing health issues and requiring remediation."
+    question: "Can mold cause health problems?",
+    answer: "Yes—mold exposure can cause respiratory issues, headaches, skin irritation, allergic reactions, cognitive problems, and flu-like symptoms, especially in sensitive individuals."
   },
   {
-    question: "What questions should I ask a slab leak repair contractor?",
-    answer: "Ask about detection methods used, repair options available, warranties provided, licensing/insurance, estimated timeline, and total costs including any necessary restoration work."
+    question: "What questions should I ask a mold inspector?",
+    answer: "Ask about certifications, testing methods, lab accreditation, report details, remediation protocols provided, post-remediation verification, and total costs including all sampling fees."
   },
   {
-    question: "Is epoxy pipe lining better than repiping for slab leaks?",
-    answer: "Epoxy lining is less invasive and costly than repiping but may not suit all situations. Severely corroded pipes often require complete replacement for long-term solutions."
+    question: "Is air quality testing better than surface sampling?",
+    answer: "Both serve important purposes. Air testing reveals airborne spore levels, while surface sampling identifies contamination on materials. Comprehensive inspections use both methods."
   },
   {
-    question: "Can foundation settlement cause slab leaks?",
-    answer: "Yes—foundation movement stresses pipes beneath slabs, causing joints to separate or pipes to crack. Proper soil compaction during construction helps prevent this issue."
+    question: "Can poor ventilation cause mold growth?",
+    answer: "Yes—inadequate ventilation traps moisture and humidity, creating ideal conditions for mold. Proper airflow through bathrooms, kitchens, and attics helps prevent growth."
   }
-];
+];;
 
 const FAQ = () => {
   return (
@@ -100,13 +100,13 @@ const FAQ = () => {
           <div className="text-center mb-20 px-4">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-600 text-white mb-6 uppercase tracking-[0.2em] text-[10px] font-bold shadow-2xl">
               <HelpCircle className="w-4 h-4" />
-              Slab Leak Information
+              Mold Inspection Information
             </div>
             <h2 className="text-4xl md:text-6xl font-black text-white mb-8 uppercase tracking-tighter leading-none italic">
-              Slab Leak Repair <span className="text-indigo-400">FAQ</span>
+              Mold Inspection &amp; Testing <span className="text-indigo-400">FAQ</span>
             </h2>
             <p className="text-slate-400 text-lg leading-relaxed italic font-medium max-w-2xl mx-auto">
-              Get expert answers to your most important questions about slab leak detection, repair methods, costs, and foundation protection for Eden Prairie homes.
+              Get expert answers to your most important questions about mold inspection costs, testing procedures, air quality, and remediation protocols for Haddon Heights homes.
             </p>
           </div>
 
@@ -141,9 +141,9 @@ const FAQ = () => {
           <div className="mt-20 p-12 bg-indigo-600 rounded-[3rem] text-center text-white relative overflow-hidden shadow-2xl shadow-indigo-900/40">
             <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl -translate-y-32 translate-x-32" />
             <div className="relative z-10">
-              <h3 className="text-3xl font-black mb-6 uppercase tracking-tight italic">Need Professional Slab Leak Detection?</h3>
+              <h3 className="text-3xl font-black mb-6 uppercase tracking-tight italic">Need Professional Mold Inspection?</h3>
               <p className="text-indigo-100 mb-10 font-bold italic max-w-xl mx-auto opacity-80">
-                Don't let a slab leak damage your foundation. Our expert technicians provide fast, emergency slab leak detection and repair services. Call now for immediate assistance.
+                Don't let mold compromise your indoor air quality. Our certified inspectors provide comprehensive mold testing and air quality assessments. Call now for immediate assistance.
               </p>
               <Button size="lg" className="bg-white text-indigo-600 hover:bg-slate-100 h-20 px-12 rounded-2xl font-black uppercase tracking-[0.2em] text-sm shadow-2xl transition-all active:scale-95" asChild>
                 <a href="tel:8777921410">

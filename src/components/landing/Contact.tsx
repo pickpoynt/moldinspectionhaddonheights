@@ -10,7 +10,7 @@ const Contact = () => {
       <div className="absolute inset-0 z-0">
         <img
           src="/3.jpeg"
-          alt="Eden Prairie slab leak emergency service area"
+          alt="Haddon Heights mold inspection emergency service area"
           className="w-full h-full object-cover opacity-30 brightness-[0.5] grayscale-[0.5]"
         />
         <div className="absolute inset-0 bg-gradient-to-br from-slate-900/95 via-slate-900/80 to-indigo-900/20" />
@@ -23,13 +23,13 @@ const Contact = () => {
             <div className="lg:w-1/2">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-600 text-white mb-8 uppercase tracking-[0.2em] text-[10px] font-bold shadow-2xl uppercase text-nowrap">
                 <ShieldAlert className="w-4 h-4" />
-                Slab Leak Detection Specialists
+                Mold Inspection Specialists
               </div>
               <h2 className="text-4xl md:text-7xl font-black text-white mb-8 uppercase tracking-tighter leading-none italic uppercase">
                 Emergency <br /><span className="text-indigo-400">Response</span>
               </h2>
               <p className="text-slate-400 text-xl leading-relaxed mb-12 italic font-medium border-l-4 border-indigo-600 pl-6 uppercase">
-                Professional slab leak detection and repair services for homes and businesses in Eden Prairie and surrounding west metro areas. Expert technicians ready to handle foundation leaks quickly and protect your concrete slab and flooring.
+                Professional mold inspection and air quality testing services for homes and businesses in Haddon Heights and surrounding Camden County areas. Certified inspectors ready to handle mold concerns quickly and protect your indoor air quality.
               </p>
 
               <div className="grid gap-10">
@@ -48,7 +48,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-[10px] font-black text-slate-500 uppercase tracking-widest mb-2 text-nowrap uppercase">Service Area</p>
-                    <p className="text-2xl font-black text-white text-nowrap uppercase uppercase">Eden Prairie, MN 55344</p>
+                    <p className="text-2xl font-black text-white text-nowrap uppercase uppercase">Haddon Heights, NJ 08035</p>
                   </div>
                 </div>
               </div>
@@ -70,11 +70,11 @@ const Contact = () => {
                     />
                   </div>
                   <Input
-                    placeholder="SERVICE ADDRESS (EDEN PRAIRIE AREA)"
+                    placeholder="SERVICE ADDRESS (HADDON HEIGHTS AREA)"
                     className="h-16 px-6 rounded-2xl bg-slate-50 border-slate-100 text-[11px] font-bold uppercase tracking-widest focus:ring-2 focus:ring-indigo-600 transition-all text-nowrap"
                   />
                   <Textarea
-                    placeholder="DESCRIBE SLAB LEAK EMERGENCY AND AFFECTED AREAS..."
+                    placeholder="DESCRIBE MOLD INSPECTION NEEDS AND AFFECTED AREAS..."
                     className="min-h-[160px] p-6 rounded-[2rem] bg-slate-50 border-slate-100 text-[11px] font-bold uppercase tracking-widest focus:ring-2 focus:ring-indigo-600 transition-all text-nowrap"
                   />
                   <Button className="w-full bg-slate-900 text-white hover:bg-indigo-600 h-20 rounded-[2rem] font-black uppercase tracking-[0.2em] text-sm shadow-2xl transition-all active:scale-95 group text-nowrap">
